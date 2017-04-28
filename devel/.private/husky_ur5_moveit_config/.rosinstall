@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/galliumos/kinetic_final/devel/.private/husky_ur5_moveit_config/setup.sh

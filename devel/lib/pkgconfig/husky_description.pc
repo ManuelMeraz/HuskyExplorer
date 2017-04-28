@@ -1,0 +1,1 @@
+/home/galliumos/kinetic_final/devel/.private/husky_description/lib/pkgconfig/husky_description.pc

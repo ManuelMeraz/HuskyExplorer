@@ -1,0 +1,1 @@
+/home/galliumos/kinetic_final/devel/.private/husky_gazebo/etc/catkin/profile.d/50.husky_gazebo.sh

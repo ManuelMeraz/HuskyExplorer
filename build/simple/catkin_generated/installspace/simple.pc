@@ -1,0 +1,8 @@
+prefix=/home/galliumos/kinetic_final/install
+
+Name: simple
+Description: Description of simple
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/galliumos/kinetic_final/install/lib 
+Requires: 

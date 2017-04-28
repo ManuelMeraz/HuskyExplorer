@@ -1,0 +1,5 @@
+Symlinking /home/galliumos/kinetic_final/devel/lib/pkgconfig/simple.pc
+Symlinking /home/galliumos/kinetic_final/devel/lib/simple/poseprinter
+Symlinking /home/galliumos/kinetic_final/devel/lib/simple/averagefilter
+Symlinking /home/galliumos/kinetic_final/devel/share/simple/cmake/simpleConfig-version.cmake
+Symlinking /home/galliumos/kinetic_final/devel/share/simple/cmake/simpleConfig.cmake

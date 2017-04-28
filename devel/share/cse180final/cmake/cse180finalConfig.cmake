@@ -1,0 +1,1 @@
+/home/galliumos/kinetic_final/devel/.private/cse180final/share/cse180final/cmake/cse180finalConfig.cmake

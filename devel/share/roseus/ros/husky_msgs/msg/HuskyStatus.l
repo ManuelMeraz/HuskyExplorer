@@ -1,0 +1,1 @@
+/home/galliumos/kinetic_final/devel/.private/husky_msgs/share/roseus/ros/husky_msgs/msg/HuskyStatus.l

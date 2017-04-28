@@ -1,0 +1,6 @@
+devel_space: /home/galliumos/kinetic_final/devel
+install: false
+install_space: /home/galliumos/kinetic_final/install
+profile: default
+source_space: /home/galliumos/kinetic_final/src
+workspace: /home/galliumos/kinetic_final

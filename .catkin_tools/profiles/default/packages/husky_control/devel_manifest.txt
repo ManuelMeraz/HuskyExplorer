@@ -1,0 +1,4 @@
+husky_control
+/home/galliumos/kinetic_final/devel/.private/husky_control/lib/pkgconfig/husky_control.pc /home/galliumos/kinetic_final/devel/lib/pkgconfig/husky_control.pc
+/home/galliumos/kinetic_final/devel/.private/husky_control/share/husky_control/cmake/husky_controlConfig-version.cmake /home/galliumos/kinetic_final/devel/share/husky_control/cmake/husky_controlConfig-version.cmake
+/home/galliumos/kinetic_final/devel/.private/husky_control/share/husky_control/cmake/husky_controlConfig.cmake /home/galliumos/kinetic_final/devel/share/husky_control/cmake/husky_controlConfig.cmake

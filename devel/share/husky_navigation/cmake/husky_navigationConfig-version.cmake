@@ -1,0 +1,1 @@
+/home/galliumos/kinetic_final/devel/.private/husky_navigation/share/husky_navigation/cmake/husky_navigationConfig-version.cmake
