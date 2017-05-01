@@ -63,35 +63,38 @@ int main(int argc, char **argv) {
                 ROS_INFO_STREAM("Path Success!");
                 path = possible_path.get();
                 int size = path.first.size();
-                for(int i = 0; i < size; i += 1) {
+                for(int i = 0; i < size; i++) {
                     geometry_msgs::Point vertix = utils::cellCenter(map.info, path.first[i]);
 
-                    // Goal Yaw
-                    double heading = atan2(vertix.y - goal.target_pose.pose.position.y, 
-                            vertix.x - goal.target_pose.pose.position.x);
-                    ROS_INFO_STREAM(heading);
+                    if(hypot(ekf_pose.pose.pose.position.x - vertix.x,
+                                ekf_pose.pose.pose.position.y - vertix.y) > 1) {
+                        ROS_INFO_STREAM("Distance to goal: " << hypot(ekf_pose.pose.pose.position.x - 4.0,
+                                    ekf_pose.pose.pose.position.y - 4.0));
+
+                        // Goal Yaw
+                        double heading = atan2(vertix.y - goal.target_pose.pose.position.y, 
+                                vertix.x - goal.target_pose.pose.position.x);
+
+                        tf::Quaternion q;
+                        q.setEuler(0, 0, heading);
+                        goal.target_pose.pose.orientation.x = q[0];
+                        goal.target_pose.pose.orientation.y = q[1];
+                        goal.target_pose.pose.orientation.z = q[2];
+                        goal.target_pose.pose.orientation.w = q[3];
+                        goal.target_pose.header.stamp = ros::Time::now();
+                        goal.target_pose.header.frame_id = "odom";
+                        goal.target_pose.pose.position.x = vertix.x;
+                        goal.target_pose.pose.position.y = vertix.y;
 
 
-                    tf::Quaternion q;
-                    q.setEuler(heading, 0, 0);
-                    ROS_INFO_STREAM("Quat: x:" << q[0] << " y: " << q[1] << 
-                            " z: " << q[2] << " w: " << q[3]);
+                        ac.sendGoal(goal);
+                        ac.waitForResult();
 
-                    goal.target_pose.pose.orientation.z = q[2];
-                    goal.target_pose.pose.orientation.w = q[3];
-                    goal.target_pose.header.stamp = ros::Time::now();
-                    goal.target_pose.header.frame_id = "odom";
-                    goal.target_pose.pose.position.x = vertix.x;
-                    goal.target_pose.pose.position.y = vertix.y;
-
-
-                    ac.sendGoal(goal);
-                    ac.waitForResult();
-
-                    if(ac.getState() == actionlib::SimpleClientGoalState::SUCCEEDED) {
-                        ROS_INFO_STREAM("Reached Goal!");
-                    } else {
-                        ROS_INFO_STREAM("Failed!");
+                        if(ac.getState() == actionlib::SimpleClientGoalState::SUCCEEDED) {
+                            ROS_INFO_STREAM("Reached Goal!");
+                        } else {
+                            ROS_INFO_STREAM("Failed!");
+                        }
                     }
                 }
             } else {
