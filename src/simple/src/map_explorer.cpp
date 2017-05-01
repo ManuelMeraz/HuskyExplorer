@@ -5,6 +5,7 @@
 #include <nav_msgs/OccupancyGrid.h>
 #include <geometry_msgs/PoseStamped.h>
 #include <geometry_msgs/Pose.h>
+#include <geometry_msgs/PoseArray.h>
 #include <geometry_msgs/Point.h>
 #include <geometry_msgs/Twist.h>
 #include <geometry_msgs/PoseWithCovarianceStamped.h>
@@ -22,7 +23,7 @@ geometry_msgs::PoseWithCovarianceStamped amcl_pose;
 //MapExplorer *map_helper;
 nav_msgs::OccupancyGrid map;
 utils::AStarResult path;
-//std::vector<geometry_msgs::Point> adjusted_path;
+std::vector<geometry_msgs::Point> point_path;
 bool map_initialized = false;
 bool path_complete = true;
 bool new_pose = false;
@@ -31,6 +32,8 @@ int path_index = 0;
 void ekf_callback(const nav_msgs::Odometry &msg);
 void amcl_callback(const geometry_msgs::PoseWithCovarianceStamped &msg);
 void map_callback(const nav_msgs::OccupancyGrid &msg);
+void obstacles_callback(const geometry_msgs::PoseArray &msg);
+void adjust_path(const geometry_msgs::PoseArray &obstacles);
 
 int main(int argc, char **argv) {
     ros::init(argc, argv, "averagefilter");
@@ -39,6 +42,7 @@ int main(int argc, char **argv) {
     ros::Subscriber ekf_sub = nh.subscribe("/odometry/filtered", 1000, &ekf_callback);
     ros::Subscriber map_sub = nh.subscribe("/map", 1000, &map_callback);
     ros::Subscriber amcl_sub = nh.subscribe("/amcl_pose", 1000, &amcl_callback);
+    ros::Subscriber obstacles_sub = nh.subscribe("/obstacles", 1000, &obstacles_callback);
     ros::Publisher cmd_pub = nh.advertise<geometry_msgs::Twist>("/cmd_vel", 1000);
 
     //ros::Rate rate(0.01);
@@ -55,8 +59,8 @@ int main(int argc, char **argv) {
                 from.y = amcl_pose.pose.pose.position.y;
 
                 geometry_msgs::Point to;
-                to.x = 3.0;
-                to.y = 3.0;
+                to.x = -4.0;
+                to.y = -4.0;
 
                 utils::Cell fromCell = utils::pointCell(map.info, from);
                 utils::Cell toCell = utils::pointCell(map.info, to);
@@ -67,6 +71,11 @@ int main(int argc, char **argv) {
                 if(possible_path.is_initialized()) {
                     ROS_INFO_STREAM("Path Success!");
                     path = possible_path.get();
+                    
+                    int size = path.first.size();
+                    for(int i = 0; i < size; i++) {
+                        point_path.push_back(utils::cellCenter(map.info, path.first[i]));
+                    }
 
                     //ROS_INFO_STREAM("Adjusting Path...");
                     //int size = path.first.size();
@@ -96,20 +105,20 @@ int main(int argc, char **argv) {
                 }
 
             } else {
-                int size = path.first.size();
+                int size = point_path.size();
                 while(path_index < size) {
-                    geometry_msgs::Point vertix = utils::cellCenter(map.info, path.first[path_index]);
+                    geometry_msgs::Point vertix = point_path[path_index];
 
 
                     if(hypot(amcl_pose.pose.pose.position.x - vertix.x,
-                                amcl_pose.pose.pose.position.y - vertix.y) > 0.3) {
+                                amcl_pose.pose.pose.position.y - vertix.y) > 1.0) {
 
-                        ROS_INFO_STREAM("Distance to goal: " << hypot(amcl_pose.pose.pose.position.x - -6.0,
-                                    amcl_pose.pose.pose.position.y - 0.0));
+                        //ROS_INFO_STREAM("Distance to goal: " << hypot(amcl_pose.pose.pose.position.x - -6.0,
+                                    //amcl_pose.pose.pose.position.y - 0.0));
 
-                        ROS_INFO_STREAM("Current Pose: X: " << amcl_pose.pose.pose.position.x << " Y: " << amcl_pose.pose.pose.position.y);
+                        //ROS_INFO_STREAM("Current Pose: X: " << amcl_pose.pose.pose.position.x << " Y: " << amcl_pose.pose.pose.position.y);
 
-                        ROS_INFO_STREAM("Goal Pose: X: " << vertix.x << " Y: " << vertix.y);
+                        //ROS_INFO_STREAM("Goal Pose: X: " << vertix.x << " Y: " << vertix.y);
 
                         double goal_heading = atan2(vertix.y - amcl_pose.pose.pose.position.y, 
                                 vertix.x - amcl_pose.pose.pose.position.x);
@@ -130,12 +139,12 @@ int main(int argc, char **argv) {
 
                         if (fabs(heading_diff) > 0.4) {
                             if(heading_diff > 0) {
-                                drive_command.angular.z = 0.4;
+                                drive_command.angular.z = 0.7;
                             } else {
-                                drive_command.angular.z = -0.4;
+                                drive_command.angular.z = -0.7;
                             }
                         } else {
-                            drive_command.linear.x = 0.3;
+                            drive_command.linear.x = 0.5;
                         }
 
                         cmd_pub.publish(drive_command);
@@ -178,3 +187,35 @@ void amcl_callback(const geometry_msgs::PoseWithCovarianceStamped &msg) {
     amcl_pose = msg;
 }
 
+void obstacles_callback(const geometry_msgs::PoseArray &msg) {
+    int size = msg.poses.size();
+    if(size > 0) {
+        ROS_INFO_STREAM("Obstacles detected. Adjusting Path...");
+        adjust_path(msg);
+        ROS_INFO_STREAM("Adjusted!");
+    }
+}
+
+void adjust_path(const geometry_msgs::PoseArray &obstacles) {
+    geometry_msgs::Point obstacle;
+    int size = obstacles.poses.size();
+    for(int i = 0; i < size; i++) {
+        obstacle.x += obstacles.poses[i].position.x;
+        obstacle.y += obstacles.poses[i].position.y;
+        obstacle.z += obstacles.poses[i].position.z;
+    }
+
+    obstacle.x /= size;
+    obstacle.y /= size;
+    obstacle.z /= size;
+
+    size = point_path.size();
+    for(int i = path_index; i < size; i++) {
+        if(hypot(point_path[i].x - obstacle.x, point_path[i].y - obstacle.y) < 1.0) {
+            double move_away_direction = atan2(point_path[i].y - obstacle.y, point_path[i].x - obstacle.x);
+
+            point_path[i].x = point_path[i].x + 1.0 * cos(move_away_direction);
+            point_path[i].y = point_path[i].y + 1.0 * sin(move_away_direction);
+        }
+    }
+}

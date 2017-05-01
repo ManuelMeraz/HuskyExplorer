@@ -1,6 +1,0 @@
-[35m[1mScanning dependencies of target obstacle_detector[0m
-[ 14%] [32mBuilding CXX object CMakeFiles/obstacle_detector.dir/src/obstacle_detector.cpp.o[0m
-[ 57%] Built target map_explorer
-[ 85%] Built target scan_to_point_cloud
-[100%] [32m[1mLinking CXX executable /home/galliumos/kinetic_final/devel/.private/simple/lib/simple/obstacle_detector[0m
-[100%] Built target obstacle_detector

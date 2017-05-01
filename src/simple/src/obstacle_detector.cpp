@@ -24,7 +24,7 @@ int main(int argc, char **argv) {
         geometry_msgs::PoseArray obstacles;
         int size = point_cloud.points.size();
         for(int i = 0; i < size; i++) {
-            if(scan.ranges[i] <= 0.5) {
+            if(scan.ranges[i] <= 1.2) {
                 geometry_msgs::Pose point;
                 point.position.x = point_cloud.points[i].x;
                 point.position.y = point_cloud.points[i].y;

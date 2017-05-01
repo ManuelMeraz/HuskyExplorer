@@ -1,0 +1,7 @@
+[01m[K/home/galliumos/kinetic_final/src/simple/src/map_explorer.cpp:[m[K In function ‘[01m[Kvoid obstacles_callback(const PoseArray&)[m[K’:
+[01m[K/home/galliumos/kinetic_final/src/simple/src/map_explorer.cpp:195:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcmd_pub[m[K’ was not declared in this scope
+         cmd_pub.publish(drive_command);
+[01;32m[K         ^[m[K
+make[2]: *** [CMakeFiles/map_explorer.dir/src/map_explorer.cpp.o] Error 1
+make[1]: *** [CMakeFiles/map_explorer.dir/all] Error 2
+make: *** [all] Error 2

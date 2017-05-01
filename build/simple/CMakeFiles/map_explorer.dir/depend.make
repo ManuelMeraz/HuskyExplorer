@@ -144,6 +144,7 @@ CMakeFiles/map_explorer.dir/src/map_explorer.cpp.o: /opt/ros/kinetic/include/geo
 CMakeFiles/map_explorer.dir/src/map_explorer.cpp.o: /opt/ros/kinetic/include/geometry_msgs/PointStamped.h
 CMakeFiles/map_explorer.dir/src/map_explorer.cpp.o: /opt/ros/kinetic/include/geometry_msgs/Polygon.h
 CMakeFiles/map_explorer.dir/src/map_explorer.cpp.o: /opt/ros/kinetic/include/geometry_msgs/Pose.h
+CMakeFiles/map_explorer.dir/src/map_explorer.cpp.o: /opt/ros/kinetic/include/geometry_msgs/PoseArray.h
 CMakeFiles/map_explorer.dir/src/map_explorer.cpp.o: /opt/ros/kinetic/include/geometry_msgs/PoseStamped.h
 CMakeFiles/map_explorer.dir/src/map_explorer.cpp.o: /opt/ros/kinetic/include/geometry_msgs/PoseWithCovariance.h
 CMakeFiles/map_explorer.dir/src/map_explorer.cpp.o: /opt/ros/kinetic/include/geometry_msgs/PoseWithCovarianceStamped.h
