@@ -40,7 +40,7 @@ int main(int argc, char **argv) {
     ros::NodeHandle nh;
 
     ros::Subscriber ekf_sub = nh.subscribe("/odometry/filtered", 1000, &ekf_callback);
-    ros::Subscriber map_sub = nh.subscribe("/map", 1000, &map_callback);
+    ros::Subscriber map_sub = nh.subscribe("/move_base/global_costmap/costmap", 1000, &map_callback);
     ros::Subscriber amcl_sub = nh.subscribe("/amcl_pose", 1000, &amcl_callback);
     ros::Subscriber obstacles_sub = nh.subscribe("/obstacles", 1000, &obstacles_callback);
     ros::Publisher cmd_pub = nh.advertise<geometry_msgs::Twist>("/cmd_vel", 1000);
@@ -139,9 +139,9 @@ int main(int argc, char **argv) {
 
                         if (fabs(heading_diff) > 0.4) {
                             if(heading_diff > 0) {
-                                drive_command.angular.z = 0.7;
+                                drive_command.angular.z = 0.4;
                             } else {
-                                drive_command.angular.z = -0.7;
+                                drive_command.angular.z = -0.4;
                             }
                         } else {
                             drive_command.linear.x = 0.5;
@@ -190,9 +190,9 @@ void amcl_callback(const geometry_msgs::PoseWithCovarianceStamped &msg) {
 void obstacles_callback(const geometry_msgs::PoseArray &msg) {
     int size = msg.poses.size();
     if(size > 0) {
-        ROS_INFO_STREAM("Obstacles detected. Adjusting Path...");
-        adjust_path(msg);
-        ROS_INFO_STREAM("Adjusted!");
+        //ROS_INFO_STREAM("Obstacles detected. Adjusting Path...");
+        //adjust_path(msg);
+        //ROS_INFO_STREAM("Adjusted!");
     }
 }
 
