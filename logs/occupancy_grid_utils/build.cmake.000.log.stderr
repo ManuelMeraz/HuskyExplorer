@@ -1,0 +1,30 @@
+[33m[1mCMake Warning[0m at /opt/ros/kinetic/share/catkin/cmake/catkinConfig.cmake:76 (find_package):
+  Could not find a package configuration file provided by "tf2_bullet" with
+  any of the following names:
+
+    tf2_bulletConfig.cmake
+    tf2_bullet-config.cmake
+
+  Add the installation prefix of "tf2_bullet" to CMAKE_PREFIX_PATH or set
+  "tf2_bullet_DIR" to a directory containing one of the above files.  If
+  "tf2_bullet" provides a separate development package or SDK, be sure it has
+  been installed.
+[36mCall Stack (most recent call first):[0m
+  CMakeLists.txt:7 (find_package)
+
+
+[31m[1mCMake Error[0m at /opt/ros/kinetic/share/catkin/cmake/catkinConfig.cmake:83 (find_package):
+  Could not find a package configuration file provided by "tf2_bullet" with
+  any of the following names:
+
+    tf2_bulletConfig.cmake
+    tf2_bullet-config.cmake
+
+  Add the installation prefix of "tf2_bullet" to CMAKE_PREFIX_PATH or set
+  "tf2_bullet_DIR" to a directory containing one of the above files.  If
+  "tf2_bullet" provides a separate development package or SDK, be sure it has
+  been installed.
+[36mCall Stack (most recent call first):[0m
+  CMakeLists.txt:7 (find_package)
+
+

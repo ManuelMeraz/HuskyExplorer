@@ -8,18 +8,19 @@ project(simple)
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
-  geometry_msgs
-  message_generation
-  nav_msgs
-  openslam_gmapping
-  roscpp
-  rospy
-  sensor_msgs
-  std_msgs
-  tf
-  tf2
-  tf2_ros
-)
+    occupancy_grid_utils
+    geometry_msgs
+    message_generation
+    nav_msgs
+    openslam_gmapping
+    roscpp
+    rospy
+    sensor_msgs
+    std_msgs
+    tf
+    tf2
+    tf2_ros
+    )
 
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
@@ -111,11 +112,11 @@ find_package(catkin REQUIRED COMPONENTS
 ## CATKIN_DEPENDS: catkin_packages dependent projects also need
 ## DEPENDS: system dependencies of this project that dependent projects also need
 catkin_package(
-#  INCLUDE_DIRS include
-#  LIBRARIES simple
-#  CATKIN_DEPENDS geometry_msgs message_generation nav_msgs openslam_gmapping roscpp rospy sensor_msgs std_msgs tf2 tf2_ros
-#  DEPENDS system_lib
-)
+    #  INCLUDE_DIRS include
+    #  LIBRARIES simple
+    #  CATKIN_DEPENDS geometry_msgs message_generation nav_msgs openslam_gmapping roscpp rospy sensor_msgs std_msgs tf2 tf2_ros
+    #  DEPENDS system_lib
+    )
 
 ###########
 ## Build ##
@@ -125,8 +126,8 @@ catkin_package(
 ## Your package locations should be listed before other locations
 # include_directories(include)
 include_directories(
-  ${catkin_INCLUDE_DIRS}
-)
+    ${catkin_INCLUDE_DIRS}
+    )
 
 ## Declare a C++ library
 # add_library(${PROJECT_NAME}
@@ -141,8 +142,21 @@ include_directories(
 ## Declare a C++ executable
 ## With catkin_make all packages are built within a single CMake context
 ## The recommended prefix ensures that target names across packages don't collide
-add_executable(averagefilter src/averagefilter.cpp)
-add_executable(poseprinter src/poseprinter.cpp)
+add_executable(
+    averagefilter 
+    src/averagefilter.cpp
+    src/MapExplorer.cpp
+    )
+
+add_executable(
+    poseprinter 
+    src/poseprinter.cpp
+    )
+
+add_executable(
+    move 
+    src/move.cpp
+    )
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
@@ -155,13 +169,17 @@ add_executable(poseprinter src/poseprinter.cpp)
 # add_dependencies(${PROJECT_NAME}_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
 ## Specify libraries to link a library or executable target against
- target_link_libraries(averagefilter
-   ${catkin_LIBRARIES}
- )
+target_link_libraries(averagefilter
+    ${catkin_LIBRARIES}
+    )
 
- target_link_libraries(poseprinter
-   ${catkin_LIBRARIES}
- )
+target_link_libraries(poseprinter
+    ${catkin_LIBRARIES}
+    )
+
+target_link_libraries(move
+    ${catkin_LIBRARIES}
+    )
 
 #############
 ## Install ##

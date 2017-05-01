@@ -1,0 +1,11 @@
+[01m[K/home/galliumos/kinetic_final/src/simple/src/averagefilter.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/galliumos/kinetic_final/src/simple/src/averagefilter.cpp:75:51:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktf::Quaternion::Quaternion(const tfScalar&, const tfScalar&, const tfScalar&)[m[K’ is deprecated [-Wdeprecated-declarations]
+                     tf::Quaternion q(heading, 0, 0);
+[01;32m[K                                                   ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/tf/LinearMath/Matrix3x3.h:20:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/tf/LinearMath/Transform.h:21[m[K,
+                 from [01m[K/opt/ros/kinetic/include/tf/transform_datatypes.h:41[m[K,
+                 from [01m[K/home/galliumos/kinetic_final/src/simple/src/averagefilter.cpp:2[m[K:
+[01m[K/opt/ros/kinetic/include/tf/LinearMath/Quaternion.h:51:3:[m[K [01;36m[Knote: [m[Kdeclared here
+   Quaternion(const tfScalar& yaw, const tfScalar& pitch, const tfScalar& roll) __attribute__((deprecated))
+[01;32m[K   ^[m[K

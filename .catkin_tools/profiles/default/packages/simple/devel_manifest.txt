@@ -2,5 +2,6 @@ simple
 /home/galliumos/kinetic_final/devel/.private/simple/lib/pkgconfig/simple.pc /home/galliumos/kinetic_final/devel/lib/pkgconfig/simple.pc
 /home/galliumos/kinetic_final/devel/.private/simple/lib/simple/poseprinter /home/galliumos/kinetic_final/devel/lib/simple/poseprinter
 /home/galliumos/kinetic_final/devel/.private/simple/lib/simple/averagefilter /home/galliumos/kinetic_final/devel/lib/simple/averagefilter
+/home/galliumos/kinetic_final/devel/.private/simple/lib/simple/move /home/galliumos/kinetic_final/devel/lib/simple/move
 /home/galliumos/kinetic_final/devel/.private/simple/share/simple/cmake/simpleConfig-version.cmake /home/galliumos/kinetic_final/devel/share/simple/cmake/simpleConfig-version.cmake
 /home/galliumos/kinetic_final/devel/.private/simple/share/simple/cmake/simpleConfig.cmake /home/galliumos/kinetic_final/devel/share/simple/cmake/simpleConfig.cmake

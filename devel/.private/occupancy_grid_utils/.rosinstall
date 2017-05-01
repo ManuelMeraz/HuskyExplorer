@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/setup.sh

@@ -1,0 +1,13 @@
+In file included from [01m[K/home/galliumos/kinetic_final/src/simple/src/averagefilter.cpp:7:0[m[K:
+[01m[K/home/galliumos/kinetic_final/src/simple/src/MapExplorer.h:14:21:[m[K [01;31m[Kerror: [m[K‘[01m[KMapData[m[K’ does not name a type
+ int map_index(const MapData &map, const int &row, const int &column); 
+[01;32m[K                     ^[m[K
+[01m[K/home/galliumos/kinetic_final/src/simple/src/MapExplorer.h:17:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kmap_inv[m[K’ does not name a type
+ double grid_to_pose_x(const map_inv &map, const std::size_t &grid_x);
+[01;32m[K                             ^[m[K
+[01m[K/home/galliumos/kinetic_final/src/simple/src/MapExplorer.h:18:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kmap_inv[m[K’ does not name a type
+ double grid_to_pose_y(const map_inv &map, const std::size_t &grid_y);
+[01;32m[K                             ^[m[K
+make[2]: *** [CMakeFiles/averagefilter.dir/src/averagefilter.cpp.o] Error 1
+make[1]: *** [CMakeFiles/averagefilter.dir/all] Error 2
+make: *** [all] Error 2

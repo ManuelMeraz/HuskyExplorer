@@ -1,0 +1,8 @@
+CMakeFiles/averagefilter.dir/src/averagefilter.cpp.o: In function `MapExplorer::poseToMap(geometry_msgs::PoseStamped_<std::allocator<void> >&, nav_msgs::OccupancyGrid_<std::allocator<void> >&)':
+averagefilter.cpp:(.text._ZN11MapExplorer9poseToMapERN13geometry_msgs12PoseStamped_ISaIvEEERN8nav_msgs14OccupancyGrid_IS2_EE[_ZN11MapExplorer9poseToMapERN13geometry_msgs12PoseStamped_ISaIvEEERN8nav_msgs14OccupancyGrid_IS2_EE]+0x452): undefined reference to `MapExplorer::map_index(MapExplorer::MapData const&, unsigned long const&, unsigned long const&)'
+averagefilter.cpp:(.text._ZN11MapExplorer9poseToMapERN13geometry_msgs12PoseStamped_ISaIvEEERN8nav_msgs14OccupancyGrid_IS2_EE[_ZN11MapExplorer9poseToMapERN13geometry_msgs12PoseStamped_ISaIvEEERN8nav_msgs14OccupancyGrid_IS2_EE]+0x493): undefined reference to `MapExplorer::grid_to_pose_x(MapExplorer::MapData const&, unsigned long const&)'
+averagefilter.cpp:(.text._ZN11MapExplorer9poseToMapERN13geometry_msgs12PoseStamped_ISaIvEEERN8nav_msgs14OccupancyGrid_IS2_EE[_ZN11MapExplorer9poseToMapERN13geometry_msgs12PoseStamped_ISaIvEEERN8nav_msgs14OccupancyGrid_IS2_EE]+0x4b8): undefined reference to `MapExplorer::grid_to_pose_y(MapExplorer::MapData const&, unsigned long const&)'
+collect2: error: ld returned 1 exit status
+make[2]: *** [/home/galliumos/kinetic_final/devel/.private/simple/lib/simple/averagefilter] Error 1
+make[1]: *** [CMakeFiles/averagefilter.dir/all] Error 2
+make: *** [all] Error 2

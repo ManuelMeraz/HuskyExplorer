@@ -1,0 +1,21 @@
+[35m[1mScanning dependencies of target averagefilter[0m
+[ 28%] Built target poseprinter
+[ 57%] Built target move
+[ 71%] [32mBuilding CXX object CMakeFiles/averagefilter.dir/src/averagefilter.cpp.o[0m
+[01m[K/home/galliumos/kinetic_final/src/simple/src/averagefilter.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/galliumos/kinetic_final/src/simple/src/averagefilter.cpp:76:46:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K:[m[K’ token
+                     q.setEuler(heading, 0, 0):
+[01;32m[K                                              ^[m[K
+[01m[K/home/galliumos/kinetic_final/src/simple/src/averagefilter.cpp:119:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+ }
+[01;32m[K ^[m[K
+[01m[K/home/galliumos/kinetic_final/src/simple/src/averagefilter.cpp:119:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[01m[K/home/galliumos/kinetic_final/src/simple/src/averagefilter.cpp:119:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[01m[K/home/galliumos/kinetic_final/src/simple/src/averagefilter.cpp:119:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[01m[K/home/galliumos/kinetic_final/src/simple/src/averagefilter.cpp:119:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+CMakeFiles/averagefilter.dir/build.make:62: recipe for target 'CMakeFiles/averagefilter.dir/src/averagefilter.cpp.o' failed
+make[2]: *** [CMakeFiles/averagefilter.dir/src/averagefilter.cpp.o] Error 1
+CMakeFiles/Makefile2:104: recipe for target 'CMakeFiles/averagefilter.dir/all' failed
+make[1]: *** [CMakeFiles/averagefilter.dir/all] Error 2
+Makefile:138: recipe for target 'all' failed
+make: *** [all] Error 2

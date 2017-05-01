@@ -1,0 +1,8 @@
+[01m[K/home/galliumos/kinetic_final/src/simple/src/MapExplorer.cpp:[m[K In static member function ‘[01m[Kstatic std::pair<double, double> MapExplorer::poseToMap(geometry_msgs::PoseStamped&, nav_msgs::OccupancyGrid&)[m[K’:
+[01m[K/home/galliumos/kinetic_final/src/simple/src/MapExplorer.cpp:68:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kgrid_to_pose_Y[m[K’ was not declared in this scope
+                 w_y = grid_to_pose_Y(map_data, j);
+[01;32m[K                                                 ^[m[K
+make[2]: *** [CMakeFiles/averagefilter.dir/src/MapExplorer.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/averagefilter.dir/all] Error 2
+make: *** [all] Error 2

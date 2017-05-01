@@ -295,8 +295,11 @@ gtest_force_shared_crt:BOOL=OFF
 //Dependencies for the target
 gtest_main_LIB_DEPENDS:STATIC=general;-lpthread;general;gtest;
 
+//The directory containing a CMake configuration file for laser_geometry.
+laser_geometry_DIR:PATH=/opt/ros/kinetic/share/laser_geometry/cmake
+
 //Path to a library.
-lib:FILEPATH=/opt/ros/kinetic/lib/libtf2.so
+lib:FILEPATH=/opt/ros/kinetic/lib/libutils.so
 
 //The directory containing a CMake configuration file for message_filters.
 message_filters_DIR:PATH=/opt/ros/kinetic/share/message_filters/cmake
@@ -309,6 +312,9 @@ message_runtime_DIR:PATH=/opt/ros/kinetic/share/message_runtime/cmake
 
 //The directory containing a CMake configuration file for nav_msgs.
 nav_msgs_DIR:PATH=/opt/ros/kinetic/share/nav_msgs/cmake
+
+//The directory containing a CMake configuration file for occupancy_grid_utils.
+occupancy_grid_utils_DIR:PATH=/home/galliumos/kinetic_final/devel/share/occupancy_grid_utils/cmake
 
 //The directory containing a CMake configuration file for openslam_gmapping.
 openslam_gmapping_DIR:PATH=/opt/ros/kinetic/share/openslam_gmapping/cmake
@@ -351,6 +357,9 @@ std_msgs_DIR:PATH=/opt/ros/kinetic/share/std_msgs/cmake
 
 //The directory containing a CMake configuration file for tf2.
 tf2_DIR:PATH=/opt/ros/kinetic/share/tf2/cmake
+
+//The directory containing a CMake configuration file for tf2_bullet.
+tf2_bullet_DIR:PATH=/opt/ros/kinetic/share/tf2_bullet/cmake
 
 //The directory containing a CMake configuration file for tf2_msgs.
 tf2_msgs_DIR:PATH=/opt/ros/kinetic/share/tf2_msgs/cmake
