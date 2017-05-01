@@ -28,28 +28,28 @@ The CXX compiler identification is GNU, found in "/home/galliumos/kinetic_final/
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/galliumos/kinetic_final/build/husky_navigation/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_37ac8/fast"
-/usr/bin/make -f CMakeFiles/cmTC_37ac8.dir/build.make CMakeFiles/cmTC_37ac8.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_ff7e4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ff7e4.dir/build.make CMakeFiles/cmTC_ff7e4.dir/build
 make[1]: Entering directory '/home/galliumos/kinetic_final/build/husky_navigation/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_37ac8.dir/testCCompiler.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_37ac8.dir/testCCompiler.c.o   -c /home/galliumos/kinetic_final/build/husky_navigation/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_37ac8
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_37ac8.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_37ac8.dir/testCCompiler.c.o  -o cmTC_37ac8 -rdynamic 
+Building C object CMakeFiles/cmTC_ff7e4.dir/testCCompiler.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_ff7e4.dir/testCCompiler.c.o   -c /home/galliumos/kinetic_final/build/husky_navigation/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_ff7e4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ff7e4.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_ff7e4.dir/testCCompiler.c.o  -o cmTC_ff7e4 -rdynamic 
 make[1]: Leaving directory '/home/galliumos/kinetic_final/build/husky_navigation/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/galliumos/kinetic_final/build/husky_navigation/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b16b6/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b16b6.dir/build.make CMakeFiles/cmTC_b16b6.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_55ded/fast"
+/usr/bin/make -f CMakeFiles/cmTC_55ded.dir/build.make CMakeFiles/cmTC_55ded.dir/build
 make[1]: Entering directory '/home/galliumos/kinetic_final/build/husky_navigation/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b16b6.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_b16b6.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_b16b6
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b16b6.dir/link.txt --verbose=1
-/usr/bin/cc      -v CMakeFiles/cmTC_b16b6.dir/CMakeCCompilerABI.c.o  -o cmTC_b16b6 -rdynamic  
+Building C object CMakeFiles/cmTC_55ded.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_55ded.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_55ded
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55ded.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTC_55ded.dir/CMakeCCompilerABI.c.o  -o cmTC_55ded -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
@@ -59,8 +59,8 @@ Thread model: posix
 gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b16b6' '-rdynamic' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNJPnvs.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_b16b6 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_b16b6.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_55ded' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccLrAUYM.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_55ded /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_55ded.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
 make[1]: Leaving directory '/home/galliumos/kinetic_final/build/husky_navigation/CMakeFiles/CMakeTmp'
 
 
@@ -68,14 +68,14 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/galliumos/kinetic_final/build/husky_navigation/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_b16b6/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_b16b6.dir/build.make CMakeFiles/cmTC_b16b6.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_55ded/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_55ded.dir/build.make CMakeFiles/cmTC_55ded.dir/build]
   ignore line: [make[1]: Entering directory '/home/galliumos/kinetic_final/build/husky_navigation/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_b16b6.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_b16b6.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_b16b6]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b16b6.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_b16b6.dir/CMakeCCompilerABI.c.o  -o cmTC_b16b6 -rdynamic  ]
+  ignore line: [Building C object CMakeFiles/cmTC_55ded.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_55ded.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_55ded]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55ded.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_55ded.dir/CMakeCCompilerABI.c.o  -o cmTC_55ded -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
@@ -85,13 +85,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b16b6' '-rdynamic' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNJPnvs.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_b16b6 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_b16b6.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_55ded' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccLrAUYM.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_55ded /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_55ded.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccNJPnvs.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccLrAUYM.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -109,7 +109,7 @@ Parsed C implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_b16b6] ==> ignore
+    arg [cmTC_55ded] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
@@ -121,7 +121,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_b16b6.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_55ded.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -155,14 +155,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/galliumos/kinetic_final/build/husky_navigation/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_86efb/fast"
-/usr/bin/make -f CMakeFiles/cmTC_86efb.dir/build.make CMakeFiles/cmTC_86efb.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_c09c6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c09c6.dir/build.make CMakeFiles/cmTC_c09c6.dir/build
 make[1]: Entering directory '/home/galliumos/kinetic_final/build/husky_navigation/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_86efb.dir/feature_tests.c.o
-/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_86efb.dir/feature_tests.c.o   -c /home/galliumos/kinetic_final/build/husky_navigation/CMakeFiles/feature_tests.c
-Linking C executable cmTC_86efb
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_86efb.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_86efb.dir/feature_tests.c.o  -o cmTC_86efb -rdynamic 
+Building C object CMakeFiles/cmTC_c09c6.dir/feature_tests.c.o
+/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_c09c6.dir/feature_tests.c.o   -c /home/galliumos/kinetic_final/build/husky_navigation/CMakeFiles/feature_tests.c
+Linking C executable cmTC_c09c6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c09c6.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_c09c6.dir/feature_tests.c.o  -o cmTC_c09c6 -rdynamic 
 make[1]: Leaving directory '/home/galliumos/kinetic_final/build/husky_navigation/CMakeFiles/CMakeTmp'
 
 
@@ -175,14 +175,14 @@ make[1]: Leaving directory '/home/galliumos/kinetic_final/build/husky_navigation
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/galliumos/kinetic_final/build/husky_navigation/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8e42a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8e42a.dir/build.make CMakeFiles/cmTC_8e42a.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_c6458/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c6458.dir/build.make CMakeFiles/cmTC_c6458.dir/build
 make[1]: Entering directory '/home/galliumos/kinetic_final/build/husky_navigation/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_8e42a.dir/feature_tests.c.o
-/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_8e42a.dir/feature_tests.c.o   -c /home/galliumos/kinetic_final/build/husky_navigation/CMakeFiles/feature_tests.c
-Linking C executable cmTC_8e42a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8e42a.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_8e42a.dir/feature_tests.c.o  -o cmTC_8e42a -rdynamic 
+Building C object CMakeFiles/cmTC_c6458.dir/feature_tests.c.o
+/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_c6458.dir/feature_tests.c.o   -c /home/galliumos/kinetic_final/build/husky_navigation/CMakeFiles/feature_tests.c
+Linking C executable cmTC_c6458
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6458.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_c6458.dir/feature_tests.c.o  -o cmTC_c6458 -rdynamic 
 make[1]: Leaving directory '/home/galliumos/kinetic_final/build/husky_navigation/CMakeFiles/CMakeTmp'
 
 
@@ -195,14 +195,14 @@ make[1]: Leaving directory '/home/galliumos/kinetic_final/build/husky_navigation
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/galliumos/kinetic_final/build/husky_navigation/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4b969/fast"
-/usr/bin/make -f CMakeFiles/cmTC_4b969.dir/build.make CMakeFiles/cmTC_4b969.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_de504/fast"
+/usr/bin/make -f CMakeFiles/cmTC_de504.dir/build.make CMakeFiles/cmTC_de504.dir/build
 make[1]: Entering directory '/home/galliumos/kinetic_final/build/husky_navigation/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_4b969.dir/feature_tests.c.o
-/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_4b969.dir/feature_tests.c.o   -c /home/galliumos/kinetic_final/build/husky_navigation/CMakeFiles/feature_tests.c
-Linking C executable cmTC_4b969
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b969.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_4b969.dir/feature_tests.c.o  -o cmTC_4b969 -rdynamic 
+Building C object CMakeFiles/cmTC_de504.dir/feature_tests.c.o
+/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_de504.dir/feature_tests.c.o   -c /home/galliumos/kinetic_final/build/husky_navigation/CMakeFiles/feature_tests.c
+Linking C executable cmTC_de504
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de504.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_de504.dir/feature_tests.c.o  -o cmTC_de504 -rdynamic 
 make[1]: Leaving directory '/home/galliumos/kinetic_final/build/husky_navigation/CMakeFiles/CMakeTmp'
 
 
@@ -213,28 +213,28 @@ make[1]: Leaving directory '/home/galliumos/kinetic_final/build/husky_navigation
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/galliumos/kinetic_final/build/husky_navigation/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ad0b0/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ad0b0.dir/build.make CMakeFiles/cmTC_ad0b0.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_b5134/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b5134.dir/build.make CMakeFiles/cmTC_b5134.dir/build
 make[1]: Entering directory '/home/galliumos/kinetic_final/build/husky_navigation/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_ad0b0.dir/testCXXCompiler.cxx.o
-/usr/bin/c++      -o CMakeFiles/cmTC_ad0b0.dir/testCXXCompiler.cxx.o -c /home/galliumos/kinetic_final/build/husky_navigation/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_ad0b0
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad0b0.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_ad0b0.dir/testCXXCompiler.cxx.o  -o cmTC_ad0b0 -rdynamic 
+Building CXX object CMakeFiles/cmTC_b5134.dir/testCXXCompiler.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_b5134.dir/testCXXCompiler.cxx.o -c /home/galliumos/kinetic_final/build/husky_navigation/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_b5134
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b5134.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_b5134.dir/testCXXCompiler.cxx.o  -o cmTC_b5134 -rdynamic 
 make[1]: Leaving directory '/home/galliumos/kinetic_final/build/husky_navigation/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/galliumos/kinetic_final/build/husky_navigation/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_892b6/fast"
-/usr/bin/make -f CMakeFiles/cmTC_892b6.dir/build.make CMakeFiles/cmTC_892b6.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_a480e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a480e.dir/build.make CMakeFiles/cmTC_a480e.dir/build
 make[1]: Entering directory '/home/galliumos/kinetic_final/build/husky_navigation/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_892b6.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++      -o CMakeFiles/cmTC_892b6.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_892b6
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_892b6.dir/link.txt --verbose=1
-/usr/bin/c++       -v CMakeFiles/cmTC_892b6.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_892b6 -rdynamic  
+Building CXX object CMakeFiles/cmTC_a480e.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++      -o CMakeFiles/cmTC_a480e.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_a480e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a480e.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTC_a480e.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_a480e -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
@@ -244,8 +244,8 @@ Thread model: posix
 gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_892b6' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccPAfTXB.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_892b6 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_892b6.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a480e' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccBK0y4K.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_a480e /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_a480e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
 make[1]: Leaving directory '/home/galliumos/kinetic_final/build/husky_navigation/CMakeFiles/CMakeTmp'
 
 
@@ -253,14 +253,14 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/galliumos/kinetic_final/build/husky_navigation/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_892b6/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_892b6.dir/build.make CMakeFiles/cmTC_892b6.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_a480e/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_a480e.dir/build.make CMakeFiles/cmTC_a480e.dir/build]
   ignore line: [make[1]: Entering directory '/home/galliumos/kinetic_final/build/husky_navigation/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_892b6.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_892b6.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_892b6]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_892b6.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_892b6.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_892b6 -rdynamic  ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_a480e.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_a480e.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_a480e]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a480e.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_a480e.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_a480e -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
@@ -270,13 +270,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_892b6' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccPAfTXB.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_892b6 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_892b6.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a480e' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccBK0y4K.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_a480e /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_a480e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccPAfTXB.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccBK0y4K.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -294,7 +294,7 @@ Parsed CXX implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_892b6] ==> ignore
+    arg [cmTC_a480e] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
@@ -306,7 +306,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_892b6.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_a480e.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -338,14 +338,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /home/galliumos/kinetic_final/build/husky_navigation/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ef464/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ef464.dir/build.make CMakeFiles/cmTC_ef464.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_91152/fast"
+/usr/bin/make -f CMakeFiles/cmTC_91152.dir/build.make CMakeFiles/cmTC_91152.dir/build
 make[1]: Entering directory '/home/galliumos/kinetic_final/build/husky_navigation/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_ef464.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_ef464.dir/feature_tests.cxx.o -c /home/galliumos/kinetic_final/build/husky_navigation/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_ef464
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef464.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_ef464.dir/feature_tests.cxx.o  -o cmTC_ef464 -rdynamic 
+Building CXX object CMakeFiles/cmTC_91152.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_91152.dir/feature_tests.cxx.o -c /home/galliumos/kinetic_final/build/husky_navigation/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_91152
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91152.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_91152.dir/feature_tests.cxx.o  -o cmTC_91152 -rdynamic 
 make[1]: Leaving directory '/home/galliumos/kinetic_final/build/husky_navigation/CMakeFiles/CMakeTmp'
 
 
@@ -411,14 +411,14 @@ make[1]: Leaving directory '/home/galliumos/kinetic_final/build/husky_navigation
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/galliumos/kinetic_final/build/husky_navigation/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_012ac/fast"
-/usr/bin/make -f CMakeFiles/cmTC_012ac.dir/build.make CMakeFiles/cmTC_012ac.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_b8806/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b8806.dir/build.make CMakeFiles/cmTC_b8806.dir/build
 make[1]: Entering directory '/home/galliumos/kinetic_final/build/husky_navigation/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_012ac.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_012ac.dir/feature_tests.cxx.o -c /home/galliumos/kinetic_final/build/husky_navigation/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_012ac
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_012ac.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_012ac.dir/feature_tests.cxx.o  -o cmTC_012ac -rdynamic 
+Building CXX object CMakeFiles/cmTC_b8806.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_b8806.dir/feature_tests.cxx.o -c /home/galliumos/kinetic_final/build/husky_navigation/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_b8806
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8806.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_b8806.dir/feature_tests.cxx.o  -o cmTC_b8806 -rdynamic 
 make[1]: Leaving directory '/home/galliumos/kinetic_final/build/husky_navigation/CMakeFiles/CMakeTmp'
 
 
@@ -484,14 +484,14 @@ make[1]: Leaving directory '/home/galliumos/kinetic_final/build/husky_navigation
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/galliumos/kinetic_final/build/husky_navigation/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ad8f2/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ad8f2.dir/build.make CMakeFiles/cmTC_ad8f2.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_79d48/fast"
+/usr/bin/make -f CMakeFiles/cmTC_79d48.dir/build.make CMakeFiles/cmTC_79d48.dir/build
 make[1]: Entering directory '/home/galliumos/kinetic_final/build/husky_navigation/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_ad8f2.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_ad8f2.dir/feature_tests.cxx.o -c /home/galliumos/kinetic_final/build/husky_navigation/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_ad8f2
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad8f2.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_ad8f2.dir/feature_tests.cxx.o  -o cmTC_ad8f2 -rdynamic 
+Building CXX object CMakeFiles/cmTC_79d48.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_79d48.dir/feature_tests.cxx.o -c /home/galliumos/kinetic_final/build/husky_navigation/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_79d48
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_79d48.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_79d48.dir/feature_tests.cxx.o  -o cmTC_79d48 -rdynamic 
 make[1]: Leaving directory '/home/galliumos/kinetic_final/build/husky_navigation/CMakeFiles/CMakeTmp'
 
 
@@ -555,28 +555,28 @@ make[1]: Leaving directory '/home/galliumos/kinetic_final/build/husky_navigation
 Determining if the include file pthread.h exists passed with the following output:
 Change Dir: /home/galliumos/kinetic_final/build/husky_navigation/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ef4db/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ef4db.dir/build.make CMakeFiles/cmTC_ef4db.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_1bb0f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1bb0f.dir/build.make CMakeFiles/cmTC_1bb0f.dir/build
 make[1]: Entering directory '/home/galliumos/kinetic_final/build/husky_navigation/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ef4db.dir/CheckIncludeFile.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_ef4db.dir/CheckIncludeFile.c.o   -c /home/galliumos/kinetic_final/build/husky_navigation/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_ef4db
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef4db.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_ef4db.dir/CheckIncludeFile.c.o  -o cmTC_ef4db -rdynamic 
+Building C object CMakeFiles/cmTC_1bb0f.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_1bb0f.dir/CheckIncludeFile.c.o   -c /home/galliumos/kinetic_final/build/husky_navigation/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_1bb0f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1bb0f.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_1bb0f.dir/CheckIncludeFile.c.o  -o cmTC_1bb0f -rdynamic 
 make[1]: Leaving directory '/home/galliumos/kinetic_final/build/husky_navigation/CMakeFiles/CMakeTmp'
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
 Change Dir: /home/galliumos/kinetic_final/build/husky_navigation/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_565cd/fast"
-/usr/bin/make -f CMakeFiles/cmTC_565cd.dir/build.make CMakeFiles/cmTC_565cd.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_92868/fast"
+/usr/bin/make -f CMakeFiles/cmTC_92868.dir/build.make CMakeFiles/cmTC_92868.dir/build
 make[1]: Entering directory '/home/galliumos/kinetic_final/build/husky_navigation/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_565cd.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_565cd.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_565cd
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_565cd.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_565cd.dir/CheckFunctionExists.c.o  -o cmTC_565cd -rdynamic -lpthread 
+Building C object CMakeFiles/cmTC_92868.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_92868.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_92868
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_92868.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_92868.dir/CheckFunctionExists.c.o  -o cmTC_92868 -rdynamic -lpthread 
 make[1]: Leaving directory '/home/galliumos/kinetic_final/build/husky_navigation/CMakeFiles/CMakeTmp'
 
 

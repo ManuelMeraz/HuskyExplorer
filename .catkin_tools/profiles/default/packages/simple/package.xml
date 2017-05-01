@@ -48,9 +48,11 @@
   <build_depend>rospy</build_depend>
   <build_depend>sensor_msgs</build_depend>
   <build_depend>std_msgs</build_depend>
+  <build_depend>occupancy_grid_utils</build_depend>
+  <build_depend>laser_geometry</build_depend>
+  <build_depend>tf</build_depend>
   <build_depend>tf2</build_depend>
   <build_depend>tf2_ros</build_depend>
-  <build_depend>occupancy_grid_utils</build_depend>
   <run_depend>geometry_msgs</run_depend>
   <run_depend>nav_msgs</run_depend>
   <run_depend>openslam_gmapping</run_depend>
@@ -58,9 +60,11 @@
   <run_depend>rospy</run_depend>
   <run_depend>sensor_msgs</run_depend>
   <run_depend>std_msgs</run_depend>
+  <run_depend>occupancy_grid_utils</run_depend>
+  <run_depend>laser_geometry</run_depend>
+  <run_depend>tf</run_depend>
   <run_depend>tf2</run_depend>
   <run_depend>tf2_ros</run_depend>
-  <run_depend>occupancy_grid_utils</run_depend>
 
 
   <!-- The export tag contains other, unspecified, tags -->

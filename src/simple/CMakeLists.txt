@@ -20,6 +20,7 @@ find_package(catkin REQUIRED COMPONENTS
     tf
     tf2
     tf2_ros
+    laser_geometry
     )
 
 ## System dependencies are found with CMake's conventions
@@ -143,19 +144,19 @@ include_directories(
 ## With catkin_make all packages are built within a single CMake context
 ## The recommended prefix ensures that target names across packages don't collide
 add_executable(
-    averagefilter 
-    src/averagefilter.cpp
+    map_explorer 
+    src/map_explorer.cpp
     src/MapExplorer.cpp
     )
 
 add_executable(
-    poseprinter 
-    src/poseprinter.cpp
+    scan_to_point_cloud 
+    src/scan_to_point_cloud.cpp
     )
 
 add_executable(
-    move 
-    src/move.cpp
+    obstacle_detector 
+    src/obstacle_detector.cpp
     )
 
 ## Rename C++ executable without prefix
@@ -169,15 +170,15 @@ add_executable(
 # add_dependencies(${PROJECT_NAME}_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
 ## Specify libraries to link a library or executable target against
-target_link_libraries(averagefilter
+target_link_libraries(map_explorer
     ${catkin_LIBRARIES}
     )
 
-target_link_libraries(poseprinter
+target_link_libraries(scan_to_point_cloud
     ${catkin_LIBRARIES}
     )
 
-target_link_libraries(move
+target_link_libraries(obstacle_detector
     ${catkin_LIBRARIES}
     )
 

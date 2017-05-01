@@ -1,6 +1,0 @@
-CMakeFiles/averagefilter.dir/src/averagefilter.cpp.o: In function `main':
-averagefilter.cpp:(.text+0x648): undefined reference to `MapExplorer::poseToMap(geometry_msgs::PoseStamped_<std::allocator<void> >&, nav_msgs::OccupancyGrid_<std::allocator<void> >&)'
-collect2: error: ld returned 1 exit status
-make[2]: *** [/home/galliumos/kinetic_final/devel/.private/simple/lib/simple/averagefilter] Error 1
-make[1]: *** [CMakeFiles/averagefilter.dir/all] Error 2
-make: *** [all] Error 2

@@ -1,6 +1,0 @@
-[35m[1mScanning dependencies of target averagefilter[0m
-[ 28%] Built target poseprinter
-[ 57%] Built target move
-[ 71%] [32mBuilding CXX object CMakeFiles/averagefilter.dir/src/averagefilter.cpp.o[0m
-[ 85%] [32m[1mLinking CXX executable /home/galliumos/kinetic_final/devel/.private/simple/lib/simple/averagefilter[0m
-[100%] Built target averagefilter

@@ -1,0 +1,31 @@
+[35m[1mScanning dependencies of target obstacle_detector[0m
+[ 42%] Built target map_explorer
+[ 57%] [32mBuilding CXX object CMakeFiles/obstacle_detector.dir/src/obstacle_detector.cpp.o[0m
+[ 85%] Built target scan_to_point_cloud
+In file included from [01m[K/opt/ros/kinetic/include/ros/ros.h:40:0[m[K,
+                 from [01m[K/home/galliumos/kinetic_final/src/simple/src/obstacle_detector.cpp:1[m[K:
+[01m[K/home/galliumos/kinetic_final/src/simple/src/obstacle_detector.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/galliumos/kinetic_final/src/simple/src/obstacle_detector.cpp:26:30:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs::LaserScan {aka struct sensor_msgs::LaserScan_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Krange[m[K’
+         ROS_INFO_STREAM(scan.range[(int)scan.angle_max/scan.angle_increment/2]);
+[01;32m[K                              ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:356:64:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_STREAM_AT_LOCATION_WITH_FILTER[m[K’
+     __rosconsole_print_stream_at_location_with_filter__ss__ << args; \
+[01;32m[K                                                                ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:398:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_STREAM_AT_LOCATION[m[K’
+       ROSCONSOLE_PRINT_STREAM_AT_LOCATION(args); \
+[01;32m[K       ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:568:43:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_STREAM_COND[m[K’
+ #define ROS_LOG_STREAM(level, name, args) ROS_LOG_STREAM_COND(true, level, name, args)
+[01;32m[K                                           ^[m[K
+[01m[K/opt/ros/kinetic/include/rosconsole/macros_generated.h:111:31:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_STREAM[m[K’
+ #define ROS_INFO_STREAM(args) ROS_LOG_STREAM(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, args)
+[01;32m[K                               ^[m[K
+[01m[K/home/galliumos/kinetic_final/src/simple/src/obstacle_detector.cpp:26:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO_STREAM[m[K’
+         ROS_INFO_STREAM(scan.range[(int)scan.angle_max/scan.angle_increment/2]);
+[01;32m[K         ^[m[K
+CMakeFiles/obstacle_detector.dir/build.make:62: recipe for target 'CMakeFiles/obstacle_detector.dir/src/obstacle_detector.cpp.o' failed
+make[2]: *** [CMakeFiles/obstacle_detector.dir/src/obstacle_detector.cpp.o] Error 1
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/obstacle_detector.dir/all' failed
+make[1]: *** [CMakeFiles/obstacle_detector.dir/all] Error 2
+Makefile:138: recipe for target 'all' failed
+make: *** [all] Error 2

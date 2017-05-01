@@ -1,14 +1,24 @@
-In file included from [01m[K/home/galliumos/kinetic_final/src/simple/src/averagefilter.cpp:7:0[m[K:
-[01m[K/home/galliumos/kinetic_final/src/simple/src/MapExplorer.h:[m[K In static member function ‘[01m[Kstatic std::pair<double, double> MapExplorer::poseToMap(geometry_msgs::PoseStamped&, nav_msgs::OccupancyGrid&)[m[K’:
-[01m[K/home/galliumos/kinetic_final/src/simple/src/MapExplorer.h:84:53:[m[K [01;31m[Kerror: [m[Kcannot call member function ‘[01m[Kint MapExplorer::map_index(const MapExplorer::MapData&, const size_t&, const size_t&)[m[K’ without object
-                 if(map.data[map_index(map_data, i, j)]==100){
-[01;32m[K                                                     ^[m[K
-[01m[K/home/galliumos/kinetic_final/src/simple/src/MapExplorer.h:86:53:[m[K [01;31m[Kerror: [m[Kcannot call member function ‘[01m[Kdouble MapExplorer::grid_to_pose_x(const MapExplorer::MapData&, const size_t&)[m[K’ without object
-                     w_x = grid_to_pose_x(map_data, i);
-[01;32m[K                                                     ^[m[K
-[01m[K/home/galliumos/kinetic_final/src/simple/src/MapExplorer.h:87:53:[m[K [01;31m[Kerror: [m[K‘[01m[Kgrid_to_pose_Y[m[K’ was not declared in this scope
-                     w_y = grid_to_pose_Y(map_data, j);
-[01;32m[K                                                     ^[m[K
-make[2]: *** [CMakeFiles/averagefilter.dir/src/averagefilter.cpp.o] Error 1
-make[1]: *** [CMakeFiles/averagefilter.dir/all] Error 2
+In file included from [01m[K/opt/ros/kinetic/include/ros/ros.h:40:0[m[K,
+                 from [01m[K/home/galliumos/kinetic_final/src/simple/src/obstacle_detector.cpp:1[m[K:
+[01m[K/home/galliumos/kinetic_final/src/simple/src/obstacle_detector.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/galliumos/kinetic_final/src/simple/src/obstacle_detector.cpp:26:30:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs::LaserScan {aka struct sensor_msgs::LaserScan_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Krange[m[K’
+         ROS_INFO_STREAM(scan.range[(int)scan.angle_max/scan.angle_increment/2]);
+[01;32m[K                              ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:356:64:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_STREAM_AT_LOCATION_WITH_FILTER[m[K’
+     __rosconsole_print_stream_at_location_with_filter__ss__ << args; \
+[01;32m[K                                                                ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:398:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_STREAM_AT_LOCATION[m[K’
+       ROSCONSOLE_PRINT_STREAM_AT_LOCATION(args); \
+[01;32m[K       ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:568:43:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_STREAM_COND[m[K’
+ #define ROS_LOG_STREAM(level, name, args) ROS_LOG_STREAM_COND(true, level, name, args)
+[01;32m[K                                           ^[m[K
+[01m[K/opt/ros/kinetic/include/rosconsole/macros_generated.h:111:31:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_STREAM[m[K’
+ #define ROS_INFO_STREAM(args) ROS_LOG_STREAM(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, args)
+[01;32m[K                               ^[m[K
+[01m[K/home/galliumos/kinetic_final/src/simple/src/obstacle_detector.cpp:26:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO_STREAM[m[K’
+         ROS_INFO_STREAM(scan.range[(int)scan.angle_max/scan.angle_increment/2]);
+[01;32m[K         ^[m[K
+make[2]: *** [CMakeFiles/obstacle_detector.dir/src/obstacle_detector.cpp.o] Error 1
+make[1]: *** [CMakeFiles/obstacle_detector.dir/all] Error 2
 make: *** [all] Error 2
