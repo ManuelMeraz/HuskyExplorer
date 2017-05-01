@@ -79,10 +79,10 @@ std::pair<double, double> MapExplorer::poseToMap(geometry_msgs::PoseStamped &pt)
     double angle;
     angle = std::atan2(d_y-pt_y, d_x-pt_x)-pt_th;
     // debug information
-    ROS_INFO_STREAM("Finding in "<< ros::Time::now()-start<<"s");
-    ROS_INFO_STREAM("Min. Distance and angle: "<< min_dist << "," <<angle*180/M_PI);
-    ROS_INFO_STREAM("Robot is at position "<< pt_x <<","<<pt_y<<","<<pt_th*180/M_PI);
-    ROS_INFO_STREAM("Obstacle is at position "<< d_x <<","<<d_y);
+    //ROS_INFO_STREAM("Finding in "<< ros::Time::now()-start<<"s");
+    //ROS_INFO_STREAM("Min. Distance and angle: "<< min_dist << "," <<angle*180/M_PI);
+    //ROS_INFO_STREAM("Robot is at position "<< pt_x <<","<<pt_y<<","<<pt_th*180/M_PI);
+    //ROS_INFO_STREAM("Obstacle is at position "<< d_x <<","<<d_y);
     result = std::make_pair(min_dist, angle);
     return result;
 }

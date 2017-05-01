@@ -138,6 +138,7 @@ CMakeFiles/averagefilter.dir/src/averagefilter.cpp.o: /opt/ros/kinetic/include/a
 CMakeFiles/averagefilter.dir/src/averagefilter.cpp.o: /opt/ros/kinetic/include/actionlib_msgs/GoalID.h
 CMakeFiles/averagefilter.dir/src/averagefilter.cpp.o: /opt/ros/kinetic/include/actionlib_msgs/GoalStatus.h
 CMakeFiles/averagefilter.dir/src/averagefilter.cpp.o: /opt/ros/kinetic/include/actionlib_msgs/GoalStatusArray.h
+CMakeFiles/averagefilter.dir/src/averagefilter.cpp.o: /opt/ros/kinetic/include/angles/angles.h
 CMakeFiles/averagefilter.dir/src/averagefilter.cpp.o: /opt/ros/kinetic/include/geometry_msgs/Point.h
 CMakeFiles/averagefilter.dir/src/averagefilter.cpp.o: /opt/ros/kinetic/include/geometry_msgs/Point32.h
 CMakeFiles/averagefilter.dir/src/averagefilter.cpp.o: /opt/ros/kinetic/include/geometry_msgs/PointStamped.h
@@ -154,13 +155,6 @@ CMakeFiles/averagefilter.dir/src/averagefilter.cpp.o: /opt/ros/kinetic/include/g
 CMakeFiles/averagefilter.dir/src/averagefilter.cpp.o: /opt/ros/kinetic/include/geometry_msgs/TwistWithCovariance.h
 CMakeFiles/averagefilter.dir/src/averagefilter.cpp.o: /opt/ros/kinetic/include/geometry_msgs/Vector3.h
 CMakeFiles/averagefilter.dir/src/averagefilter.cpp.o: /opt/ros/kinetic/include/geometry_msgs/Vector3Stamped.h
-CMakeFiles/averagefilter.dir/src/averagefilter.cpp.o: /opt/ros/kinetic/include/move_base_msgs/MoveBaseAction.h
-CMakeFiles/averagefilter.dir/src/averagefilter.cpp.o: /opt/ros/kinetic/include/move_base_msgs/MoveBaseActionFeedback.h
-CMakeFiles/averagefilter.dir/src/averagefilter.cpp.o: /opt/ros/kinetic/include/move_base_msgs/MoveBaseActionGoal.h
-CMakeFiles/averagefilter.dir/src/averagefilter.cpp.o: /opt/ros/kinetic/include/move_base_msgs/MoveBaseActionResult.h
-CMakeFiles/averagefilter.dir/src/averagefilter.cpp.o: /opt/ros/kinetic/include/move_base_msgs/MoveBaseFeedback.h
-CMakeFiles/averagefilter.dir/src/averagefilter.cpp.o: /opt/ros/kinetic/include/move_base_msgs/MoveBaseGoal.h
-CMakeFiles/averagefilter.dir/src/averagefilter.cpp.o: /opt/ros/kinetic/include/move_base_msgs/MoveBaseResult.h
 CMakeFiles/averagefilter.dir/src/averagefilter.cpp.o: /opt/ros/kinetic/include/nav_msgs/MapMetaData.h
 CMakeFiles/averagefilter.dir/src/averagefilter.cpp.o: /opt/ros/kinetic/include/nav_msgs/OccupancyGrid.h
 CMakeFiles/averagefilter.dir/src/averagefilter.cpp.o: /opt/ros/kinetic/include/nav_msgs/Odometry.h

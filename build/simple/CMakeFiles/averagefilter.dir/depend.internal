@@ -139,6 +139,7 @@ CMakeFiles/averagefilter.dir/src/averagefilter.cpp.o
  /opt/ros/kinetic/include/actionlib_msgs/GoalID.h
  /opt/ros/kinetic/include/actionlib_msgs/GoalStatus.h
  /opt/ros/kinetic/include/actionlib_msgs/GoalStatusArray.h
+ /opt/ros/kinetic/include/angles/angles.h
  /opt/ros/kinetic/include/geometry_msgs/Point.h
  /opt/ros/kinetic/include/geometry_msgs/Point32.h
  /opt/ros/kinetic/include/geometry_msgs/PointStamped.h
@@ -155,13 +156,6 @@ CMakeFiles/averagefilter.dir/src/averagefilter.cpp.o
  /opt/ros/kinetic/include/geometry_msgs/TwistWithCovariance.h
  /opt/ros/kinetic/include/geometry_msgs/Vector3.h
  /opt/ros/kinetic/include/geometry_msgs/Vector3Stamped.h
- /opt/ros/kinetic/include/move_base_msgs/MoveBaseAction.h
- /opt/ros/kinetic/include/move_base_msgs/MoveBaseActionFeedback.h
- /opt/ros/kinetic/include/move_base_msgs/MoveBaseActionGoal.h
- /opt/ros/kinetic/include/move_base_msgs/MoveBaseActionResult.h
- /opt/ros/kinetic/include/move_base_msgs/MoveBaseFeedback.h
- /opt/ros/kinetic/include/move_base_msgs/MoveBaseGoal.h
- /opt/ros/kinetic/include/move_base_msgs/MoveBaseResult.h
  /opt/ros/kinetic/include/nav_msgs/MapMetaData.h
  /opt/ros/kinetic/include/nav_msgs/OccupancyGrid.h
  /opt/ros/kinetic/include/nav_msgs/Odometry.h

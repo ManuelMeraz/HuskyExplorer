@@ -1,0 +1,14 @@
+[01m[K/home/galliumos/kinetic_final/src/simple/src/averagefilter.cpp:23:32:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+ std::vector<geometry_msgs/Point> adjusted_path;
+[01;32m[K                                ^[m[K
+[01m[K/home/galliumos/kinetic_final/src/simple/src/averagefilter.cpp:23:32:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/galliumos/kinetic_final/src/simple/src/averagefilter.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/galliumos/kinetic_final/src/simple/src/averagefilter.cpp:84:39:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kpush_back[m[K’ in ‘[01m[Kadjusted_path[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+                         adjusted_path.push_back(vertix);
+[01;32m[K                                       ^[m[K
+[01m[K/home/galliumos/kinetic_final/src/simple/src/averagefilter.cpp:95:75:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[int][m[K’ for array subscript
+                     geometry_msgs::Point vertix = adjusted_path[path_index];
+[01;32m[K                                                                           ^[m[K
+make[2]: *** [CMakeFiles/averagefilter.dir/src/averagefilter.cpp.o] Error 1
+make[1]: *** [CMakeFiles/averagefilter.dir/all] Error 2
+make: *** [all] Error 2

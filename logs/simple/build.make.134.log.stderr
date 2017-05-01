@@ -1,0 +1,9 @@
+[01m[K/home/galliumos/kinetic_final/src/simple/src/averagefilter.cpp:155:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kreturn[m[K’
+     return 0;
+[01;32m[K     ^[m[K
+[01m[K/home/galliumos/kinetic_final/src/simple/src/averagefilter.cpp:156:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+ }
+[01;32m[K ^[m[K
+make[2]: *** [CMakeFiles/averagefilter.dir/src/averagefilter.cpp.o] Error 1
+make[1]: *** [CMakeFiles/averagefilter.dir/all] Error 2
+make: *** [all] Error 2
