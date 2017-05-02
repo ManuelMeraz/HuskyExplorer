@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/galliumos/kinetic_final/src/husky_control
+CMAKE_SOURCE_DIR = /home/sergio/CSE180/src/husky_control
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/galliumos/kinetic_final/build/husky_control
+CMAKE_BINARY_DIR = /home/sergio/CSE180/build/husky_control
 
 # Utility rule file for clean_test_results_husky_control.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/galliumos/kinetic_final/build/husky_control
 include CMakeFiles/clean_test_results_husky_control.dir/progress.make
 
 CMakeFiles/clean_test_results_husky_control:
-	/usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/remove_test_results.py /home/galliumos/kinetic_final/build/husky_control/test_results/husky_control
+	/usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/remove_test_results.py /home/sergio/CSE180/build/husky_control/test_results/husky_control
 
 clean_test_results_husky_control: CMakeFiles/clean_test_results_husky_control
 clean_test_results_husky_control: CMakeFiles/clean_test_results_husky_control.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/clean_test_results_husky_control.dir/clean:
 .PHONY : CMakeFiles/clean_test_results_husky_control.dir/clean
 
 CMakeFiles/clean_test_results_husky_control.dir/depend:
-	cd /home/galliumos/kinetic_final/build/husky_control && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/galliumos/kinetic_final/src/husky_control /home/galliumos/kinetic_final/src/husky_control /home/galliumos/kinetic_final/build/husky_control /home/galliumos/kinetic_final/build/husky_control /home/galliumos/kinetic_final/build/husky_control/CMakeFiles/clean_test_results_husky_control.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sergio/CSE180/build/husky_control && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sergio/CSE180/src/husky_control /home/sergio/CSE180/src/husky_control /home/sergio/CSE180/build/husky_control /home/sergio/CSE180/build/husky_control /home/sergio/CSE180/build/husky_control/CMakeFiles/clean_test_results_husky_control.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/clean_test_results_husky_control.dir/depend
 

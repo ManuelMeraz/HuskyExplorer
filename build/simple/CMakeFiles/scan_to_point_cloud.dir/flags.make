@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_PACKAGE_NAME=\"simple\"
 
-CXX_INCLUDES = -I/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/include -I/home/galliumos/kinetic_final/src/occupancy_grid_utils/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/bullet 
+CXX_INCLUDES = -I/home/sergio/CSE180/devel/.private/occupancy_grid_utils/include -I/home/sergio/CSE180/src/occupancy_grid_utils/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/bullet 
 

@@ -6,8 +6,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/grid_utils.dir/src/combine_grids.cpp.o"
   "CMakeFiles/grid_utils.dir/src/geometry.cpp.o"
   "CMakeFiles/grid_utils.dir/src/file.cpp.o"
-  "/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.pdb"
-  "/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so"
+  "/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.pdb"
+  "/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so"
 )
 
 # Per-language clean rules from dependency scanning.

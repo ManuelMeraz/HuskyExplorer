@@ -1,8 +1,8 @@
-prefix=/home/galliumos/kinetic_final/install
+prefix=/home/sergio/CSE180/install
 
 Name: husky_viz
 Description: Description of husky_viz
 Version: 0.2.2
 Cflags: 
-Libs: -L/home/galliumos/kinetic_final/install/lib 
+Libs: -L/home/sergio/CSE180/install/lib 
 Requires: 

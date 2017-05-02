@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/grid_utils_boost_python_exports.dir/src/boost_python_exports.cpp.o"
-  "/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils_boost_python_exports.pdb"
-  "/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils_boost_python_exports.so"
+  "/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils_boost_python_exports.pdb"
+  "/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils_boost_python_exports.so"
 )
 
 # Per-language clean rules from dependency scanning.

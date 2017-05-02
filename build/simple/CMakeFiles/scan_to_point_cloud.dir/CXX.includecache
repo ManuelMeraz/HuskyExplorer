@@ -6,19 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/galliumos/kinetic_final/src/simple/src/scan_to_point_cloud.cpp
+/home/sergio/CSE180/src/simple/src/scan_to_point_cloud.cpp
 ros/ros.h
-/home/galliumos/kinetic_final/src/simple/src/ros/ros.h
+/home/sergio/CSE180/src/simple/src/ros/ros.h
 tf/transform_listener.h
-/home/galliumos/kinetic_final/src/simple/src/tf/transform_listener.h
+/home/sergio/CSE180/src/simple/src/tf/transform_listener.h
 sensor_msgs/PointCloud.h
-/home/galliumos/kinetic_final/src/simple/src/sensor_msgs/PointCloud.h
+/home/sergio/CSE180/src/simple/src/sensor_msgs/PointCloud.h
 tf/message_filter.h
-/home/galliumos/kinetic_final/src/simple/src/tf/message_filter.h
+/home/sergio/CSE180/src/simple/src/tf/message_filter.h
 message_filters/subscriber.h
-/home/galliumos/kinetic_final/src/simple/src/message_filters/subscriber.h
+/home/sergio/CSE180/src/simple/src/message_filters/subscriber.h
 laser_geometry/laser_geometry.h
-/home/galliumos/kinetic_final/src/simple/src/laser_geometry/laser_geometry.h
+/home/sergio/CSE180/src/simple/src/laser_geometry/laser_geometry.h
 
 /opt/ros/kinetic/include/geometry_msgs/Point.h
 string

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/galliumos/kinetic_final/src/husky_navigation
+CMAKE_SOURCE_DIR = /home/sergio/CSE180/src/husky_navigation
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/galliumos/kinetic_final/build/husky_navigation
+CMAKE_BINARY_DIR = /home/sergio/CSE180/build/husky_navigation
 
 # Utility rule file for doxygen.
 
@@ -67,6 +67,6 @@ CMakeFiles/doxygen.dir/clean:
 .PHONY : CMakeFiles/doxygen.dir/clean
 
 CMakeFiles/doxygen.dir/depend:
-	cd /home/galliumos/kinetic_final/build/husky_navigation && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/galliumos/kinetic_final/src/husky_navigation /home/galliumos/kinetic_final/src/husky_navigation /home/galliumos/kinetic_final/build/husky_navigation /home/galliumos/kinetic_final/build/husky_navigation /home/galliumos/kinetic_final/build/husky_navigation/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sergio/CSE180/build/husky_navigation && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sergio/CSE180/src/husky_navigation /home/sergio/CSE180/src/husky_navigation /home/sergio/CSE180/build/husky_navigation /home/sergio/CSE180/build/husky_navigation /home/sergio/CSE180/build/husky_navigation/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/doxygen.dir/depend
 

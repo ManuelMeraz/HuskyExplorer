@@ -1,8 +1,8 @@
-prefix=/home/galliumos/kinetic_final/install
+prefix=/home/sergio/CSE180/install
 
 Name: catkin_tools_prebuild
 Description: Description of catkin_tools_prebuild
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/galliumos/kinetic_final/install/lib 
+Libs: -L/home/sergio/CSE180/install/lib 
 Requires: 

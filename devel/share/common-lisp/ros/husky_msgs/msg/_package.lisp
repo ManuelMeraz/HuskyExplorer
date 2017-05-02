@@ -1,1 +1,1 @@
-/home/galliumos/kinetic_final/devel/.private/husky_msgs/share/common-lisp/ros/husky_msgs/msg/_package.lisp
+/home/sergio/CSE180/devel/.private/husky_msgs/share/common-lisp/ros/husky_msgs/msg/_package.lisp

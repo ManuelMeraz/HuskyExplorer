@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/galliumos/kinetic_final/src/husky_msgs
+CMAKE_SOURCE_DIR = /home/sergio/CSE180/src/husky_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/galliumos/kinetic_final/build/husky_msgs
+CMAKE_BINARY_DIR = /home/sergio/CSE180/build/husky_msgs
 
 # Utility rule file for std_msgs_generate_messages_py.
 
@@ -67,6 +67,6 @@ CMakeFiles/std_msgs_generate_messages_py.dir/clean:
 .PHONY : CMakeFiles/std_msgs_generate_messages_py.dir/clean
 
 CMakeFiles/std_msgs_generate_messages_py.dir/depend:
-	cd /home/galliumos/kinetic_final/build/husky_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/galliumos/kinetic_final/src/husky_msgs /home/galliumos/kinetic_final/src/husky_msgs /home/galliumos/kinetic_final/build/husky_msgs /home/galliumos/kinetic_final/build/husky_msgs /home/galliumos/kinetic_final/build/husky_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sergio/CSE180/build/husky_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sergio/CSE180/src/husky_msgs /home/sergio/CSE180/src/husky_msgs /home/sergio/CSE180/build/husky_msgs /home/sergio/CSE180/build/husky_msgs /home/sergio/CSE180/build/husky_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/std_msgs_generate_messages_py.dir/depend
 

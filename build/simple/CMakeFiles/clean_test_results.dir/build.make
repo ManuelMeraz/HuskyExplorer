@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/galliumos/kinetic_final/src/simple
+CMAKE_SOURCE_DIR = /home/sergio/CSE180/src/simple
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/galliumos/kinetic_final/build/simple
+CMAKE_BINARY_DIR = /home/sergio/CSE180/build/simple
 
 # Utility rule file for clean_test_results.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/galliumos/kinetic_final/build/simple
 include CMakeFiles/clean_test_results.dir/progress.make
 
 CMakeFiles/clean_test_results:
-	/usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/remove_test_results.py /home/galliumos/kinetic_final/build/simple/test_results
+	/usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/remove_test_results.py /home/sergio/CSE180/build/simple/test_results
 
 clean_test_results: CMakeFiles/clean_test_results
 clean_test_results: CMakeFiles/clean_test_results.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/clean_test_results.dir/clean:
 .PHONY : CMakeFiles/clean_test_results.dir/clean
 
 CMakeFiles/clean_test_results.dir/depend:
-	cd /home/galliumos/kinetic_final/build/simple && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/galliumos/kinetic_final/src/simple /home/galliumos/kinetic_final/src/simple /home/galliumos/kinetic_final/build/simple /home/galliumos/kinetic_final/build/simple /home/galliumos/kinetic_final/build/simple/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sergio/CSE180/build/simple && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sergio/CSE180/src/simple /home/sergio/CSE180/src/simple /home/sergio/CSE180/build/simple /home/sergio/CSE180/build/simple /home/sergio/CSE180/build/simple/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/clean_test_results.dir/depend
 

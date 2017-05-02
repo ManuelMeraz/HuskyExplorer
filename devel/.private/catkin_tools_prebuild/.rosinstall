@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/galliumos/kinetic_final/devel/.private/catkin_tools_prebuild/setup.sh
+    local-name: /home/sergio/CSE180/devel/.private/catkin_tools_prebuild/setup.sh

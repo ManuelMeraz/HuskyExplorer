@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/galliumos/kinetic_final/src/simple
+CMAKE_SOURCE_DIR = /home/sergio/CSE180/src/simple
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/galliumos/kinetic_final/build/simple
+CMAKE_BINARY_DIR = /home/sergio/CSE180/build/simple
 
 # Include any dependencies generated for this target.
 include CMakeFiles/map_explorer.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/map_explorer.dir/progress.make
 include CMakeFiles/map_explorer.dir/flags.make
 
 CMakeFiles/map_explorer.dir/src/map_explorer.cpp.o: CMakeFiles/map_explorer.dir/flags.make
-CMakeFiles/map_explorer.dir/src/map_explorer.cpp.o: /home/galliumos/kinetic_final/src/simple/src/map_explorer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/galliumos/kinetic_final/build/simple/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/map_explorer.dir/src/map_explorer.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/map_explorer.dir/src/map_explorer.cpp.o -c /home/galliumos/kinetic_final/src/simple/src/map_explorer.cpp
+CMakeFiles/map_explorer.dir/src/map_explorer.cpp.o: /home/sergio/CSE180/src/simple/src/map_explorer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sergio/CSE180/build/simple/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/map_explorer.dir/src/map_explorer.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/map_explorer.dir/src/map_explorer.cpp.o -c /home/sergio/CSE180/src/simple/src/map_explorer.cpp
 
 CMakeFiles/map_explorer.dir/src/map_explorer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/map_explorer.dir/src/map_explorer.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/galliumos/kinetic_final/src/simple/src/map_explorer.cpp > CMakeFiles/map_explorer.dir/src/map_explorer.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sergio/CSE180/src/simple/src/map_explorer.cpp > CMakeFiles/map_explorer.dir/src/map_explorer.cpp.i
 
 CMakeFiles/map_explorer.dir/src/map_explorer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/map_explorer.dir/src/map_explorer.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/galliumos/kinetic_final/src/simple/src/map_explorer.cpp -o CMakeFiles/map_explorer.dir/src/map_explorer.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sergio/CSE180/src/simple/src/map_explorer.cpp -o CMakeFiles/map_explorer.dir/src/map_explorer.cpp.s
 
 CMakeFiles/map_explorer.dir/src/map_explorer.cpp.o.requires:
 
@@ -82,17 +82,17 @@ CMakeFiles/map_explorer.dir/src/map_explorer.cpp.o.provides.build: CMakeFiles/ma
 
 
 CMakeFiles/map_explorer.dir/src/MapExplorer.cpp.o: CMakeFiles/map_explorer.dir/flags.make
-CMakeFiles/map_explorer.dir/src/MapExplorer.cpp.o: /home/galliumos/kinetic_final/src/simple/src/MapExplorer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/galliumos/kinetic_final/build/simple/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/map_explorer.dir/src/MapExplorer.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/map_explorer.dir/src/MapExplorer.cpp.o -c /home/galliumos/kinetic_final/src/simple/src/MapExplorer.cpp
+CMakeFiles/map_explorer.dir/src/MapExplorer.cpp.o: /home/sergio/CSE180/src/simple/src/MapExplorer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sergio/CSE180/build/simple/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/map_explorer.dir/src/MapExplorer.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/map_explorer.dir/src/MapExplorer.cpp.o -c /home/sergio/CSE180/src/simple/src/MapExplorer.cpp
 
 CMakeFiles/map_explorer.dir/src/MapExplorer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/map_explorer.dir/src/MapExplorer.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/galliumos/kinetic_final/src/simple/src/MapExplorer.cpp > CMakeFiles/map_explorer.dir/src/MapExplorer.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sergio/CSE180/src/simple/src/MapExplorer.cpp > CMakeFiles/map_explorer.dir/src/MapExplorer.cpp.i
 
 CMakeFiles/map_explorer.dir/src/MapExplorer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/map_explorer.dir/src/MapExplorer.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/galliumos/kinetic_final/src/simple/src/MapExplorer.cpp -o CMakeFiles/map_explorer.dir/src/MapExplorer.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sergio/CSE180/src/simple/src/MapExplorer.cpp -o CMakeFiles/map_explorer.dir/src/MapExplorer.cpp.s
 
 CMakeFiles/map_explorer.dir/src/MapExplorer.cpp.o.requires:
 
@@ -113,47 +113,47 @@ map_explorer_OBJECTS = \
 # External object files for target map_explorer
 map_explorer_EXTERNAL_OBJECTS =
 
-/home/galliumos/kinetic_final/devel/.private/simple/lib/simple/map_explorer: CMakeFiles/map_explorer.dir/src/map_explorer.cpp.o
-/home/galliumos/kinetic_final/devel/.private/simple/lib/simple/map_explorer: CMakeFiles/map_explorer.dir/src/MapExplorer.cpp.o
-/home/galliumos/kinetic_final/devel/.private/simple/lib/simple/map_explorer: CMakeFiles/map_explorer.dir/build.make
-/home/galliumos/kinetic_final/devel/.private/simple/lib/simple/map_explorer: /home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so
-/home/galliumos/kinetic_final/devel/.private/simple/lib/simple/map_explorer: /opt/ros/kinetic/lib/libgridfastslam.so
-/home/galliumos/kinetic_final/devel/.private/simple/lib/simple/map_explorer: /opt/ros/kinetic/lib/libscanmatcher.so
-/home/galliumos/kinetic_final/devel/.private/simple/lib/simple/map_explorer: /opt/ros/kinetic/lib/libsensor_base.so
-/home/galliumos/kinetic_final/devel/.private/simple/lib/simple/map_explorer: /opt/ros/kinetic/lib/libsensor_range.so
-/home/galliumos/kinetic_final/devel/.private/simple/lib/simple/map_explorer: /opt/ros/kinetic/lib/libsensor_odometry.so
-/home/galliumos/kinetic_final/devel/.private/simple/lib/simple/map_explorer: /opt/ros/kinetic/lib/libutils.so
-/home/galliumos/kinetic_final/devel/.private/simple/lib/simple/map_explorer: /opt/ros/kinetic/lib/libtf.so
-/home/galliumos/kinetic_final/devel/.private/simple/lib/simple/map_explorer: /opt/ros/kinetic/lib/libtf2_ros.so
-/home/galliumos/kinetic_final/devel/.private/simple/lib/simple/map_explorer: /opt/ros/kinetic/lib/libactionlib.so
-/home/galliumos/kinetic_final/devel/.private/simple/lib/simple/map_explorer: /opt/ros/kinetic/lib/libmessage_filters.so
-/home/galliumos/kinetic_final/devel/.private/simple/lib/simple/map_explorer: /opt/ros/kinetic/lib/libroscpp.so
-/home/galliumos/kinetic_final/devel/.private/simple/lib/simple/map_explorer: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/galliumos/kinetic_final/devel/.private/simple/lib/simple/map_explorer: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/galliumos/kinetic_final/devel/.private/simple/lib/simple/map_explorer: /opt/ros/kinetic/lib/librosconsole.so
-/home/galliumos/kinetic_final/devel/.private/simple/lib/simple/map_explorer: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/galliumos/kinetic_final/devel/.private/simple/lib/simple/map_explorer: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/galliumos/kinetic_final/devel/.private/simple/lib/simple/map_explorer: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/galliumos/kinetic_final/devel/.private/simple/lib/simple/map_explorer: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/galliumos/kinetic_final/devel/.private/simple/lib/simple/map_explorer: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/galliumos/kinetic_final/devel/.private/simple/lib/simple/map_explorer: /opt/ros/kinetic/lib/libtf2.so
-/home/galliumos/kinetic_final/devel/.private/simple/lib/simple/map_explorer: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/galliumos/kinetic_final/devel/.private/simple/lib/simple/map_explorer: /opt/ros/kinetic/lib/librostime.so
-/home/galliumos/kinetic_final/devel/.private/simple/lib/simple/map_explorer: /opt/ros/kinetic/lib/libcpp_common.so
-/home/galliumos/kinetic_final/devel/.private/simple/lib/simple/map_explorer: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/galliumos/kinetic_final/devel/.private/simple/lib/simple/map_explorer: /opt/ros/kinetic/lib/liblaser_geometry.so
-/home/galliumos/kinetic_final/devel/.private/simple/lib/simple/map_explorer: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/galliumos/kinetic_final/devel/.private/simple/lib/simple/map_explorer: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/galliumos/kinetic_final/devel/.private/simple/lib/simple/map_explorer: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/galliumos/kinetic_final/devel/.private/simple/lib/simple/map_explorer: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/galliumos/kinetic_final/devel/.private/simple/lib/simple/map_explorer: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/galliumos/kinetic_final/devel/.private/simple/lib/simple/map_explorer: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/galliumos/kinetic_final/devel/.private/simple/lib/simple/map_explorer: CMakeFiles/map_explorer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/galliumos/kinetic_final/build/simple/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable /home/galliumos/kinetic_final/devel/.private/simple/lib/simple/map_explorer"
+/home/sergio/CSE180/devel/.private/simple/lib/simple/map_explorer: CMakeFiles/map_explorer.dir/src/map_explorer.cpp.o
+/home/sergio/CSE180/devel/.private/simple/lib/simple/map_explorer: CMakeFiles/map_explorer.dir/src/MapExplorer.cpp.o
+/home/sergio/CSE180/devel/.private/simple/lib/simple/map_explorer: CMakeFiles/map_explorer.dir/build.make
+/home/sergio/CSE180/devel/.private/simple/lib/simple/map_explorer: /home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so
+/home/sergio/CSE180/devel/.private/simple/lib/simple/map_explorer: /opt/ros/kinetic/lib/libgridfastslam.so
+/home/sergio/CSE180/devel/.private/simple/lib/simple/map_explorer: /opt/ros/kinetic/lib/libscanmatcher.so
+/home/sergio/CSE180/devel/.private/simple/lib/simple/map_explorer: /opt/ros/kinetic/lib/libsensor_base.so
+/home/sergio/CSE180/devel/.private/simple/lib/simple/map_explorer: /opt/ros/kinetic/lib/libsensor_range.so
+/home/sergio/CSE180/devel/.private/simple/lib/simple/map_explorer: /opt/ros/kinetic/lib/libsensor_odometry.so
+/home/sergio/CSE180/devel/.private/simple/lib/simple/map_explorer: /opt/ros/kinetic/lib/libutils.so
+/home/sergio/CSE180/devel/.private/simple/lib/simple/map_explorer: /opt/ros/kinetic/lib/libtf.so
+/home/sergio/CSE180/devel/.private/simple/lib/simple/map_explorer: /opt/ros/kinetic/lib/libtf2_ros.so
+/home/sergio/CSE180/devel/.private/simple/lib/simple/map_explorer: /opt/ros/kinetic/lib/libactionlib.so
+/home/sergio/CSE180/devel/.private/simple/lib/simple/map_explorer: /opt/ros/kinetic/lib/libmessage_filters.so
+/home/sergio/CSE180/devel/.private/simple/lib/simple/map_explorer: /opt/ros/kinetic/lib/libroscpp.so
+/home/sergio/CSE180/devel/.private/simple/lib/simple/map_explorer: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/sergio/CSE180/devel/.private/simple/lib/simple/map_explorer: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/sergio/CSE180/devel/.private/simple/lib/simple/map_explorer: /opt/ros/kinetic/lib/librosconsole.so
+/home/sergio/CSE180/devel/.private/simple/lib/simple/map_explorer: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/sergio/CSE180/devel/.private/simple/lib/simple/map_explorer: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/sergio/CSE180/devel/.private/simple/lib/simple/map_explorer: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/sergio/CSE180/devel/.private/simple/lib/simple/map_explorer: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/sergio/CSE180/devel/.private/simple/lib/simple/map_explorer: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/sergio/CSE180/devel/.private/simple/lib/simple/map_explorer: /opt/ros/kinetic/lib/libtf2.so
+/home/sergio/CSE180/devel/.private/simple/lib/simple/map_explorer: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/sergio/CSE180/devel/.private/simple/lib/simple/map_explorer: /opt/ros/kinetic/lib/librostime.so
+/home/sergio/CSE180/devel/.private/simple/lib/simple/map_explorer: /opt/ros/kinetic/lib/libcpp_common.so
+/home/sergio/CSE180/devel/.private/simple/lib/simple/map_explorer: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/sergio/CSE180/devel/.private/simple/lib/simple/map_explorer: /opt/ros/kinetic/lib/liblaser_geometry.so
+/home/sergio/CSE180/devel/.private/simple/lib/simple/map_explorer: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/sergio/CSE180/devel/.private/simple/lib/simple/map_explorer: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/sergio/CSE180/devel/.private/simple/lib/simple/map_explorer: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/sergio/CSE180/devel/.private/simple/lib/simple/map_explorer: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/sergio/CSE180/devel/.private/simple/lib/simple/map_explorer: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/sergio/CSE180/devel/.private/simple/lib/simple/map_explorer: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/sergio/CSE180/devel/.private/simple/lib/simple/map_explorer: CMakeFiles/map_explorer.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sergio/CSE180/build/simple/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable /home/sergio/CSE180/devel/.private/simple/lib/simple/map_explorer"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/map_explorer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/map_explorer.dir/build: /home/galliumos/kinetic_final/devel/.private/simple/lib/simple/map_explorer
+CMakeFiles/map_explorer.dir/build: /home/sergio/CSE180/devel/.private/simple/lib/simple/map_explorer
 
 .PHONY : CMakeFiles/map_explorer.dir/build
 
@@ -167,6 +167,6 @@ CMakeFiles/map_explorer.dir/clean:
 .PHONY : CMakeFiles/map_explorer.dir/clean
 
 CMakeFiles/map_explorer.dir/depend:
-	cd /home/galliumos/kinetic_final/build/simple && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/galliumos/kinetic_final/src/simple /home/galliumos/kinetic_final/src/simple /home/galliumos/kinetic_final/build/simple /home/galliumos/kinetic_final/build/simple /home/galliumos/kinetic_final/build/simple/CMakeFiles/map_explorer.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sergio/CSE180/build/simple && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sergio/CSE180/src/simple /home/sergio/CSE180/src/simple /home/sergio/CSE180/build/simple /home/sergio/CSE180/build/simple /home/sergio/CSE180/build/simple/CMakeFiles/map_explorer.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/map_explorer.dir/depend
 

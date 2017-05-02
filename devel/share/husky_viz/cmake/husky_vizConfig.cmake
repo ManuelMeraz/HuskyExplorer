@@ -1,1 +1,1 @@
-/home/galliumos/kinetic_final/devel/.private/husky_viz/share/husky_viz/cmake/husky_vizConfig.cmake
+/home/sergio/CSE180/devel/.private/husky_viz/share/husky_viz/cmake/husky_vizConfig.cmake

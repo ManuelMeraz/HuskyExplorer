@@ -1,1 +1,1 @@
-/home/galliumos/kinetic_final/devel/.private/catkin_tools_prebuild/env.sh
+/home/sergio/CSE180/devel/.private/catkin_tools_prebuild/env.sh

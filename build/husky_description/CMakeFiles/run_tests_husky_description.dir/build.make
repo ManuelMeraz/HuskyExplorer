@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/galliumos/kinetic_final/src/husky_description
+CMAKE_SOURCE_DIR = /home/sergio/CSE180/src/husky_description
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/galliumos/kinetic_final/build/husky_description
+CMAKE_BINARY_DIR = /home/sergio/CSE180/build/husky_description
 
 # Utility rule file for run_tests_husky_description.
 
@@ -67,6 +67,6 @@ CMakeFiles/run_tests_husky_description.dir/clean:
 .PHONY : CMakeFiles/run_tests_husky_description.dir/clean
 
 CMakeFiles/run_tests_husky_description.dir/depend:
-	cd /home/galliumos/kinetic_final/build/husky_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/galliumos/kinetic_final/src/husky_description /home/galliumos/kinetic_final/src/husky_description /home/galliumos/kinetic_final/build/husky_description /home/galliumos/kinetic_final/build/husky_description /home/galliumos/kinetic_final/build/husky_description/CMakeFiles/run_tests_husky_description.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sergio/CSE180/build/husky_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sergio/CSE180/src/husky_description /home/sergio/CSE180/src/husky_description /home/sergio/CSE180/build/husky_description /home/sergio/CSE180/build/husky_description /home/sergio/CSE180/build/husky_description/CMakeFiles/run_tests_husky_description.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/run_tests_husky_description.dir/depend
 

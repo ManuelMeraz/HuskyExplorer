@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/galliumos/kinetic_final/src/occupancy_grid_utils
+CMAKE_SOURCE_DIR = /home/sergio/CSE180/src/occupancy_grid_utils
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/galliumos/kinetic_final/build/occupancy_grid_utils
+CMAKE_BINARY_DIR = /home/sergio/CSE180/build/occupancy_grid_utils
 
 # Utility rule file for tf_generate_messages_py.
 
@@ -67,6 +67,6 @@ CMakeFiles/tf_generate_messages_py.dir/clean:
 .PHONY : CMakeFiles/tf_generate_messages_py.dir/clean
 
 CMakeFiles/tf_generate_messages_py.dir/depend:
-	cd /home/galliumos/kinetic_final/build/occupancy_grid_utils && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/galliumos/kinetic_final/src/occupancy_grid_utils /home/galliumos/kinetic_final/src/occupancy_grid_utils /home/galliumos/kinetic_final/build/occupancy_grid_utils /home/galliumos/kinetic_final/build/occupancy_grid_utils /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles/tf_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sergio/CSE180/build/occupancy_grid_utils && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sergio/CSE180/src/occupancy_grid_utils /home/sergio/CSE180/src/occupancy_grid_utils /home/sergio/CSE180/build/occupancy_grid_utils /home/sergio/CSE180/build/occupancy_grid_utils /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles/tf_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tf_generate_messages_py.dir/depend
 

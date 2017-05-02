@@ -1,1 +1,1 @@
-/home/galliumos/kinetic_final/devel/.private/husky_description/share/husky_description/cmake/husky_descriptionConfig.cmake
+/home/sergio/CSE180/devel/.private/husky_description/share/husky_description/cmake/husky_descriptionConfig.cmake

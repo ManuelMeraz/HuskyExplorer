@@ -1,1 +1,1 @@
-/home/galliumos/kinetic_final/devel/.private/husky_msgs/lib/pkgconfig/husky_msgs.pc
+/home/sergio/CSE180/devel/.private/husky_msgs/lib/pkgconfig/husky_msgs.pc

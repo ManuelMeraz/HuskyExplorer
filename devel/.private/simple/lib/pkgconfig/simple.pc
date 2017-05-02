@@ -1,8 +1,8 @@
-prefix=/home/galliumos/kinetic_final/devel/.private/simple
+prefix=/home/sergio/CSE180/devel/.private/simple
 
 Name: simple
 Description: Description of simple
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/galliumos/kinetic_final/devel/.private/simple/lib 
+Libs: -L/home/sergio/CSE180/devel/.private/simple/lib 
 Requires: 

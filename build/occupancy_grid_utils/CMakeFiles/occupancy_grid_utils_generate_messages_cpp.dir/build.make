@@ -43,60 +43,60 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/galliumos/kinetic_final/src/occupancy_grid_utils
+CMAKE_SOURCE_DIR = /home/sergio/CSE180/src/occupancy_grid_utils
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/galliumos/kinetic_final/build/occupancy_grid_utils
+CMAKE_BINARY_DIR = /home/sergio/CSE180/build/occupancy_grid_utils
 
 # Utility rule file for occupancy_grid_utils_generate_messages_cpp.
 
 # Include the progress variables for this target.
 include CMakeFiles/occupancy_grid_utils_generate_messages_cpp.dir/progress.make
 
-CMakeFiles/occupancy_grid_utils_generate_messages_cpp: /home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/LocalizedCloud.h
-CMakeFiles/occupancy_grid_utils_generate_messages_cpp: /home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/OverlayClouds.h
-CMakeFiles/occupancy_grid_utils_generate_messages_cpp: /home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/NavigationFunction.h
+CMakeFiles/occupancy_grid_utils_generate_messages_cpp: /home/sergio/CSE180/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/LocalizedCloud.h
+CMakeFiles/occupancy_grid_utils_generate_messages_cpp: /home/sergio/CSE180/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/OverlayClouds.h
+CMakeFiles/occupancy_grid_utils_generate_messages_cpp: /home/sergio/CSE180/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/NavigationFunction.h
 
 
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/LocalizedCloud.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/LocalizedCloud.h: /home/galliumos/kinetic_final/src/occupancy_grid_utils/msg/LocalizedCloud.msg
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/LocalizedCloud.h: /opt/ros/kinetic/share/sensor_msgs/msg/PointCloud.msg
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/LocalizedCloud.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/LocalizedCloud.h: /opt/ros/kinetic/share/geometry_msgs/msg/Quaternion.msg
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/LocalizedCloud.h: /opt/ros/kinetic/share/geometry_msgs/msg/Point32.msg
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/LocalizedCloud.h: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/LocalizedCloud.h: /opt/ros/kinetic/share/geometry_msgs/msg/Pose.msg
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/LocalizedCloud.h: /opt/ros/kinetic/share/sensor_msgs/msg/ChannelFloat32.msg
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/LocalizedCloud.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from occupancy_grid_utils/LocalizedCloud.msg"
-	catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/galliumos/kinetic_final/src/occupancy_grid_utils/msg/LocalizedCloud.msg -Ioccupancy_grid_utils:/home/galliumos/kinetic_final/src/occupancy_grid_utils/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p occupancy_grid_utils -o /home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/LocalizedCloud.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/LocalizedCloud.h: /home/sergio/CSE180/src/occupancy_grid_utils/msg/LocalizedCloud.msg
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/LocalizedCloud.h: /opt/ros/kinetic/share/sensor_msgs/msg/PointCloud.msg
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/LocalizedCloud.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/LocalizedCloud.h: /opt/ros/kinetic/share/geometry_msgs/msg/Quaternion.msg
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/LocalizedCloud.h: /opt/ros/kinetic/share/geometry_msgs/msg/Point32.msg
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/LocalizedCloud.h: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/LocalizedCloud.h: /opt/ros/kinetic/share/geometry_msgs/msg/Pose.msg
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/LocalizedCloud.h: /opt/ros/kinetic/share/sensor_msgs/msg/ChannelFloat32.msg
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/LocalizedCloud.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from occupancy_grid_utils/LocalizedCloud.msg"
+	catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/sergio/CSE180/src/occupancy_grid_utils/msg/LocalizedCloud.msg -Ioccupancy_grid_utils:/home/sergio/CSE180/src/occupancy_grid_utils/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p occupancy_grid_utils -o /home/sergio/CSE180/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/OverlayClouds.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/OverlayClouds.h: /home/galliumos/kinetic_final/src/occupancy_grid_utils/msg/OverlayClouds.msg
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/OverlayClouds.h: /opt/ros/kinetic/share/nav_msgs/msg/MapMetaData.msg
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/OverlayClouds.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/OverlayClouds.h: /opt/ros/kinetic/share/geometry_msgs/msg/Quaternion.msg
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/OverlayClouds.h: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/OverlayClouds.h: /opt/ros/kinetic/share/nav_msgs/msg/OccupancyGrid.msg
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/OverlayClouds.h: /opt/ros/kinetic/share/geometry_msgs/msg/Pose.msg
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/OverlayClouds.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from occupancy_grid_utils/OverlayClouds.msg"
-	catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/galliumos/kinetic_final/src/occupancy_grid_utils/msg/OverlayClouds.msg -Ioccupancy_grid_utils:/home/galliumos/kinetic_final/src/occupancy_grid_utils/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p occupancy_grid_utils -o /home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/OverlayClouds.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/OverlayClouds.h: /home/sergio/CSE180/src/occupancy_grid_utils/msg/OverlayClouds.msg
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/OverlayClouds.h: /opt/ros/kinetic/share/nav_msgs/msg/MapMetaData.msg
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/OverlayClouds.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/OverlayClouds.h: /opt/ros/kinetic/share/geometry_msgs/msg/Quaternion.msg
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/OverlayClouds.h: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/OverlayClouds.h: /opt/ros/kinetic/share/nav_msgs/msg/OccupancyGrid.msg
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/OverlayClouds.h: /opt/ros/kinetic/share/geometry_msgs/msg/Pose.msg
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/OverlayClouds.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from occupancy_grid_utils/OverlayClouds.msg"
+	catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/sergio/CSE180/src/occupancy_grid_utils/msg/OverlayClouds.msg -Ioccupancy_grid_utils:/home/sergio/CSE180/src/occupancy_grid_utils/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p occupancy_grid_utils -o /home/sergio/CSE180/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/NavigationFunction.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/NavigationFunction.h: /home/galliumos/kinetic_final/src/occupancy_grid_utils/msg/NavigationFunction.msg
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/NavigationFunction.h: /opt/ros/kinetic/share/nav_msgs/msg/MapMetaData.msg
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/NavigationFunction.h: /opt/ros/kinetic/share/geometry_msgs/msg/Pose.msg
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/NavigationFunction.h: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/NavigationFunction.h: /opt/ros/kinetic/share/geometry_msgs/msg/Quaternion.msg
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/NavigationFunction.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from occupancy_grid_utils/NavigationFunction.msg"
-	catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/galliumos/kinetic_final/src/occupancy_grid_utils/msg/NavigationFunction.msg -Ioccupancy_grid_utils:/home/galliumos/kinetic_final/src/occupancy_grid_utils/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p occupancy_grid_utils -o /home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/NavigationFunction.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/NavigationFunction.h: /home/sergio/CSE180/src/occupancy_grid_utils/msg/NavigationFunction.msg
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/NavigationFunction.h: /opt/ros/kinetic/share/nav_msgs/msg/MapMetaData.msg
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/NavigationFunction.h: /opt/ros/kinetic/share/geometry_msgs/msg/Pose.msg
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/NavigationFunction.h: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/NavigationFunction.h: /opt/ros/kinetic/share/geometry_msgs/msg/Quaternion.msg
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/NavigationFunction.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from occupancy_grid_utils/NavigationFunction.msg"
+	catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/sergio/CSE180/src/occupancy_grid_utils/msg/NavigationFunction.msg -Ioccupancy_grid_utils:/home/sergio/CSE180/src/occupancy_grid_utils/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p occupancy_grid_utils -o /home/sergio/CSE180/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 occupancy_grid_utils_generate_messages_cpp: CMakeFiles/occupancy_grid_utils_generate_messages_cpp
-occupancy_grid_utils_generate_messages_cpp: /home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/LocalizedCloud.h
-occupancy_grid_utils_generate_messages_cpp: /home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/OverlayClouds.h
-occupancy_grid_utils_generate_messages_cpp: /home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/NavigationFunction.h
+occupancy_grid_utils_generate_messages_cpp: /home/sergio/CSE180/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/LocalizedCloud.h
+occupancy_grid_utils_generate_messages_cpp: /home/sergio/CSE180/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/OverlayClouds.h
+occupancy_grid_utils_generate_messages_cpp: /home/sergio/CSE180/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/NavigationFunction.h
 occupancy_grid_utils_generate_messages_cpp: CMakeFiles/occupancy_grid_utils_generate_messages_cpp.dir/build.make
 
 .PHONY : occupancy_grid_utils_generate_messages_cpp
@@ -111,6 +111,6 @@ CMakeFiles/occupancy_grid_utils_generate_messages_cpp.dir/clean:
 .PHONY : CMakeFiles/occupancy_grid_utils_generate_messages_cpp.dir/clean
 
 CMakeFiles/occupancy_grid_utils_generate_messages_cpp.dir/depend:
-	cd /home/galliumos/kinetic_final/build/occupancy_grid_utils && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/galliumos/kinetic_final/src/occupancy_grid_utils /home/galliumos/kinetic_final/src/occupancy_grid_utils /home/galliumos/kinetic_final/build/occupancy_grid_utils /home/galliumos/kinetic_final/build/occupancy_grid_utils /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles/occupancy_grid_utils_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sergio/CSE180/build/occupancy_grid_utils && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sergio/CSE180/src/occupancy_grid_utils /home/sergio/CSE180/src/occupancy_grid_utils /home/sergio/CSE180/build/occupancy_grid_utils /home/sergio/CSE180/build/occupancy_grid_utils /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles/occupancy_grid_utils_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/occupancy_grid_utils_generate_messages_cpp.dir/depend
 

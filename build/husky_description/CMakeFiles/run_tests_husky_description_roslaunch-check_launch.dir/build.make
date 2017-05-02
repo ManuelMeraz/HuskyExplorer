@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/galliumos/kinetic_final/src/husky_description
+CMAKE_SOURCE_DIR = /home/sergio/CSE180/src/husky_description
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/galliumos/kinetic_final/build/husky_description
+CMAKE_BINARY_DIR = /home/sergio/CSE180/build/husky_description
 
 # Utility rule file for run_tests_husky_description_roslaunch-check_launch.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/galliumos/kinetic_final/build/husky_description
 include CMakeFiles/run_tests_husky_description_roslaunch-check_launch.dir/progress.make
 
 CMakeFiles/run_tests_husky_description_roslaunch-check_launch:
-	catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/run_tests.py /home/galliumos/kinetic_final/build/husky_description/test_results/husky_description/roslaunch-check_launch.xml /usr/bin/cmake\ -E\ make_directory\ /home/galliumos/kinetic_final/build/husky_description/test_results/husky_description /opt/ros/kinetic/share/roslaunch/cmake/../scripts/roslaunch-check\ -o\ '/home/galliumos/kinetic_final/build/husky_description/test_results/husky_description/roslaunch-check_launch.xml'\ '/home/galliumos/kinetic_final/src/husky_description/launch'\ 
+	catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/run_tests.py /home/sergio/CSE180/build/husky_description/test_results/husky_description/roslaunch-check_launch.xml /usr/bin/cmake\ -E\ make_directory\ /home/sergio/CSE180/build/husky_description/test_results/husky_description /opt/ros/kinetic/share/roslaunch/cmake/../scripts/roslaunch-check\ -o\ '/home/sergio/CSE180/build/husky_description/test_results/husky_description/roslaunch-check_launch.xml'\ '/home/sergio/CSE180/src/husky_description/launch'\ 
 
 run_tests_husky_description_roslaunch-check_launch: CMakeFiles/run_tests_husky_description_roslaunch-check_launch
 run_tests_husky_description_roslaunch-check_launch: CMakeFiles/run_tests_husky_description_roslaunch-check_launch.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/run_tests_husky_description_roslaunch-check_launch.dir/clean:
 .PHONY : CMakeFiles/run_tests_husky_description_roslaunch-check_launch.dir/clean
 
 CMakeFiles/run_tests_husky_description_roslaunch-check_launch.dir/depend:
-	cd /home/galliumos/kinetic_final/build/husky_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/galliumos/kinetic_final/src/husky_description /home/galliumos/kinetic_final/src/husky_description /home/galliumos/kinetic_final/build/husky_description /home/galliumos/kinetic_final/build/husky_description /home/galliumos/kinetic_final/build/husky_description/CMakeFiles/run_tests_husky_description_roslaunch-check_launch.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sergio/CSE180/build/husky_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sergio/CSE180/src/husky_description /home/sergio/CSE180/src/husky_description /home/sergio/CSE180/build/husky_description /home/sergio/CSE180/build/husky_description /home/sergio/CSE180/build/husky_description/CMakeFiles/run_tests_husky_description_roslaunch-check_launch.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/run_tests_husky_description_roslaunch-check_launch.dir/depend
 

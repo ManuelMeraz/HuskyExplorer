@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "cse180final"
-PROJECT_SPACE_DIR = "/home/galliumos/kinetic_final/devel/.private/cse180final"
+PROJECT_SPACE_DIR = "/home/sergio/CSE180/devel/.private/cse180final"
 PROJECT_VERSION = "0.0.0"

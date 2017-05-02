@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/galliumos/kinetic_final/src/occupancy_grid_utils
+CMAKE_SOURCE_DIR = /home/sergio/CSE180/src/occupancy_grid_utils
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/galliumos/kinetic_final/build/occupancy_grid_utils
+CMAKE_BINARY_DIR = /home/sergio/CSE180/build/occupancy_grid_utils
 
 #=============================================================================
 # Target rules for target CMakeFiles/grid_construction_node.dir
@@ -67,7 +67,7 @@ CMakeFiles/grid_construction_node.dir/all: CMakeFiles/occupancy_grid_utils_gener
 CMakeFiles/grid_construction_node.dir/all: CMakeFiles/grid_utils.dir/all
 	$(MAKE) -f CMakeFiles/grid_construction_node.dir/build.make CMakeFiles/grid_construction_node.dir/depend
 	$(MAKE) -f CMakeFiles/grid_construction_node.dir/build.make CMakeFiles/grid_construction_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num=1,2 "Built target grid_construction_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num=1,2 "Built target grid_construction_node"
 .PHONY : CMakeFiles/grid_construction_node.dir/all
 
 # Include target in all.
@@ -77,9 +77,9 @@ all: CMakeFiles/grid_construction_node.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/grid_construction_node.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/grid_construction_node.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 .PHONY : CMakeFiles/grid_construction_node.dir/rule
 
 # Convenience name for target.
@@ -109,14 +109,14 @@ CMakeFiles/occupancy_grid_utils_generate_messages_py.dir/all: CMakeFiles/geometr
 CMakeFiles/occupancy_grid_utils_generate_messages_py.dir/all: CMakeFiles/sensor_msgs_generate_messages_py.dir/all
 	$(MAKE) -f CMakeFiles/occupancy_grid_utils_generate_messages_py.dir/build.make CMakeFiles/occupancy_grid_utils_generate_messages_py.dir/depend
 	$(MAKE) -f CMakeFiles/occupancy_grid_utils_generate_messages_py.dir/build.make CMakeFiles/occupancy_grid_utils_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num=30,31,32,33 "Built target occupancy_grid_utils_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num=30,31,32,33 "Built target occupancy_grid_utils_generate_messages_py"
 .PHONY : CMakeFiles/occupancy_grid_utils_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/occupancy_grid_utils_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/occupancy_grid_utils_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 .PHONY : CMakeFiles/occupancy_grid_utils_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -141,14 +141,14 @@ clean: CMakeFiles/occupancy_grid_utils_generate_messages_py.dir/clean
 CMakeFiles/occupancy_grid_utils_gennodejs.dir/all: CMakeFiles/occupancy_grid_utils_generate_messages_nodejs.dir/all
 	$(MAKE) -f CMakeFiles/occupancy_grid_utils_gennodejs.dir/build.make CMakeFiles/occupancy_grid_utils_gennodejs.dir/depend
 	$(MAKE) -f CMakeFiles/occupancy_grid_utils_gennodejs.dir/build.make CMakeFiles/occupancy_grid_utils_gennodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target occupancy_grid_utils_gennodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target occupancy_grid_utils_gennodejs"
 .PHONY : CMakeFiles/occupancy_grid_utils_gennodejs.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/occupancy_grid_utils_gennodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/occupancy_grid_utils_gennodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 .PHONY : CMakeFiles/occupancy_grid_utils_gennodejs.dir/rule
 
 # Convenience name for target.
@@ -173,14 +173,14 @@ clean: CMakeFiles/occupancy_grid_utils_gennodejs.dir/clean
 CMakeFiles/occupancy_grid_utils_genlisp.dir/all: CMakeFiles/occupancy_grid_utils_generate_messages_lisp.dir/all
 	$(MAKE) -f CMakeFiles/occupancy_grid_utils_genlisp.dir/build.make CMakeFiles/occupancy_grid_utils_genlisp.dir/depend
 	$(MAKE) -f CMakeFiles/occupancy_grid_utils_genlisp.dir/build.make CMakeFiles/occupancy_grid_utils_genlisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target occupancy_grid_utils_genlisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target occupancy_grid_utils_genlisp"
 .PHONY : CMakeFiles/occupancy_grid_utils_genlisp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/occupancy_grid_utils_genlisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/occupancy_grid_utils_genlisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 .PHONY : CMakeFiles/occupancy_grid_utils_genlisp.dir/rule
 
 # Convenience name for target.
@@ -205,14 +205,14 @@ clean: CMakeFiles/occupancy_grid_utils_genlisp.dir/clean
 CMakeFiles/occupancy_grid_utils_geneus.dir/all: CMakeFiles/occupancy_grid_utils_generate_messages_eus.dir/all
 	$(MAKE) -f CMakeFiles/occupancy_grid_utils_geneus.dir/build.make CMakeFiles/occupancy_grid_utils_geneus.dir/depend
 	$(MAKE) -f CMakeFiles/occupancy_grid_utils_geneus.dir/build.make CMakeFiles/occupancy_grid_utils_geneus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target occupancy_grid_utils_geneus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target occupancy_grid_utils_geneus"
 .PHONY : CMakeFiles/occupancy_grid_utils_geneus.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/occupancy_grid_utils_geneus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/occupancy_grid_utils_geneus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 .PHONY : CMakeFiles/occupancy_grid_utils_geneus.dir/rule
 
 # Convenience name for target.
@@ -242,14 +242,14 @@ CMakeFiles/occupancy_grid_utils_generate_messages_cpp.dir/all: CMakeFiles/nav_ms
 CMakeFiles/occupancy_grid_utils_generate_messages_cpp.dir/all: CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
 	$(MAKE) -f CMakeFiles/occupancy_grid_utils_generate_messages_cpp.dir/build.make CMakeFiles/occupancy_grid_utils_generate_messages_cpp.dir/depend
 	$(MAKE) -f CMakeFiles/occupancy_grid_utils_generate_messages_cpp.dir/build.make CMakeFiles/occupancy_grid_utils_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num=17,18,19 "Built target occupancy_grid_utils_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num=17,18,19 "Built target occupancy_grid_utils_generate_messages_cpp"
 .PHONY : CMakeFiles/occupancy_grid_utils_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/occupancy_grid_utils_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/occupancy_grid_utils_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 .PHONY : CMakeFiles/occupancy_grid_utils_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -274,14 +274,14 @@ clean: CMakeFiles/occupancy_grid_utils_generate_messages_cpp.dir/clean
 CMakeFiles/_occupancy_grid_utils_generate_messages_check_deps_NavigationFunction.dir/all:
 	$(MAKE) -f CMakeFiles/_occupancy_grid_utils_generate_messages_check_deps_NavigationFunction.dir/build.make CMakeFiles/_occupancy_grid_utils_generate_messages_check_deps_NavigationFunction.dir/depend
 	$(MAKE) -f CMakeFiles/_occupancy_grid_utils_generate_messages_check_deps_NavigationFunction.dir/build.make CMakeFiles/_occupancy_grid_utils_generate_messages_check_deps_NavigationFunction.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target _occupancy_grid_utils_generate_messages_check_deps_NavigationFunction"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target _occupancy_grid_utils_generate_messages_check_deps_NavigationFunction"
 .PHONY : CMakeFiles/_occupancy_grid_utils_generate_messages_check_deps_NavigationFunction.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/_occupancy_grid_utils_generate_messages_check_deps_NavigationFunction.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/_occupancy_grid_utils_generate_messages_check_deps_NavigationFunction.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 .PHONY : CMakeFiles/_occupancy_grid_utils_generate_messages_check_deps_NavigationFunction.dir/rule
 
 # Convenience name for target.
@@ -306,14 +306,14 @@ clean: CMakeFiles/_occupancy_grid_utils_generate_messages_check_deps_NavigationF
 CMakeFiles/_occupancy_grid_utils_generate_messages_check_deps_OverlayClouds.dir/all:
 	$(MAKE) -f CMakeFiles/_occupancy_grid_utils_generate_messages_check_deps_OverlayClouds.dir/build.make CMakeFiles/_occupancy_grid_utils_generate_messages_check_deps_OverlayClouds.dir/depend
 	$(MAKE) -f CMakeFiles/_occupancy_grid_utils_generate_messages_check_deps_OverlayClouds.dir/build.make CMakeFiles/_occupancy_grid_utils_generate_messages_check_deps_OverlayClouds.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target _occupancy_grid_utils_generate_messages_check_deps_OverlayClouds"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target _occupancy_grid_utils_generate_messages_check_deps_OverlayClouds"
 .PHONY : CMakeFiles/_occupancy_grid_utils_generate_messages_check_deps_OverlayClouds.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/_occupancy_grid_utils_generate_messages_check_deps_OverlayClouds.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/_occupancy_grid_utils_generate_messages_check_deps_OverlayClouds.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 .PHONY : CMakeFiles/_occupancy_grid_utils_generate_messages_check_deps_OverlayClouds.dir/rule
 
 # Convenience name for target.
@@ -338,14 +338,14 @@ clean: CMakeFiles/_occupancy_grid_utils_generate_messages_check_deps_OverlayClou
 CMakeFiles/_occupancy_grid_utils_generate_messages_check_deps_LocalizedCloud.dir/all:
 	$(MAKE) -f CMakeFiles/_occupancy_grid_utils_generate_messages_check_deps_LocalizedCloud.dir/build.make CMakeFiles/_occupancy_grid_utils_generate_messages_check_deps_LocalizedCloud.dir/depend
 	$(MAKE) -f CMakeFiles/_occupancy_grid_utils_generate_messages_check_deps_LocalizedCloud.dir/build.make CMakeFiles/_occupancy_grid_utils_generate_messages_check_deps_LocalizedCloud.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target _occupancy_grid_utils_generate_messages_check_deps_LocalizedCloud"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target _occupancy_grid_utils_generate_messages_check_deps_LocalizedCloud"
 .PHONY : CMakeFiles/_occupancy_grid_utils_generate_messages_check_deps_LocalizedCloud.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/_occupancy_grid_utils_generate_messages_check_deps_LocalizedCloud.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/_occupancy_grid_utils_generate_messages_check_deps_LocalizedCloud.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 .PHONY : CMakeFiles/_occupancy_grid_utils_generate_messages_check_deps_LocalizedCloud.dir/rule
 
 # Convenience name for target.
@@ -374,7 +374,7 @@ CMakeFiles/occupancy_grid_utils_generate_messages.dir/all: CMakeFiles/occupancy_
 CMakeFiles/occupancy_grid_utils_generate_messages.dir/all: CMakeFiles/occupancy_grid_utils_generate_messages_lisp.dir/all
 	$(MAKE) -f CMakeFiles/occupancy_grid_utils_generate_messages.dir/build.make CMakeFiles/occupancy_grid_utils_generate_messages.dir/depend
 	$(MAKE) -f CMakeFiles/occupancy_grid_utils_generate_messages.dir/build.make CMakeFiles/occupancy_grid_utils_generate_messages.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target occupancy_grid_utils_generate_messages"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target occupancy_grid_utils_generate_messages"
 .PHONY : CMakeFiles/occupancy_grid_utils_generate_messages.dir/all
 
 # Include target in all.
@@ -384,9 +384,9 @@ all: CMakeFiles/occupancy_grid_utils_generate_messages.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/occupancy_grid_utils_generate_messages.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 17
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/occupancy_grid_utils_generate_messages.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 .PHONY : CMakeFiles/occupancy_grid_utils_generate_messages.dir/rule
 
 # Convenience name for target.
@@ -411,14 +411,14 @@ clean: CMakeFiles/occupancy_grid_utils_generate_messages.dir/clean
 CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/all:
 	$(MAKE) -f CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/depend
 	$(MAKE) -f CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target tf2_msgs_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target tf2_msgs_generate_messages_nodejs"
 .PHONY : CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 .PHONY : CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -443,14 +443,14 @@ clean: CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/clean
 CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all:
 	$(MAKE) -f CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build.make CMakeFiles/tf2_msgs_generate_messages_lisp.dir/depend
 	$(MAKE) -f CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build.make CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target tf2_msgs_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target tf2_msgs_generate_messages_lisp"
 .PHONY : CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 .PHONY : CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -475,14 +475,14 @@ clean: CMakeFiles/tf2_msgs_generate_messages_lisp.dir/clean
 CMakeFiles/tf2_msgs_generate_messages_eus.dir/all:
 	$(MAKE) -f CMakeFiles/tf2_msgs_generate_messages_eus.dir/build.make CMakeFiles/tf2_msgs_generate_messages_eus.dir/depend
 	$(MAKE) -f CMakeFiles/tf2_msgs_generate_messages_eus.dir/build.make CMakeFiles/tf2_msgs_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target tf2_msgs_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target tf2_msgs_generate_messages_eus"
 .PHONY : CMakeFiles/tf2_msgs_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/tf2_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/tf2_msgs_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 .PHONY : CMakeFiles/tf2_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -507,14 +507,14 @@ clean: CMakeFiles/tf2_msgs_generate_messages_eus.dir/clean
 CMakeFiles/tf2_msgs_generate_messages_cpp.dir/all:
 	$(MAKE) -f CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build.make CMakeFiles/tf2_msgs_generate_messages_cpp.dir/depend
 	$(MAKE) -f CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build.make CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target tf2_msgs_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target tf2_msgs_generate_messages_cpp"
 .PHONY : CMakeFiles/tf2_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/tf2_msgs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 .PHONY : CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -539,14 +539,14 @@ clean: CMakeFiles/tf2_msgs_generate_messages_cpp.dir/clean
 CMakeFiles/actionlib_generate_messages_py.dir/all:
 	$(MAKE) -f CMakeFiles/actionlib_generate_messages_py.dir/build.make CMakeFiles/actionlib_generate_messages_py.dir/depend
 	$(MAKE) -f CMakeFiles/actionlib_generate_messages_py.dir/build.make CMakeFiles/actionlib_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target actionlib_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target actionlib_generate_messages_py"
 .PHONY : CMakeFiles/actionlib_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/actionlib_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/actionlib_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 .PHONY : CMakeFiles/actionlib_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -571,14 +571,14 @@ clean: CMakeFiles/actionlib_generate_messages_py.dir/clean
 CMakeFiles/actionlib_generate_messages_eus.dir/all:
 	$(MAKE) -f CMakeFiles/actionlib_generate_messages_eus.dir/build.make CMakeFiles/actionlib_generate_messages_eus.dir/depend
 	$(MAKE) -f CMakeFiles/actionlib_generate_messages_eus.dir/build.make CMakeFiles/actionlib_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target actionlib_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target actionlib_generate_messages_eus"
 .PHONY : CMakeFiles/actionlib_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/actionlib_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/actionlib_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 .PHONY : CMakeFiles/actionlib_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -608,14 +608,14 @@ CMakeFiles/occupancy_grid_utils_generate_messages_eus.dir/all: CMakeFiles/geomet
 CMakeFiles/occupancy_grid_utils_generate_messages_eus.dir/all: CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
 	$(MAKE) -f CMakeFiles/occupancy_grid_utils_generate_messages_eus.dir/build.make CMakeFiles/occupancy_grid_utils_generate_messages_eus.dir/depend
 	$(MAKE) -f CMakeFiles/occupancy_grid_utils_generate_messages_eus.dir/build.make CMakeFiles/occupancy_grid_utils_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num=20,21,22,23 "Built target occupancy_grid_utils_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num=20,21,22,23 "Built target occupancy_grid_utils_generate_messages_eus"
 .PHONY : CMakeFiles/occupancy_grid_utils_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/occupancy_grid_utils_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/occupancy_grid_utils_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 .PHONY : CMakeFiles/occupancy_grid_utils_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -640,14 +640,14 @@ clean: CMakeFiles/occupancy_grid_utils_generate_messages_eus.dir/clean
 CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all:
 	$(MAKE) -f CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/depend
 	$(MAKE) -f CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_nodejs"
 .PHONY : CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 .PHONY : CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -672,14 +672,14 @@ clean: CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean
 CMakeFiles/clean_test_results.dir/all:
 	$(MAKE) -f CMakeFiles/clean_test_results.dir/build.make CMakeFiles/clean_test_results.dir/depend
 	$(MAKE) -f CMakeFiles/clean_test_results.dir/build.make CMakeFiles/clean_test_results.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target clean_test_results"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target clean_test_results"
 .PHONY : CMakeFiles/clean_test_results.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/clean_test_results.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/clean_test_results.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 .PHONY : CMakeFiles/clean_test_results.dir/rule
 
 # Convenience name for target.
@@ -704,14 +704,14 @@ clean: CMakeFiles/clean_test_results.dir/clean
 CMakeFiles/occupancy_grid_utils_gencpp.dir/all: CMakeFiles/occupancy_grid_utils_generate_messages_cpp.dir/all
 	$(MAKE) -f CMakeFiles/occupancy_grid_utils_gencpp.dir/build.make CMakeFiles/occupancy_grid_utils_gencpp.dir/depend
 	$(MAKE) -f CMakeFiles/occupancy_grid_utils_gencpp.dir/build.make CMakeFiles/occupancy_grid_utils_gencpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target occupancy_grid_utils_gencpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target occupancy_grid_utils_gencpp"
 .PHONY : CMakeFiles/occupancy_grid_utils_gencpp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/occupancy_grid_utils_gencpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/occupancy_grid_utils_gencpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 .PHONY : CMakeFiles/occupancy_grid_utils_gencpp.dir/rule
 
 # Convenience name for target.
@@ -736,14 +736,14 @@ clean: CMakeFiles/occupancy_grid_utils_gencpp.dir/clean
 CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all:
 	$(MAKE) -f CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make CMakeFiles/geometry_msgs_generate_messages_lisp.dir/depend
 	$(MAKE) -f CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_lisp"
 .PHONY : CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 .PHONY : CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -773,14 +773,14 @@ CMakeFiles/occupancy_grid_utils_generate_messages_nodejs.dir/all: CMakeFiles/sen
 CMakeFiles/occupancy_grid_utils_generate_messages_nodejs.dir/all: CMakeFiles/nav_msgs_generate_messages_nodejs.dir/all
 	$(MAKE) -f CMakeFiles/occupancy_grid_utils_generate_messages_nodejs.dir/build.make CMakeFiles/occupancy_grid_utils_generate_messages_nodejs.dir/depend
 	$(MAKE) -f CMakeFiles/occupancy_grid_utils_generate_messages_nodejs.dir/build.make CMakeFiles/occupancy_grid_utils_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num=27,28,29 "Built target occupancy_grid_utils_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num=27,28,29 "Built target occupancy_grid_utils_generate_messages_nodejs"
 .PHONY : CMakeFiles/occupancy_grid_utils_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/occupancy_grid_utils_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/occupancy_grid_utils_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 .PHONY : CMakeFiles/occupancy_grid_utils_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -805,14 +805,14 @@ clean: CMakeFiles/occupancy_grid_utils_generate_messages_nodejs.dir/clean
 CMakeFiles/std_msgs_generate_messages_lisp.dir/all:
 	$(MAKE) -f CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make CMakeFiles/std_msgs_generate_messages_lisp.dir/depend
 	$(MAKE) -f CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make CMakeFiles/std_msgs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_lisp"
 .PHONY : CMakeFiles/std_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/std_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 .PHONY : CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -837,14 +837,14 @@ clean: CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
 CMakeFiles/nav_msgs_generate_messages_eus.dir/all:
 	$(MAKE) -f CMakeFiles/nav_msgs_generate_messages_eus.dir/build.make CMakeFiles/nav_msgs_generate_messages_eus.dir/depend
 	$(MAKE) -f CMakeFiles/nav_msgs_generate_messages_eus.dir/build.make CMakeFiles/nav_msgs_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target nav_msgs_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target nav_msgs_generate_messages_eus"
 .PHONY : CMakeFiles/nav_msgs_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/nav_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/nav_msgs_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 .PHONY : CMakeFiles/nav_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -869,14 +869,14 @@ clean: CMakeFiles/nav_msgs_generate_messages_eus.dir/clean
 CMakeFiles/geometry_msgs_generate_messages_eus.dir/all:
 	$(MAKE) -f CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make CMakeFiles/geometry_msgs_generate_messages_eus.dir/depend
 	$(MAKE) -f CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_eus"
 .PHONY : CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 .PHONY : CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -901,14 +901,14 @@ clean: CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
 CMakeFiles/actionlib_msgs_generate_messages_py.dir/all:
 	$(MAKE) -f CMakeFiles/actionlib_msgs_generate_messages_py.dir/build.make CMakeFiles/actionlib_msgs_generate_messages_py.dir/depend
 	$(MAKE) -f CMakeFiles/actionlib_msgs_generate_messages_py.dir/build.make CMakeFiles/actionlib_msgs_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target actionlib_msgs_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target actionlib_msgs_generate_messages_py"
 .PHONY : CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 .PHONY : CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -933,14 +933,14 @@ clean: CMakeFiles/actionlib_msgs_generate_messages_py.dir/clean
 CMakeFiles/roscpp_generate_messages_cpp.dir/all:
 	$(MAKE) -f CMakeFiles/roscpp_generate_messages_cpp.dir/build.make CMakeFiles/roscpp_generate_messages_cpp.dir/depend
 	$(MAKE) -f CMakeFiles/roscpp_generate_messages_cpp.dir/build.make CMakeFiles/roscpp_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target roscpp_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target roscpp_generate_messages_cpp"
 .PHONY : CMakeFiles/roscpp_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/roscpp_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/roscpp_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 .PHONY : CMakeFiles/roscpp_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -965,14 +965,14 @@ clean: CMakeFiles/roscpp_generate_messages_cpp.dir/clean
 CMakeFiles/actionlib_generate_messages_lisp.dir/all:
 	$(MAKE) -f CMakeFiles/actionlib_generate_messages_lisp.dir/build.make CMakeFiles/actionlib_generate_messages_lisp.dir/depend
 	$(MAKE) -f CMakeFiles/actionlib_generate_messages_lisp.dir/build.make CMakeFiles/actionlib_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target actionlib_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target actionlib_generate_messages_lisp"
 .PHONY : CMakeFiles/actionlib_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/actionlib_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/actionlib_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 .PHONY : CMakeFiles/actionlib_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -997,14 +997,14 @@ clean: CMakeFiles/actionlib_generate_messages_lisp.dir/clean
 CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all:
 	$(MAKE) -f CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build.make CMakeFiles/actionlib_msgs_generate_messages_eus.dir/depend
 	$(MAKE) -f CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build.make CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target actionlib_msgs_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target actionlib_msgs_generate_messages_eus"
 .PHONY : CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 .PHONY : CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -1029,14 +1029,14 @@ clean: CMakeFiles/actionlib_msgs_generate_messages_eus.dir/clean
 CMakeFiles/run_tests.dir/all:
 	$(MAKE) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/depend
 	$(MAKE) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target run_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target run_tests"
 .PHONY : CMakeFiles/run_tests.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/run_tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/run_tests.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 .PHONY : CMakeFiles/run_tests.dir/rule
 
 # Convenience name for target.
@@ -1061,14 +1061,14 @@ clean: CMakeFiles/run_tests.dir/clean
 CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all:
 	$(MAKE) -f CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/depend
 	$(MAKE) -f CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_cpp"
 .PHONY : CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 .PHONY : CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -1093,7 +1093,7 @@ clean: CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
 CMakeFiles/grid_utils.dir/all: CMakeFiles/occupancy_grid_utils_generate_messages_cpp.dir/all
 	$(MAKE) -f CMakeFiles/grid_utils.dir/build.make CMakeFiles/grid_utils.dir/depend
 	$(MAKE) -f CMakeFiles/grid_utils.dir/build.make CMakeFiles/grid_utils.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num=3,4,5,6,7,8,9,10 "Built target grid_utils"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num=3,4,5,6,7,8,9,10 "Built target grid_utils"
 .PHONY : CMakeFiles/grid_utils.dir/all
 
 # Include target in all.
@@ -1103,9 +1103,9 @@ all: CMakeFiles/grid_utils.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/grid_utils.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 11
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/grid_utils.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 .PHONY : CMakeFiles/grid_utils.dir/rule
 
 # Convenience name for target.
@@ -1130,14 +1130,14 @@ clean: CMakeFiles/grid_utils.dir/clean
 CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all:
 	$(MAKE) -f CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make CMakeFiles/geometry_msgs_generate_messages_cpp.dir/depend
 	$(MAKE) -f CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_cpp"
 .PHONY : CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 .PHONY : CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -1162,14 +1162,14 @@ clean: CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
 CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all:
 	$(MAKE) -f CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/depend
 	$(MAKE) -f CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target sensor_msgs_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target sensor_msgs_generate_messages_nodejs"
 .PHONY : CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 .PHONY : CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -1194,14 +1194,14 @@ clean: CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean
 CMakeFiles/nav_msgs_generate_messages_cpp.dir/all:
 	$(MAKE) -f CMakeFiles/nav_msgs_generate_messages_cpp.dir/build.make CMakeFiles/nav_msgs_generate_messages_cpp.dir/depend
 	$(MAKE) -f CMakeFiles/nav_msgs_generate_messages_cpp.dir/build.make CMakeFiles/nav_msgs_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target nav_msgs_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target nav_msgs_generate_messages_cpp"
 .PHONY : CMakeFiles/nav_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/nav_msgs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 .PHONY : CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -1226,14 +1226,14 @@ clean: CMakeFiles/nav_msgs_generate_messages_cpp.dir/clean
 CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all:
 	$(MAKE) -f CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/depend
 	$(MAKE) -f CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_nodejs"
 .PHONY : CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 .PHONY : CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -1258,14 +1258,14 @@ clean: CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
 CMakeFiles/tests.dir/all:
 	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/depend
 	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target tests"
 .PHONY : CMakeFiles/tests.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/tests.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 .PHONY : CMakeFiles/tests.dir/rule
 
 # Convenience name for target.
@@ -1290,7 +1290,7 @@ clean: CMakeFiles/tests.dir/clean
 CMakeFiles/grid_utils_boost_python_exports.dir/all: CMakeFiles/grid_utils.dir/all
 	$(MAKE) -f CMakeFiles/grid_utils_boost_python_exports.dir/build.make CMakeFiles/grid_utils_boost_python_exports.dir/depend
 	$(MAKE) -f CMakeFiles/grid_utils_boost_python_exports.dir/build.make CMakeFiles/grid_utils_boost_python_exports.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num=11,12 "Built target grid_utils_boost_python_exports"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num=11,12 "Built target grid_utils_boost_python_exports"
 .PHONY : CMakeFiles/grid_utils_boost_python_exports.dir/all
 
 # Include target in all.
@@ -1300,9 +1300,9 @@ all: CMakeFiles/grid_utils_boost_python_exports.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/grid_utils_boost_python_exports.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/grid_utils_boost_python_exports.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 .PHONY : CMakeFiles/grid_utils_boost_python_exports.dir/rule
 
 # Convenience name for target.
@@ -1327,14 +1327,14 @@ clean: CMakeFiles/grid_utils_boost_python_exports.dir/clean
 CMakeFiles/roscpp_generate_messages_nodejs.dir/all:
 	$(MAKE) -f CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make CMakeFiles/roscpp_generate_messages_nodejs.dir/depend
 	$(MAKE) -f CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make CMakeFiles/roscpp_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target roscpp_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target roscpp_generate_messages_nodejs"
 .PHONY : CMakeFiles/roscpp_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/roscpp_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/roscpp_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 .PHONY : CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -1359,14 +1359,14 @@ clean: CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
 CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all:
 	$(MAKE) -f CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/depend
 	$(MAKE) -f CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_lisp"
 .PHONY : CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 .PHONY : CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -1391,14 +1391,14 @@ clean: CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
 CMakeFiles/occupancy_grid_utils_genpy.dir/all: CMakeFiles/occupancy_grid_utils_generate_messages_py.dir/all
 	$(MAKE) -f CMakeFiles/occupancy_grid_utils_genpy.dir/build.make CMakeFiles/occupancy_grid_utils_genpy.dir/depend
 	$(MAKE) -f CMakeFiles/occupancy_grid_utils_genpy.dir/build.make CMakeFiles/occupancy_grid_utils_genpy.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target occupancy_grid_utils_genpy"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target occupancy_grid_utils_genpy"
 .PHONY : CMakeFiles/occupancy_grid_utils_genpy.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/occupancy_grid_utils_genpy.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/occupancy_grid_utils_genpy.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 .PHONY : CMakeFiles/occupancy_grid_utils_genpy.dir/rule
 
 # Convenience name for target.
@@ -1423,14 +1423,14 @@ clean: CMakeFiles/occupancy_grid_utils_genpy.dir/clean
 CMakeFiles/tf_generate_messages_eus.dir/all:
 	$(MAKE) -f CMakeFiles/tf_generate_messages_eus.dir/build.make CMakeFiles/tf_generate_messages_eus.dir/depend
 	$(MAKE) -f CMakeFiles/tf_generate_messages_eus.dir/build.make CMakeFiles/tf_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target tf_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target tf_generate_messages_eus"
 .PHONY : CMakeFiles/tf_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/tf_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/tf_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 .PHONY : CMakeFiles/tf_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -1455,14 +1455,14 @@ clean: CMakeFiles/tf_generate_messages_eus.dir/clean
 CMakeFiles/std_msgs_generate_messages_py.dir/all:
 	$(MAKE) -f CMakeFiles/std_msgs_generate_messages_py.dir/build.make CMakeFiles/std_msgs_generate_messages_py.dir/depend
 	$(MAKE) -f CMakeFiles/std_msgs_generate_messages_py.dir/build.make CMakeFiles/std_msgs_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_py"
 .PHONY : CMakeFiles/std_msgs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/std_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/std_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 .PHONY : CMakeFiles/std_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -1487,14 +1487,14 @@ clean: CMakeFiles/std_msgs_generate_messages_py.dir/clean
 CMakeFiles/nav_msgs_generate_messages_py.dir/all:
 	$(MAKE) -f CMakeFiles/nav_msgs_generate_messages_py.dir/build.make CMakeFiles/nav_msgs_generate_messages_py.dir/depend
 	$(MAKE) -f CMakeFiles/nav_msgs_generate_messages_py.dir/build.make CMakeFiles/nav_msgs_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target nav_msgs_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target nav_msgs_generate_messages_py"
 .PHONY : CMakeFiles/nav_msgs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/nav_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/nav_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 .PHONY : CMakeFiles/nav_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -1519,14 +1519,14 @@ clean: CMakeFiles/nav_msgs_generate_messages_py.dir/clean
 CMakeFiles/_catkin_empty_exported_target.dir/all:
 	$(MAKE) -f CMakeFiles/_catkin_empty_exported_target.dir/build.make CMakeFiles/_catkin_empty_exported_target.dir/depend
 	$(MAKE) -f CMakeFiles/_catkin_empty_exported_target.dir/build.make CMakeFiles/_catkin_empty_exported_target.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target _catkin_empty_exported_target"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target _catkin_empty_exported_target"
 .PHONY : CMakeFiles/_catkin_empty_exported_target.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/_catkin_empty_exported_target.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/_catkin_empty_exported_target.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 .PHONY : CMakeFiles/_catkin_empty_exported_target.dir/rule
 
 # Convenience name for target.
@@ -1551,14 +1551,14 @@ clean: CMakeFiles/_catkin_empty_exported_target.dir/clean
 CMakeFiles/std_msgs_generate_messages_nodejs.dir/all:
 	$(MAKE) -f CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/std_msgs_generate_messages_nodejs.dir/depend
 	$(MAKE) -f CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_nodejs"
 .PHONY : CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 .PHONY : CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -1583,14 +1583,14 @@ clean: CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
 CMakeFiles/geometry_msgs_generate_messages_py.dir/all:
 	$(MAKE) -f CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make CMakeFiles/geometry_msgs_generate_messages_py.dir/depend
 	$(MAKE) -f CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make CMakeFiles/geometry_msgs_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_py"
 .PHONY : CMakeFiles/geometry_msgs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/geometry_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 .PHONY : CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -1615,14 +1615,14 @@ clean: CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
 CMakeFiles/std_msgs_generate_messages_eus.dir/all:
 	$(MAKE) -f CMakeFiles/std_msgs_generate_messages_eus.dir/build.make CMakeFiles/std_msgs_generate_messages_eus.dir/depend
 	$(MAKE) -f CMakeFiles/std_msgs_generate_messages_eus.dir/build.make CMakeFiles/std_msgs_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_eus"
 .PHONY : CMakeFiles/std_msgs_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/std_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/std_msgs_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 .PHONY : CMakeFiles/std_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -1647,14 +1647,14 @@ clean: CMakeFiles/std_msgs_generate_messages_eus.dir/clean
 CMakeFiles/roscpp_generate_messages_lisp.dir/all:
 	$(MAKE) -f CMakeFiles/roscpp_generate_messages_lisp.dir/build.make CMakeFiles/roscpp_generate_messages_lisp.dir/depend
 	$(MAKE) -f CMakeFiles/roscpp_generate_messages_lisp.dir/build.make CMakeFiles/roscpp_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target roscpp_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target roscpp_generate_messages_lisp"
 .PHONY : CMakeFiles/roscpp_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/roscpp_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/roscpp_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 .PHONY : CMakeFiles/roscpp_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -1679,14 +1679,14 @@ clean: CMakeFiles/roscpp_generate_messages_lisp.dir/clean
 CMakeFiles/nav_msgs_generate_messages_lisp.dir/all:
 	$(MAKE) -f CMakeFiles/nav_msgs_generate_messages_lisp.dir/build.make CMakeFiles/nav_msgs_generate_messages_lisp.dir/depend
 	$(MAKE) -f CMakeFiles/nav_msgs_generate_messages_lisp.dir/build.make CMakeFiles/nav_msgs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target nav_msgs_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target nav_msgs_generate_messages_lisp"
 .PHONY : CMakeFiles/nav_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/nav_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 .PHONY : CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -1711,14 +1711,14 @@ clean: CMakeFiles/nav_msgs_generate_messages_lisp.dir/clean
 CMakeFiles/nav_msgs_generate_messages_nodejs.dir/all:
 	$(MAKE) -f CMakeFiles/nav_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/nav_msgs_generate_messages_nodejs.dir/depend
 	$(MAKE) -f CMakeFiles/nav_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/nav_msgs_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target nav_msgs_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target nav_msgs_generate_messages_nodejs"
 .PHONY : CMakeFiles/nav_msgs_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/nav_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/nav_msgs_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 .PHONY : CMakeFiles/nav_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -1748,14 +1748,14 @@ CMakeFiles/occupancy_grid_utils_generate_messages_lisp.dir/all: CMakeFiles/nav_m
 CMakeFiles/occupancy_grid_utils_generate_messages_lisp.dir/all: CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
 	$(MAKE) -f CMakeFiles/occupancy_grid_utils_generate_messages_lisp.dir/build.make CMakeFiles/occupancy_grid_utils_generate_messages_lisp.dir/depend
 	$(MAKE) -f CMakeFiles/occupancy_grid_utils_generate_messages_lisp.dir/build.make CMakeFiles/occupancy_grid_utils_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num=24,25,26 "Built target occupancy_grid_utils_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num=24,25,26 "Built target occupancy_grid_utils_generate_messages_lisp"
 .PHONY : CMakeFiles/occupancy_grid_utils_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/occupancy_grid_utils_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/occupancy_grid_utils_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 .PHONY : CMakeFiles/occupancy_grid_utils_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -1780,14 +1780,14 @@ clean: CMakeFiles/occupancy_grid_utils_generate_messages_lisp.dir/clean
 CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all:
 	$(MAKE) -f CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build.make CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/depend
 	$(MAKE) -f CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build.make CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target actionlib_msgs_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target actionlib_msgs_generate_messages_lisp"
 .PHONY : CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 .PHONY : CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -1812,14 +1812,14 @@ clean: CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/clean
 CMakeFiles/tf2_msgs_generate_messages_py.dir/all:
 	$(MAKE) -f CMakeFiles/tf2_msgs_generate_messages_py.dir/build.make CMakeFiles/tf2_msgs_generate_messages_py.dir/depend
 	$(MAKE) -f CMakeFiles/tf2_msgs_generate_messages_py.dir/build.make CMakeFiles/tf2_msgs_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target tf2_msgs_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target tf2_msgs_generate_messages_py"
 .PHONY : CMakeFiles/tf2_msgs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/tf2_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/tf2_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 .PHONY : CMakeFiles/tf2_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -1844,14 +1844,14 @@ clean: CMakeFiles/tf2_msgs_generate_messages_py.dir/clean
 CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all:
 	$(MAKE) -f CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/depend
 	$(MAKE) -f CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target actionlib_msgs_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target actionlib_msgs_generate_messages_nodejs"
 .PHONY : CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 .PHONY : CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -1876,14 +1876,14 @@ clean: CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/clean
 CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all:
 	$(MAKE) -f CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make CMakeFiles/sensor_msgs_generate_messages_cpp.dir/depend
 	$(MAKE) -f CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target sensor_msgs_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target sensor_msgs_generate_messages_cpp"
 .PHONY : CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 .PHONY : CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -1908,14 +1908,14 @@ clean: CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
 CMakeFiles/actionlib_generate_messages_nodejs.dir/all:
 	$(MAKE) -f CMakeFiles/actionlib_generate_messages_nodejs.dir/build.make CMakeFiles/actionlib_generate_messages_nodejs.dir/depend
 	$(MAKE) -f CMakeFiles/actionlib_generate_messages_nodejs.dir/build.make CMakeFiles/actionlib_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target actionlib_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target actionlib_generate_messages_nodejs"
 .PHONY : CMakeFiles/actionlib_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/actionlib_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/actionlib_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 .PHONY : CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -1940,14 +1940,14 @@ clean: CMakeFiles/actionlib_generate_messages_nodejs.dir/clean
 CMakeFiles/std_msgs_generate_messages_cpp.dir/all:
 	$(MAKE) -f CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make CMakeFiles/std_msgs_generate_messages_cpp.dir/depend
 	$(MAKE) -f CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make CMakeFiles/std_msgs_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_cpp"
 .PHONY : CMakeFiles/std_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/std_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/std_msgs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 .PHONY : CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -1972,14 +1972,14 @@ clean: CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
 CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all:
 	$(MAKE) -f CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/depend
 	$(MAKE) -f CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target actionlib_msgs_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target actionlib_msgs_generate_messages_cpp"
 .PHONY : CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 .PHONY : CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -2004,14 +2004,14 @@ clean: CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/clean
 CMakeFiles/sensor_msgs_generate_messages_eus.dir/all:
 	$(MAKE) -f CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make CMakeFiles/sensor_msgs_generate_messages_eus.dir/depend
 	$(MAKE) -f CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make CMakeFiles/sensor_msgs_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target sensor_msgs_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target sensor_msgs_generate_messages_eus"
 .PHONY : CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 .PHONY : CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -2036,14 +2036,14 @@ clean: CMakeFiles/sensor_msgs_generate_messages_eus.dir/clean
 CMakeFiles/download_extra_data.dir/all:
 	$(MAKE) -f CMakeFiles/download_extra_data.dir/build.make CMakeFiles/download_extra_data.dir/depend
 	$(MAKE) -f CMakeFiles/download_extra_data.dir/build.make CMakeFiles/download_extra_data.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target download_extra_data"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target download_extra_data"
 .PHONY : CMakeFiles/download_extra_data.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/download_extra_data.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/download_extra_data.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 .PHONY : CMakeFiles/download_extra_data.dir/rule
 
 # Convenience name for target.
@@ -2068,14 +2068,14 @@ clean: CMakeFiles/download_extra_data.dir/clean
 CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all:
 	$(MAKE) -f CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make CMakeFiles/sensor_msgs_generate_messages_lisp.dir/depend
 	$(MAKE) -f CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target sensor_msgs_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target sensor_msgs_generate_messages_lisp"
 .PHONY : CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 .PHONY : CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -2100,14 +2100,14 @@ clean: CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
 CMakeFiles/actionlib_generate_messages_cpp.dir/all:
 	$(MAKE) -f CMakeFiles/actionlib_generate_messages_cpp.dir/build.make CMakeFiles/actionlib_generate_messages_cpp.dir/depend
 	$(MAKE) -f CMakeFiles/actionlib_generate_messages_cpp.dir/build.make CMakeFiles/actionlib_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target actionlib_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target actionlib_generate_messages_cpp"
 .PHONY : CMakeFiles/actionlib_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/actionlib_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/actionlib_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 .PHONY : CMakeFiles/actionlib_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -2132,14 +2132,14 @@ clean: CMakeFiles/actionlib_generate_messages_cpp.dir/clean
 CMakeFiles/sensor_msgs_generate_messages_py.dir/all:
 	$(MAKE) -f CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make CMakeFiles/sensor_msgs_generate_messages_py.dir/depend
 	$(MAKE) -f CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make CMakeFiles/sensor_msgs_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target sensor_msgs_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target sensor_msgs_generate_messages_py"
 .PHONY : CMakeFiles/sensor_msgs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/sensor_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/sensor_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 .PHONY : CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -2164,14 +2164,14 @@ clean: CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
 CMakeFiles/roscpp_generate_messages_eus.dir/all:
 	$(MAKE) -f CMakeFiles/roscpp_generate_messages_eus.dir/build.make CMakeFiles/roscpp_generate_messages_eus.dir/depend
 	$(MAKE) -f CMakeFiles/roscpp_generate_messages_eus.dir/build.make CMakeFiles/roscpp_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target roscpp_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target roscpp_generate_messages_eus"
 .PHONY : CMakeFiles/roscpp_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/roscpp_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/roscpp_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 .PHONY : CMakeFiles/roscpp_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -2196,14 +2196,14 @@ clean: CMakeFiles/roscpp_generate_messages_eus.dir/clean
 CMakeFiles/doxygen.dir/all:
 	$(MAKE) -f CMakeFiles/doxygen.dir/build.make CMakeFiles/doxygen.dir/depend
 	$(MAKE) -f CMakeFiles/doxygen.dir/build.make CMakeFiles/doxygen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target doxygen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target doxygen"
 .PHONY : CMakeFiles/doxygen.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/doxygen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/doxygen.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 .PHONY : CMakeFiles/doxygen.dir/rule
 
 # Convenience name for target.
@@ -2228,14 +2228,14 @@ clean: CMakeFiles/doxygen.dir/clean
 CMakeFiles/tf_generate_messages_cpp.dir/all:
 	$(MAKE) -f CMakeFiles/tf_generate_messages_cpp.dir/build.make CMakeFiles/tf_generate_messages_cpp.dir/depend
 	$(MAKE) -f CMakeFiles/tf_generate_messages_cpp.dir/build.make CMakeFiles/tf_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target tf_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target tf_generate_messages_cpp"
 .PHONY : CMakeFiles/tf_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/tf_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/tf_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 .PHONY : CMakeFiles/tf_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -2260,14 +2260,14 @@ clean: CMakeFiles/tf_generate_messages_cpp.dir/clean
 CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all:
 	$(MAKE) -f CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/depend
 	$(MAKE) -f CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_eus"
 .PHONY : CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 .PHONY : CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -2292,14 +2292,14 @@ clean: CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
 CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all:
 	$(MAKE) -f CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_py.dir/depend
 	$(MAKE) -f CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_py"
 .PHONY : CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 .PHONY : CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -2324,14 +2324,14 @@ clean: CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
 CMakeFiles/tf_generate_messages_lisp.dir/all:
 	$(MAKE) -f CMakeFiles/tf_generate_messages_lisp.dir/build.make CMakeFiles/tf_generate_messages_lisp.dir/depend
 	$(MAKE) -f CMakeFiles/tf_generate_messages_lisp.dir/build.make CMakeFiles/tf_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target tf_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target tf_generate_messages_lisp"
 .PHONY : CMakeFiles/tf_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/tf_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/tf_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 .PHONY : CMakeFiles/tf_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -2356,14 +2356,14 @@ clean: CMakeFiles/tf_generate_messages_lisp.dir/clean
 CMakeFiles/roscpp_generate_messages_py.dir/all:
 	$(MAKE) -f CMakeFiles/roscpp_generate_messages_py.dir/build.make CMakeFiles/roscpp_generate_messages_py.dir/depend
 	$(MAKE) -f CMakeFiles/roscpp_generate_messages_py.dir/build.make CMakeFiles/roscpp_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target roscpp_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target roscpp_generate_messages_py"
 .PHONY : CMakeFiles/roscpp_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/roscpp_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/roscpp_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 .PHONY : CMakeFiles/roscpp_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -2388,14 +2388,14 @@ clean: CMakeFiles/roscpp_generate_messages_py.dir/clean
 CMakeFiles/tf_generate_messages_nodejs.dir/all:
 	$(MAKE) -f CMakeFiles/tf_generate_messages_nodejs.dir/build.make CMakeFiles/tf_generate_messages_nodejs.dir/depend
 	$(MAKE) -f CMakeFiles/tf_generate_messages_nodejs.dir/build.make CMakeFiles/tf_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target tf_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target tf_generate_messages_nodejs"
 .PHONY : CMakeFiles/tf_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/tf_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/tf_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 .PHONY : CMakeFiles/tf_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -2420,14 +2420,14 @@ clean: CMakeFiles/tf_generate_messages_nodejs.dir/clean
 CMakeFiles/tf_generate_messages_py.dir/all:
 	$(MAKE) -f CMakeFiles/tf_generate_messages_py.dir/build.make CMakeFiles/tf_generate_messages_py.dir/depend
 	$(MAKE) -f CMakeFiles/tf_generate_messages_py.dir/build.make CMakeFiles/tf_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target tf_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num= "Built target tf_generate_messages_py"
 .PHONY : CMakeFiles/tf_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/tf_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/tf_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 .PHONY : CMakeFiles/tf_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -2471,14 +2471,14 @@ gtest/preinstall:
 gtest/CMakeFiles/gtest.dir/all:
 	$(MAKE) -f gtest/CMakeFiles/gtest.dir/build.make gtest/CMakeFiles/gtest.dir/depend
 	$(MAKE) -f gtest/CMakeFiles/gtest.dir/build.make gtest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num=13,14 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num=13,14 "Built target gtest"
 .PHONY : gtest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
 gtest/CMakeFiles/gtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 gtest/CMakeFiles/gtest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 .PHONY : gtest/CMakeFiles/gtest.dir/rule
 
 # Convenience name for target.
@@ -2503,14 +2503,14 @@ clean: gtest/CMakeFiles/gtest.dir/clean
 gtest/CMakeFiles/gtest_main.dir/all: gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f gtest/CMakeFiles/gtest_main.dir/build.make gtest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) -f gtest/CMakeFiles/gtest_main.dir/build.make gtest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num=15,16 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num=15,16 "Built target gtest_main"
 .PHONY : gtest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.
 gtest/CMakeFiles/gtest_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 gtest/CMakeFiles/gtest_main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 .PHONY : gtest/CMakeFiles/gtest_main.dir/rule
 
 # Convenience name for target.

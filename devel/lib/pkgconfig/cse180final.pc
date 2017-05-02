@@ -1,1 +1,1 @@
-/home/galliumos/kinetic_final/devel/.private/cse180final/lib/pkgconfig/cse180final.pc
+/home/sergio/CSE180/devel/.private/cse180final/lib/pkgconfig/cse180final.pc

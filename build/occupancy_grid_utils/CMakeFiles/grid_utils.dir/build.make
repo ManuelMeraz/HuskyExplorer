@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/galliumos/kinetic_final/src/occupancy_grid_utils
+CMAKE_SOURCE_DIR = /home/sergio/CSE180/src/occupancy_grid_utils
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/galliumos/kinetic_final/build/occupancy_grid_utils
+CMAKE_BINARY_DIR = /home/sergio/CSE180/build/occupancy_grid_utils
 
 # Include any dependencies generated for this target.
 include CMakeFiles/grid_utils.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/grid_utils.dir/progress.make
 include CMakeFiles/grid_utils.dir/flags.make
 
 CMakeFiles/grid_utils.dir/src/ray_tracer.cpp.o: CMakeFiles/grid_utils.dir/flags.make
-CMakeFiles/grid_utils.dir/src/ray_tracer.cpp.o: /home/galliumos/kinetic_final/src/occupancy_grid_utils/src/ray_tracer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/grid_utils.dir/src/ray_tracer.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/grid_utils.dir/src/ray_tracer.cpp.o -c /home/galliumos/kinetic_final/src/occupancy_grid_utils/src/ray_tracer.cpp
+CMakeFiles/grid_utils.dir/src/ray_tracer.cpp.o: /home/sergio/CSE180/src/occupancy_grid_utils/src/ray_tracer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/grid_utils.dir/src/ray_tracer.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/grid_utils.dir/src/ray_tracer.cpp.o -c /home/sergio/CSE180/src/occupancy_grid_utils/src/ray_tracer.cpp
 
 CMakeFiles/grid_utils.dir/src/ray_tracer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/grid_utils.dir/src/ray_tracer.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/galliumos/kinetic_final/src/occupancy_grid_utils/src/ray_tracer.cpp > CMakeFiles/grid_utils.dir/src/ray_tracer.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sergio/CSE180/src/occupancy_grid_utils/src/ray_tracer.cpp > CMakeFiles/grid_utils.dir/src/ray_tracer.cpp.i
 
 CMakeFiles/grid_utils.dir/src/ray_tracer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/grid_utils.dir/src/ray_tracer.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/galliumos/kinetic_final/src/occupancy_grid_utils/src/ray_tracer.cpp -o CMakeFiles/grid_utils.dir/src/ray_tracer.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sergio/CSE180/src/occupancy_grid_utils/src/ray_tracer.cpp -o CMakeFiles/grid_utils.dir/src/ray_tracer.cpp.s
 
 CMakeFiles/grid_utils.dir/src/ray_tracer.cpp.o.requires:
 
@@ -82,17 +82,17 @@ CMakeFiles/grid_utils.dir/src/ray_tracer.cpp.o.provides.build: CMakeFiles/grid_u
 
 
 CMakeFiles/grid_utils.dir/src/grid_overlay.cpp.o: CMakeFiles/grid_utils.dir/flags.make
-CMakeFiles/grid_utils.dir/src/grid_overlay.cpp.o: /home/galliumos/kinetic_final/src/occupancy_grid_utils/src/grid_overlay.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/grid_utils.dir/src/grid_overlay.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/grid_utils.dir/src/grid_overlay.cpp.o -c /home/galliumos/kinetic_final/src/occupancy_grid_utils/src/grid_overlay.cpp
+CMakeFiles/grid_utils.dir/src/grid_overlay.cpp.o: /home/sergio/CSE180/src/occupancy_grid_utils/src/grid_overlay.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/grid_utils.dir/src/grid_overlay.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/grid_utils.dir/src/grid_overlay.cpp.o -c /home/sergio/CSE180/src/occupancy_grid_utils/src/grid_overlay.cpp
 
 CMakeFiles/grid_utils.dir/src/grid_overlay.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/grid_utils.dir/src/grid_overlay.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/galliumos/kinetic_final/src/occupancy_grid_utils/src/grid_overlay.cpp > CMakeFiles/grid_utils.dir/src/grid_overlay.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sergio/CSE180/src/occupancy_grid_utils/src/grid_overlay.cpp > CMakeFiles/grid_utils.dir/src/grid_overlay.cpp.i
 
 CMakeFiles/grid_utils.dir/src/grid_overlay.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/grid_utils.dir/src/grid_overlay.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/galliumos/kinetic_final/src/occupancy_grid_utils/src/grid_overlay.cpp -o CMakeFiles/grid_utils.dir/src/grid_overlay.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sergio/CSE180/src/occupancy_grid_utils/src/grid_overlay.cpp -o CMakeFiles/grid_utils.dir/src/grid_overlay.cpp.s
 
 CMakeFiles/grid_utils.dir/src/grid_overlay.cpp.o.requires:
 
@@ -106,17 +106,17 @@ CMakeFiles/grid_utils.dir/src/grid_overlay.cpp.o.provides.build: CMakeFiles/grid
 
 
 CMakeFiles/grid_utils.dir/src/shortest_path.cpp.o: CMakeFiles/grid_utils.dir/flags.make
-CMakeFiles/grid_utils.dir/src/shortest_path.cpp.o: /home/galliumos/kinetic_final/src/occupancy_grid_utils/src/shortest_path.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/grid_utils.dir/src/shortest_path.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/grid_utils.dir/src/shortest_path.cpp.o -c /home/galliumos/kinetic_final/src/occupancy_grid_utils/src/shortest_path.cpp
+CMakeFiles/grid_utils.dir/src/shortest_path.cpp.o: /home/sergio/CSE180/src/occupancy_grid_utils/src/shortest_path.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/grid_utils.dir/src/shortest_path.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/grid_utils.dir/src/shortest_path.cpp.o -c /home/sergio/CSE180/src/occupancy_grid_utils/src/shortest_path.cpp
 
 CMakeFiles/grid_utils.dir/src/shortest_path.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/grid_utils.dir/src/shortest_path.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/galliumos/kinetic_final/src/occupancy_grid_utils/src/shortest_path.cpp > CMakeFiles/grid_utils.dir/src/shortest_path.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sergio/CSE180/src/occupancy_grid_utils/src/shortest_path.cpp > CMakeFiles/grid_utils.dir/src/shortest_path.cpp.i
 
 CMakeFiles/grid_utils.dir/src/shortest_path.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/grid_utils.dir/src/shortest_path.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/galliumos/kinetic_final/src/occupancy_grid_utils/src/shortest_path.cpp -o CMakeFiles/grid_utils.dir/src/shortest_path.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sergio/CSE180/src/occupancy_grid_utils/src/shortest_path.cpp -o CMakeFiles/grid_utils.dir/src/shortest_path.cpp.s
 
 CMakeFiles/grid_utils.dir/src/shortest_path.cpp.o.requires:
 
@@ -130,17 +130,17 @@ CMakeFiles/grid_utils.dir/src/shortest_path.cpp.o.provides.build: CMakeFiles/gri
 
 
 CMakeFiles/grid_utils.dir/src/coordinate_conversions.cpp.o: CMakeFiles/grid_utils.dir/flags.make
-CMakeFiles/grid_utils.dir/src/coordinate_conversions.cpp.o: /home/galliumos/kinetic_final/src/occupancy_grid_utils/src/coordinate_conversions.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/grid_utils.dir/src/coordinate_conversions.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/grid_utils.dir/src/coordinate_conversions.cpp.o -c /home/galliumos/kinetic_final/src/occupancy_grid_utils/src/coordinate_conversions.cpp
+CMakeFiles/grid_utils.dir/src/coordinate_conversions.cpp.o: /home/sergio/CSE180/src/occupancy_grid_utils/src/coordinate_conversions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/grid_utils.dir/src/coordinate_conversions.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/grid_utils.dir/src/coordinate_conversions.cpp.o -c /home/sergio/CSE180/src/occupancy_grid_utils/src/coordinate_conversions.cpp
 
 CMakeFiles/grid_utils.dir/src/coordinate_conversions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/grid_utils.dir/src/coordinate_conversions.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/galliumos/kinetic_final/src/occupancy_grid_utils/src/coordinate_conversions.cpp > CMakeFiles/grid_utils.dir/src/coordinate_conversions.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sergio/CSE180/src/occupancy_grid_utils/src/coordinate_conversions.cpp > CMakeFiles/grid_utils.dir/src/coordinate_conversions.cpp.i
 
 CMakeFiles/grid_utils.dir/src/coordinate_conversions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/grid_utils.dir/src/coordinate_conversions.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/galliumos/kinetic_final/src/occupancy_grid_utils/src/coordinate_conversions.cpp -o CMakeFiles/grid_utils.dir/src/coordinate_conversions.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sergio/CSE180/src/occupancy_grid_utils/src/coordinate_conversions.cpp -o CMakeFiles/grid_utils.dir/src/coordinate_conversions.cpp.s
 
 CMakeFiles/grid_utils.dir/src/coordinate_conversions.cpp.o.requires:
 
@@ -154,17 +154,17 @@ CMakeFiles/grid_utils.dir/src/coordinate_conversions.cpp.o.provides.build: CMake
 
 
 CMakeFiles/grid_utils.dir/src/combine_grids.cpp.o: CMakeFiles/grid_utils.dir/flags.make
-CMakeFiles/grid_utils.dir/src/combine_grids.cpp.o: /home/galliumos/kinetic_final/src/occupancy_grid_utils/src/combine_grids.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/grid_utils.dir/src/combine_grids.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/grid_utils.dir/src/combine_grids.cpp.o -c /home/galliumos/kinetic_final/src/occupancy_grid_utils/src/combine_grids.cpp
+CMakeFiles/grid_utils.dir/src/combine_grids.cpp.o: /home/sergio/CSE180/src/occupancy_grid_utils/src/combine_grids.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/grid_utils.dir/src/combine_grids.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/grid_utils.dir/src/combine_grids.cpp.o -c /home/sergio/CSE180/src/occupancy_grid_utils/src/combine_grids.cpp
 
 CMakeFiles/grid_utils.dir/src/combine_grids.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/grid_utils.dir/src/combine_grids.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/galliumos/kinetic_final/src/occupancy_grid_utils/src/combine_grids.cpp > CMakeFiles/grid_utils.dir/src/combine_grids.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sergio/CSE180/src/occupancy_grid_utils/src/combine_grids.cpp > CMakeFiles/grid_utils.dir/src/combine_grids.cpp.i
 
 CMakeFiles/grid_utils.dir/src/combine_grids.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/grid_utils.dir/src/combine_grids.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/galliumos/kinetic_final/src/occupancy_grid_utils/src/combine_grids.cpp -o CMakeFiles/grid_utils.dir/src/combine_grids.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sergio/CSE180/src/occupancy_grid_utils/src/combine_grids.cpp -o CMakeFiles/grid_utils.dir/src/combine_grids.cpp.s
 
 CMakeFiles/grid_utils.dir/src/combine_grids.cpp.o.requires:
 
@@ -178,17 +178,17 @@ CMakeFiles/grid_utils.dir/src/combine_grids.cpp.o.provides.build: CMakeFiles/gri
 
 
 CMakeFiles/grid_utils.dir/src/geometry.cpp.o: CMakeFiles/grid_utils.dir/flags.make
-CMakeFiles/grid_utils.dir/src/geometry.cpp.o: /home/galliumos/kinetic_final/src/occupancy_grid_utils/src/geometry.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/grid_utils.dir/src/geometry.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/grid_utils.dir/src/geometry.cpp.o -c /home/galliumos/kinetic_final/src/occupancy_grid_utils/src/geometry.cpp
+CMakeFiles/grid_utils.dir/src/geometry.cpp.o: /home/sergio/CSE180/src/occupancy_grid_utils/src/geometry.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/grid_utils.dir/src/geometry.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/grid_utils.dir/src/geometry.cpp.o -c /home/sergio/CSE180/src/occupancy_grid_utils/src/geometry.cpp
 
 CMakeFiles/grid_utils.dir/src/geometry.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/grid_utils.dir/src/geometry.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/galliumos/kinetic_final/src/occupancy_grid_utils/src/geometry.cpp > CMakeFiles/grid_utils.dir/src/geometry.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sergio/CSE180/src/occupancy_grid_utils/src/geometry.cpp > CMakeFiles/grid_utils.dir/src/geometry.cpp.i
 
 CMakeFiles/grid_utils.dir/src/geometry.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/grid_utils.dir/src/geometry.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/galliumos/kinetic_final/src/occupancy_grid_utils/src/geometry.cpp -o CMakeFiles/grid_utils.dir/src/geometry.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sergio/CSE180/src/occupancy_grid_utils/src/geometry.cpp -o CMakeFiles/grid_utils.dir/src/geometry.cpp.s
 
 CMakeFiles/grid_utils.dir/src/geometry.cpp.o.requires:
 
@@ -202,17 +202,17 @@ CMakeFiles/grid_utils.dir/src/geometry.cpp.o.provides.build: CMakeFiles/grid_uti
 
 
 CMakeFiles/grid_utils.dir/src/file.cpp.o: CMakeFiles/grid_utils.dir/flags.make
-CMakeFiles/grid_utils.dir/src/file.cpp.o: /home/galliumos/kinetic_final/src/occupancy_grid_utils/src/file.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/grid_utils.dir/src/file.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/grid_utils.dir/src/file.cpp.o -c /home/galliumos/kinetic_final/src/occupancy_grid_utils/src/file.cpp
+CMakeFiles/grid_utils.dir/src/file.cpp.o: /home/sergio/CSE180/src/occupancy_grid_utils/src/file.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/grid_utils.dir/src/file.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/grid_utils.dir/src/file.cpp.o -c /home/sergio/CSE180/src/occupancy_grid_utils/src/file.cpp
 
 CMakeFiles/grid_utils.dir/src/file.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/grid_utils.dir/src/file.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/galliumos/kinetic_final/src/occupancy_grid_utils/src/file.cpp > CMakeFiles/grid_utils.dir/src/file.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sergio/CSE180/src/occupancy_grid_utils/src/file.cpp > CMakeFiles/grid_utils.dir/src/file.cpp.i
 
 CMakeFiles/grid_utils.dir/src/file.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/grid_utils.dir/src/file.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/galliumos/kinetic_final/src/occupancy_grid_utils/src/file.cpp -o CMakeFiles/grid_utils.dir/src/file.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sergio/CSE180/src/occupancy_grid_utils/src/file.cpp -o CMakeFiles/grid_utils.dir/src/file.cpp.s
 
 CMakeFiles/grid_utils.dir/src/file.cpp.o.requires:
 
@@ -238,87 +238,87 @@ grid_utils_OBJECTS = \
 # External object files for target grid_utils
 grid_utils_EXTERNAL_OBJECTS =
 
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: CMakeFiles/grid_utils.dir/src/ray_tracer.cpp.o
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: CMakeFiles/grid_utils.dir/src/grid_overlay.cpp.o
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: CMakeFiles/grid_utils.dir/src/shortest_path.cpp.o
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: CMakeFiles/grid_utils.dir/src/coordinate_conversions.cpp.o
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: CMakeFiles/grid_utils.dir/src/combine_grids.cpp.o
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: CMakeFiles/grid_utils.dir/src/geometry.cpp.o
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: CMakeFiles/grid_utils.dir/src/file.cpp.o
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: CMakeFiles/grid_utils.dir/build.make
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/liblaser_geometry.so
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libtf.so
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libtf2_ros.so
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libactionlib.so
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libmessage_filters.so
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libroscpp.so
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libtf2.so
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/librosconsole.so
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/librostime.so
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libcpp_common.so
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_stitching3.so.3.2.0
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_superres3.so.3.2.0
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_videostab3.so.3.2.0
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_aruco3.so.3.2.0
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_bgsegm3.so.3.2.0
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_bioinspired3.so.3.2.0
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_ccalib3.so.3.2.0
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_cvv3.so.3.2.0
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_datasets3.so.3.2.0
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_dpm3.so.3.2.0
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_face3.so.3.2.0
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_fuzzy3.so.3.2.0
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_hdf3.so.3.2.0
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_line_descriptor3.so.3.2.0
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_optflow3.so.3.2.0
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_plot3.so.3.2.0
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_reg3.so.3.2.0
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_saliency3.so.3.2.0
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_stereo3.so.3.2.0
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_structured_light3.so.3.2.0
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_surface_matching3.so.3.2.0
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_text3.so.3.2.0
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_xfeatures2d3.so.3.2.0
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_ximgproc3.so.3.2.0
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_xobjdetect3.so.3.2.0
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_xphoto3.so.3.2.0
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_shape3.so.3.2.0
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_video3.so.3.2.0
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_viz3.so.3.2.0
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_phase_unwrapping3.so.3.2.0
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_rgbd3.so.3.2.0
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_calib3d3.so.3.2.0
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_features2d3.so.3.2.0
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_flann3.so.3.2.0
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_objdetect3.so.3.2.0
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_ml3.so.3.2.0
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_highgui3.so.3.2.0
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_photo3.so.3.2.0
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_videoio3.so.3.2.0
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_imgcodecs3.so.3.2.0
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_imgproc3.so.3.2.0
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_core3.so.3.2.0
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: CMakeFiles/grid_utils.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX shared library /home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so"
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: CMakeFiles/grid_utils.dir/src/ray_tracer.cpp.o
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: CMakeFiles/grid_utils.dir/src/grid_overlay.cpp.o
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: CMakeFiles/grid_utils.dir/src/shortest_path.cpp.o
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: CMakeFiles/grid_utils.dir/src/coordinate_conversions.cpp.o
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: CMakeFiles/grid_utils.dir/src/combine_grids.cpp.o
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: CMakeFiles/grid_utils.dir/src/geometry.cpp.o
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: CMakeFiles/grid_utils.dir/src/file.cpp.o
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: CMakeFiles/grid_utils.dir/build.make
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/liblaser_geometry.so
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libtf.so
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libtf2_ros.so
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libactionlib.so
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libmessage_filters.so
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libroscpp.so
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libtf2.so
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/librosconsole.so
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/librostime.so
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libcpp_common.so
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_stitching3.so.3.2.0
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_superres3.so.3.2.0
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_videostab3.so.3.2.0
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_aruco3.so.3.2.0
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_bgsegm3.so.3.2.0
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_bioinspired3.so.3.2.0
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_ccalib3.so.3.2.0
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_cvv3.so.3.2.0
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_datasets3.so.3.2.0
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_dpm3.so.3.2.0
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_face3.so.3.2.0
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_fuzzy3.so.3.2.0
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_hdf3.so.3.2.0
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_line_descriptor3.so.3.2.0
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_optflow3.so.3.2.0
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_plot3.so.3.2.0
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_reg3.so.3.2.0
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_saliency3.so.3.2.0
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_stereo3.so.3.2.0
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_structured_light3.so.3.2.0
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_surface_matching3.so.3.2.0
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_text3.so.3.2.0
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_xfeatures2d3.so.3.2.0
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_ximgproc3.so.3.2.0
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_xobjdetect3.so.3.2.0
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_xphoto3.so.3.2.0
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_shape3.so.3.2.0
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_video3.so.3.2.0
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_viz3.so.3.2.0
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_phase_unwrapping3.so.3.2.0
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_rgbd3.so.3.2.0
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_calib3d3.so.3.2.0
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_features2d3.so.3.2.0
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_flann3.so.3.2.0
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_objdetect3.so.3.2.0
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_ml3.so.3.2.0
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_highgui3.so.3.2.0
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_photo3.so.3.2.0
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_videoio3.so.3.2.0
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_imgcodecs3.so.3.2.0
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_imgproc3.so.3.2.0
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: /opt/ros/kinetic/lib/libopencv_core3.so.3.2.0
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so: CMakeFiles/grid_utils.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX shared library /home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/grid_utils.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/grid_utils.dir/build: /home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so
+CMakeFiles/grid_utils.dir/build: /home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so
 
 .PHONY : CMakeFiles/grid_utils.dir/build
 
@@ -337,6 +337,6 @@ CMakeFiles/grid_utils.dir/clean:
 .PHONY : CMakeFiles/grid_utils.dir/clean
 
 CMakeFiles/grid_utils.dir/depend:
-	cd /home/galliumos/kinetic_final/build/occupancy_grid_utils && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/galliumos/kinetic_final/src/occupancy_grid_utils /home/galliumos/kinetic_final/src/occupancy_grid_utils /home/galliumos/kinetic_final/build/occupancy_grid_utils /home/galliumos/kinetic_final/build/occupancy_grid_utils /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles/grid_utils.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sergio/CSE180/build/occupancy_grid_utils && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sergio/CSE180/src/occupancy_grid_utils /home/sergio/CSE180/src/occupancy_grid_utils /home/sergio/CSE180/build/occupancy_grid_utils /home/sergio/CSE180/build/occupancy_grid_utils /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles/grid_utils.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/grid_utils.dir/depend
 

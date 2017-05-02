@@ -1,1 +1,1 @@
-/home/galliumos/kinetic_final/devel/.private/simple/share/simple/cmake/simpleConfig.cmake
+/home/sergio/CSE180/devel/.private/simple/share/simple/cmake/simpleConfig.cmake

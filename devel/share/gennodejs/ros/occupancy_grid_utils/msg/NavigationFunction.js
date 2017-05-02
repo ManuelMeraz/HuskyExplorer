@@ -1,1 +1,1 @@
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/share/gennodejs/ros/occupancy_grid_utils/msg/NavigationFunction.js
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/share/gennodejs/ros/occupancy_grid_utils/msg/NavigationFunction.js

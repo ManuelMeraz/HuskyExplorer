@@ -1,8 +1,8 @@
-# Install script for directory: /home/galliumos/kinetic_final/src/husky_viz
+# Install script for directory: /home/sergio/CSE180/src/husky_viz
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/galliumos/kinetic_final/install")
+  set(CMAKE_INSTALL_PREFIX "/home/sergio/CSE180/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,101 +44,101 @@ endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/galliumos/kinetic_final/install/_setup_util.py")
+   "/home/sergio/CSE180/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/galliumos/kinetic_final/install" TYPE PROGRAM FILES "/home/galliumos/kinetic_final/build/husky_viz/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/sergio/CSE180/install" TYPE PROGRAM FILES "/home/sergio/CSE180/build/husky_viz/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/galliumos/kinetic_final/install/env.sh")
+   "/home/sergio/CSE180/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/galliumos/kinetic_final/install" TYPE PROGRAM FILES "/home/galliumos/kinetic_final/build/husky_viz/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/sergio/CSE180/install" TYPE PROGRAM FILES "/home/sergio/CSE180/build/husky_viz/catkin_generated/installspace/env.sh")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/galliumos/kinetic_final/install/setup.bash")
+   "/home/sergio/CSE180/install/setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/galliumos/kinetic_final/install" TYPE FILE FILES "/home/galliumos/kinetic_final/build/husky_viz/catkin_generated/installspace/setup.bash")
+file(INSTALL DESTINATION "/home/sergio/CSE180/install" TYPE FILE FILES "/home/sergio/CSE180/build/husky_viz/catkin_generated/installspace/setup.bash")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/galliumos/kinetic_final/install/setup.sh")
+   "/home/sergio/CSE180/install/setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/galliumos/kinetic_final/install" TYPE FILE FILES "/home/galliumos/kinetic_final/build/husky_viz/catkin_generated/installspace/setup.sh")
+file(INSTALL DESTINATION "/home/sergio/CSE180/install" TYPE FILE FILES "/home/sergio/CSE180/build/husky_viz/catkin_generated/installspace/setup.sh")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/galliumos/kinetic_final/install/setup.zsh")
+   "/home/sergio/CSE180/install/setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/galliumos/kinetic_final/install" TYPE FILE FILES "/home/galliumos/kinetic_final/build/husky_viz/catkin_generated/installspace/setup.zsh")
+file(INSTALL DESTINATION "/home/sergio/CSE180/install" TYPE FILE FILES "/home/sergio/CSE180/build/husky_viz/catkin_generated/installspace/setup.zsh")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/galliumos/kinetic_final/install/.rosinstall")
+   "/home/sergio/CSE180/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/galliumos/kinetic_final/install" TYPE FILE FILES "/home/galliumos/kinetic_final/build/husky_viz/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/home/sergio/CSE180/install" TYPE FILE FILES "/home/sergio/CSE180/build/husky_viz/catkin_generated/installspace/.rosinstall")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/galliumos/kinetic_final/build/husky_viz/catkin_generated/installspace/husky_viz.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/sergio/CSE180/build/husky_viz/catkin_generated/installspace/husky_viz.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/husky_viz/cmake" TYPE FILE FILES
-    "/home/galliumos/kinetic_final/build/husky_viz/catkin_generated/installspace/husky_vizConfig.cmake"
-    "/home/galliumos/kinetic_final/build/husky_viz/catkin_generated/installspace/husky_vizConfig-version.cmake"
+    "/home/sergio/CSE180/build/husky_viz/catkin_generated/installspace/husky_vizConfig.cmake"
+    "/home/sergio/CSE180/build/husky_viz/catkin_generated/installspace/husky_vizConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/husky_viz" TYPE FILE FILES "/home/galliumos/kinetic_final/src/husky_viz/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/husky_viz" TYPE FILE FILES "/home/sergio/CSE180/src/husky_viz/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/husky_viz" TYPE DIRECTORY FILES
-    "/home/galliumos/kinetic_final/src/husky_viz/launch"
-    "/home/galliumos/kinetic_final/src/husky_viz/rviz"
+    "/home/sergio/CSE180/src/husky_viz/launch"
+    "/home/sergio/CSE180/src/husky_viz/rviz"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/galliumos/kinetic_final/build/husky_viz/gtest/cmake_install.cmake")
+  include("/home/sergio/CSE180/build/husky_viz/gtest/cmake_install.cmake")
 
 endif()
 
@@ -150,5 +150,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/galliumos/kinetic_final/build/husky_viz/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/sergio/CSE180/build/husky_viz/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

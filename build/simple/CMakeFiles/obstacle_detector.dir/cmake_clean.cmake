@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/obstacle_detector.dir/src/obstacle_detector.cpp.o"
-  "/home/galliumos/kinetic_final/devel/.private/simple/lib/simple/obstacle_detector.pdb"
-  "/home/galliumos/kinetic_final/devel/.private/simple/lib/simple/obstacle_detector"
+  "/home/sergio/CSE180/devel/.private/simple/lib/simple/obstacle_detector.pdb"
+  "/home/sergio/CSE180/devel/.private/simple/lib/simple/obstacle_detector"
 )
 
 # Per-language clean rules from dependency scanning.

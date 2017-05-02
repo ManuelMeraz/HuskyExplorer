@@ -1,8 +1,8 @@
-Symlinking /home/galliumos/kinetic_final/devel/./_setup_util.py
-Symlinking /home/galliumos/kinetic_final/devel/./setup.zsh
-Symlinking /home/galliumos/kinetic_final/devel/./env.sh
-Symlinking /home/galliumos/kinetic_final/devel/./setup.bash
-Symlinking /home/galliumos/kinetic_final/devel/./setup.sh
-Symlinking /home/galliumos/kinetic_final/devel/lib/pkgconfig/catkin_tools_prebuild.pc
-Symlinking /home/galliumos/kinetic_final/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
-Symlinking /home/galliumos/kinetic_final/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
+Symlinking /home/sergio/CSE180/devel/./env.sh
+Symlinking /home/sergio/CSE180/devel/./setup.sh
+Symlinking /home/sergio/CSE180/devel/./setup.bash
+Symlinking /home/sergio/CSE180/devel/./_setup_util.py
+Symlinking /home/sergio/CSE180/devel/./setup.zsh
+Symlinking /home/sergio/CSE180/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
+Symlinking /home/sergio/CSE180/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
+Symlinking /home/sergio/CSE180/devel/lib/pkgconfig/catkin_tools_prebuild.pc

@@ -1,6 +1,6 @@
-devel_space: /home/galliumos/kinetic_final/devel
+devel_space: /home/sergio/CSE180/devel
 install: false
-install_space: /home/galliumos/kinetic_final/install
+install_space: /home/sergio/CSE180/install
 profile: default
-source_space: /home/galliumos/kinetic_final/src
-workspace: /home/galliumos/kinetic_final
+source_space: /home/sergio/CSE180/src
+workspace: /home/sergio/CSE180

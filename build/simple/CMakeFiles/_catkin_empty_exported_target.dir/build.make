@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/galliumos/kinetic_final/src/simple
+CMAKE_SOURCE_DIR = /home/sergio/CSE180/src/simple
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/galliumos/kinetic_final/build/simple
+CMAKE_BINARY_DIR = /home/sergio/CSE180/build/simple
 
 # Utility rule file for _catkin_empty_exported_target.
 
@@ -67,6 +67,6 @@ CMakeFiles/_catkin_empty_exported_target.dir/clean:
 .PHONY : CMakeFiles/_catkin_empty_exported_target.dir/clean
 
 CMakeFiles/_catkin_empty_exported_target.dir/depend:
-	cd /home/galliumos/kinetic_final/build/simple && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/galliumos/kinetic_final/src/simple /home/galliumos/kinetic_final/src/simple /home/galliumos/kinetic_final/build/simple /home/galliumos/kinetic_final/build/simple /home/galliumos/kinetic_final/build/simple/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sergio/CSE180/build/simple && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sergio/CSE180/src/simple /home/sergio/CSE180/src/simple /home/sergio/CSE180/build/simple /home/sergio/CSE180/build/simple /home/sergio/CSE180/build/simple/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/_catkin_empty_exported_target.dir/depend
 

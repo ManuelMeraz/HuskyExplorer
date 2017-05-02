@@ -67,14 +67,14 @@ set(occupancy_grid_utils_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(occupancy_grid_utils_SOURCE_PREFIX /home/galliumos/kinetic_final/src/occupancy_grid_utils)
-  set(occupancy_grid_utils_DEVEL_PREFIX /home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils)
+  set(occupancy_grid_utils_SOURCE_PREFIX /home/sergio/CSE180/src/occupancy_grid_utils)
+  set(occupancy_grid_utils_DEVEL_PREFIX /home/sergio/CSE180/devel/.private/occupancy_grid_utils)
   set(occupancy_grid_utils_INSTALL_PREFIX "")
   set(occupancy_grid_utils_PREFIX ${occupancy_grid_utils_DEVEL_PREFIX})
 else()
   set(occupancy_grid_utils_SOURCE_PREFIX "")
   set(occupancy_grid_utils_DEVEL_PREFIX "")
-  set(occupancy_grid_utils_INSTALL_PREFIX /home/galliumos/kinetic_final/install)
+  set(occupancy_grid_utils_INSTALL_PREFIX /home/sergio/CSE180/install)
   set(occupancy_grid_utils_PREFIX ${occupancy_grid_utils_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(occupancy_grid_utils_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/include;/home/galliumos/kinetic_final/src/occupancy_grid_utils/include " STREQUAL " ")
+if(NOT "/home/sergio/CSE180/devel/.private/occupancy_grid_utils/include;/home/sergio/CSE180/src/occupancy_grid_utils/include " STREQUAL " ")
   set(occupancy_grid_utils_INCLUDE_DIRS "")
-  set(_include_dirs "/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/include;/home/galliumos/kinetic_final/src/occupancy_grid_utils/include")
+  set(_include_dirs "/home/sergio/CSE180/devel/.private/occupancy_grid_utils/include;/home/sergio/CSE180/src/occupancy_grid_utils/include")
   foreach(idir ${_include_dirs})
     if(IS_ABSOLUTE ${idir} AND IS_DIRECTORY ${idir})
       set(include ${idir})
@@ -103,7 +103,7 @@ if(NOT "/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/includ
         message(FATAL_ERROR "Project 'occupancy_grid_utils' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  Ask the maintainer 'jservos <jservos@clearpathrobotics.com>' to fix it.")
       endif()
     else()
-      message(FATAL_ERROR "Project 'occupancy_grid_utils' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/galliumos/kinetic_final/src/occupancy_grid_utils/${idir}'.  Ask the maintainer 'jservos <jservos@clearpathrobotics.com>' to fix it.")
+      message(FATAL_ERROR "Project 'occupancy_grid_utils' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/sergio/CSE180/src/occupancy_grid_utils/${idir}'.  Ask the maintainer 'jservos <jservos@clearpathrobotics.com>' to fix it.")
     endif()
     _list_append_unique(occupancy_grid_utils_INCLUDE_DIRS ${include})
   endforeach()
@@ -122,7 +122,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib;/home/galliumos/kinetic_final/devel/lib;/opt/ros/kinetic/lib)
+    foreach(path /home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib;/home/sergio/CSE180/devel/lib;/opt/ros/kinetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

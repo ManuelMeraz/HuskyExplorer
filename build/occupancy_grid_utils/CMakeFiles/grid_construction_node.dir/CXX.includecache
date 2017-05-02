@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/LocalizedCloud.h
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/LocalizedCloud.h
 string
 -
 vector
@@ -28,7 +28,7 @@ geometry_msgs/Pose.h
 sensor_msgs/PointCloud.h
 -
 
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/OverlayClouds.h
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/OverlayClouds.h
 string
 -
 vector
@@ -46,7 +46,7 @@ ros/message_operations.h
 nav_msgs/OccupancyGrid.h
 -
 
-/home/galliumos/kinetic_final/src/occupancy_grid_utils/include/occupancy_grid_utils/coordinate_conversions.h
+/home/sergio/CSE180/src/occupancy_grid_utils/include/occupancy_grid_utils/coordinate_conversions.h
 occupancy_grid_utils/exceptions.h
 -
 tf/transform_datatypes.h
@@ -62,7 +62,7 @@ cstdlib
 ostream
 -
 
-/home/galliumos/kinetic_final/src/occupancy_grid_utils/include/occupancy_grid_utils/exceptions.h
+/home/sergio/CSE180/src/occupancy_grid_utils/include/occupancy_grid_utils/exceptions.h
 boost/format.hpp
 -
 stdexcept
@@ -70,7 +70,7 @@ stdexcept
 geometry_msgs/Point.h
 -
 
-/home/galliumos/kinetic_final/src/occupancy_grid_utils/include/occupancy_grid_utils/impl/ray_trace_iterator.h
+/home/sergio/CSE180/src/occupancy_grid_utils/include/occupancy_grid_utils/impl/ray_trace_iterator.h
 occupancy_grid_utils/coordinate_conversions.h
 -
 ros/assert.h
@@ -78,7 +78,7 @@ ros/assert.h
 boost/iterator/iterator_facade.hpp
 -
 
-/home/galliumos/kinetic_final/src/occupancy_grid_utils/include/occupancy_grid_utils/ray_tracer.h
+/home/sergio/CSE180/src/occupancy_grid_utils/include/occupancy_grid_utils/ray_tracer.h
 occupancy_grid_utils/impl/ray_trace_iterator.h
 -
 occupancy_grid_utils/LocalizedCloud.h
@@ -96,7 +96,7 @@ boost/optional.hpp
 string
 -
 
-/home/galliumos/kinetic_final/src/occupancy_grid_utils/src/examples/grid_construction_node.cpp
+/home/sergio/CSE180/src/occupancy_grid_utils/src/examples/grid_construction_node.cpp
 occupancy_grid_utils/ray_tracer.h
 -
 laser_geometry/laser_geometry.h

@@ -2,7 +2,7 @@
 
 message(STATUS "occupancy_grid_utils: 3 messages, 0 services")
 
-set(MSG_I_FLAGS "-Ioccupancy_grid_utils:/home/galliumos/kinetic_final/src/occupancy_grid_utils/msg;-Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg;-Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg;-Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg;-Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg;-Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Ioccupancy_grid_utils:/home/sergio/CSE180/src/occupancy_grid_utils/msg;-Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg;-Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg;-Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg;-Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg;-Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -17,19 +17,19 @@ add_custom_target(occupancy_grid_utils_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/galliumos/kinetic_final/src/occupancy_grid_utils/msg/LocalizedCloud.msg" NAME_WE)
+get_filename_component(_filename "/home/sergio/CSE180/src/occupancy_grid_utils/msg/LocalizedCloud.msg" NAME_WE)
 add_custom_target(_occupancy_grid_utils_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "occupancy_grid_utils" "/home/galliumos/kinetic_final/src/occupancy_grid_utils/msg/LocalizedCloud.msg" "sensor_msgs/PointCloud:std_msgs/Header:geometry_msgs/Quaternion:geometry_msgs/Point32:geometry_msgs/Point:geometry_msgs/Pose:sensor_msgs/ChannelFloat32"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "occupancy_grid_utils" "/home/sergio/CSE180/src/occupancy_grid_utils/msg/LocalizedCloud.msg" "sensor_msgs/PointCloud:std_msgs/Header:geometry_msgs/Quaternion:geometry_msgs/Point32:geometry_msgs/Point:geometry_msgs/Pose:sensor_msgs/ChannelFloat32"
 )
 
-get_filename_component(_filename "/home/galliumos/kinetic_final/src/occupancy_grid_utils/msg/OverlayClouds.msg" NAME_WE)
+get_filename_component(_filename "/home/sergio/CSE180/src/occupancy_grid_utils/msg/OverlayClouds.msg" NAME_WE)
 add_custom_target(_occupancy_grid_utils_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "occupancy_grid_utils" "/home/galliumos/kinetic_final/src/occupancy_grid_utils/msg/OverlayClouds.msg" "nav_msgs/MapMetaData:std_msgs/Header:geometry_msgs/Quaternion:geometry_msgs/Point:nav_msgs/OccupancyGrid:geometry_msgs/Pose"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "occupancy_grid_utils" "/home/sergio/CSE180/src/occupancy_grid_utils/msg/OverlayClouds.msg" "nav_msgs/MapMetaData:std_msgs/Header:geometry_msgs/Quaternion:geometry_msgs/Point:nav_msgs/OccupancyGrid:geometry_msgs/Pose"
 )
 
-get_filename_component(_filename "/home/galliumos/kinetic_final/src/occupancy_grid_utils/msg/NavigationFunction.msg" NAME_WE)
+get_filename_component(_filename "/home/sergio/CSE180/src/occupancy_grid_utils/msg/NavigationFunction.msg" NAME_WE)
 add_custom_target(_occupancy_grid_utils_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "occupancy_grid_utils" "/home/galliumos/kinetic_final/src/occupancy_grid_utils/msg/NavigationFunction.msg" "nav_msgs/MapMetaData:geometry_msgs/Pose:geometry_msgs/Point:geometry_msgs/Quaternion"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "occupancy_grid_utils" "/home/sergio/CSE180/src/occupancy_grid_utils/msg/NavigationFunction.msg" "nav_msgs/MapMetaData:geometry_msgs/Pose:geometry_msgs/Point:geometry_msgs/Quaternion"
 )
 
 #
@@ -39,19 +39,19 @@ add_custom_target(_occupancy_grid_utils_generate_messages_check_deps_${_filename
 ### Section generating for lang: gencpp
 ### Generating Messages
 _generate_msg_cpp(occupancy_grid_utils
-  "/home/galliumos/kinetic_final/src/occupancy_grid_utils/msg/LocalizedCloud.msg"
+  "/home/sergio/CSE180/src/occupancy_grid_utils/msg/LocalizedCloud.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/kinetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/occupancy_grid_utils
 )
 _generate_msg_cpp(occupancy_grid_utils
-  "/home/galliumos/kinetic_final/src/occupancy_grid_utils/msg/OverlayClouds.msg"
+  "/home/sergio/CSE180/src/occupancy_grid_utils/msg/OverlayClouds.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/kinetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/occupancy_grid_utils
 )
 _generate_msg_cpp(occupancy_grid_utils
-  "/home/galliumos/kinetic_final/src/occupancy_grid_utils/msg/NavigationFunction.msg"
+  "/home/sergio/CSE180/src/occupancy_grid_utils/msg/NavigationFunction.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/occupancy_grid_utils
@@ -71,11 +71,11 @@ add_custom_target(occupancy_grid_utils_generate_messages_cpp
 add_dependencies(occupancy_grid_utils_generate_messages occupancy_grid_utils_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/galliumos/kinetic_final/src/occupancy_grid_utils/msg/LocalizedCloud.msg" NAME_WE)
+get_filename_component(_filename "/home/sergio/CSE180/src/occupancy_grid_utils/msg/LocalizedCloud.msg" NAME_WE)
 add_dependencies(occupancy_grid_utils_generate_messages_cpp _occupancy_grid_utils_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/galliumos/kinetic_final/src/occupancy_grid_utils/msg/OverlayClouds.msg" NAME_WE)
+get_filename_component(_filename "/home/sergio/CSE180/src/occupancy_grid_utils/msg/OverlayClouds.msg" NAME_WE)
 add_dependencies(occupancy_grid_utils_generate_messages_cpp _occupancy_grid_utils_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/galliumos/kinetic_final/src/occupancy_grid_utils/msg/NavigationFunction.msg" NAME_WE)
+get_filename_component(_filename "/home/sergio/CSE180/src/occupancy_grid_utils/msg/NavigationFunction.msg" NAME_WE)
 add_dependencies(occupancy_grid_utils_generate_messages_cpp _occupancy_grid_utils_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -88,19 +88,19 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS occupancy_grid_utils_generate_messa
 ### Section generating for lang: geneus
 ### Generating Messages
 _generate_msg_eus(occupancy_grid_utils
-  "/home/galliumos/kinetic_final/src/occupancy_grid_utils/msg/LocalizedCloud.msg"
+  "/home/sergio/CSE180/src/occupancy_grid_utils/msg/LocalizedCloud.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/kinetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/occupancy_grid_utils
 )
 _generate_msg_eus(occupancy_grid_utils
-  "/home/galliumos/kinetic_final/src/occupancy_grid_utils/msg/OverlayClouds.msg"
+  "/home/sergio/CSE180/src/occupancy_grid_utils/msg/OverlayClouds.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/kinetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/occupancy_grid_utils
 )
 _generate_msg_eus(occupancy_grid_utils
-  "/home/galliumos/kinetic_final/src/occupancy_grid_utils/msg/NavigationFunction.msg"
+  "/home/sergio/CSE180/src/occupancy_grid_utils/msg/NavigationFunction.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/occupancy_grid_utils
@@ -120,11 +120,11 @@ add_custom_target(occupancy_grid_utils_generate_messages_eus
 add_dependencies(occupancy_grid_utils_generate_messages occupancy_grid_utils_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/galliumos/kinetic_final/src/occupancy_grid_utils/msg/LocalizedCloud.msg" NAME_WE)
+get_filename_component(_filename "/home/sergio/CSE180/src/occupancy_grid_utils/msg/LocalizedCloud.msg" NAME_WE)
 add_dependencies(occupancy_grid_utils_generate_messages_eus _occupancy_grid_utils_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/galliumos/kinetic_final/src/occupancy_grid_utils/msg/OverlayClouds.msg" NAME_WE)
+get_filename_component(_filename "/home/sergio/CSE180/src/occupancy_grid_utils/msg/OverlayClouds.msg" NAME_WE)
 add_dependencies(occupancy_grid_utils_generate_messages_eus _occupancy_grid_utils_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/galliumos/kinetic_final/src/occupancy_grid_utils/msg/NavigationFunction.msg" NAME_WE)
+get_filename_component(_filename "/home/sergio/CSE180/src/occupancy_grid_utils/msg/NavigationFunction.msg" NAME_WE)
 add_dependencies(occupancy_grid_utils_generate_messages_eus _occupancy_grid_utils_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -137,19 +137,19 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS occupancy_grid_utils_generate_messa
 ### Section generating for lang: genlisp
 ### Generating Messages
 _generate_msg_lisp(occupancy_grid_utils
-  "/home/galliumos/kinetic_final/src/occupancy_grid_utils/msg/LocalizedCloud.msg"
+  "/home/sergio/CSE180/src/occupancy_grid_utils/msg/LocalizedCloud.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/kinetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/occupancy_grid_utils
 )
 _generate_msg_lisp(occupancy_grid_utils
-  "/home/galliumos/kinetic_final/src/occupancy_grid_utils/msg/OverlayClouds.msg"
+  "/home/sergio/CSE180/src/occupancy_grid_utils/msg/OverlayClouds.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/kinetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/occupancy_grid_utils
 )
 _generate_msg_lisp(occupancy_grid_utils
-  "/home/galliumos/kinetic_final/src/occupancy_grid_utils/msg/NavigationFunction.msg"
+  "/home/sergio/CSE180/src/occupancy_grid_utils/msg/NavigationFunction.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/occupancy_grid_utils
@@ -169,11 +169,11 @@ add_custom_target(occupancy_grid_utils_generate_messages_lisp
 add_dependencies(occupancy_grid_utils_generate_messages occupancy_grid_utils_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/galliumos/kinetic_final/src/occupancy_grid_utils/msg/LocalizedCloud.msg" NAME_WE)
+get_filename_component(_filename "/home/sergio/CSE180/src/occupancy_grid_utils/msg/LocalizedCloud.msg" NAME_WE)
 add_dependencies(occupancy_grid_utils_generate_messages_lisp _occupancy_grid_utils_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/galliumos/kinetic_final/src/occupancy_grid_utils/msg/OverlayClouds.msg" NAME_WE)
+get_filename_component(_filename "/home/sergio/CSE180/src/occupancy_grid_utils/msg/OverlayClouds.msg" NAME_WE)
 add_dependencies(occupancy_grid_utils_generate_messages_lisp _occupancy_grid_utils_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/galliumos/kinetic_final/src/occupancy_grid_utils/msg/NavigationFunction.msg" NAME_WE)
+get_filename_component(_filename "/home/sergio/CSE180/src/occupancy_grid_utils/msg/NavigationFunction.msg" NAME_WE)
 add_dependencies(occupancy_grid_utils_generate_messages_lisp _occupancy_grid_utils_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -186,19 +186,19 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS occupancy_grid_utils_generate_messa
 ### Section generating for lang: gennodejs
 ### Generating Messages
 _generate_msg_nodejs(occupancy_grid_utils
-  "/home/galliumos/kinetic_final/src/occupancy_grid_utils/msg/LocalizedCloud.msg"
+  "/home/sergio/CSE180/src/occupancy_grid_utils/msg/LocalizedCloud.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/kinetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/occupancy_grid_utils
 )
 _generate_msg_nodejs(occupancy_grid_utils
-  "/home/galliumos/kinetic_final/src/occupancy_grid_utils/msg/OverlayClouds.msg"
+  "/home/sergio/CSE180/src/occupancy_grid_utils/msg/OverlayClouds.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/kinetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/occupancy_grid_utils
 )
 _generate_msg_nodejs(occupancy_grid_utils
-  "/home/galliumos/kinetic_final/src/occupancy_grid_utils/msg/NavigationFunction.msg"
+  "/home/sergio/CSE180/src/occupancy_grid_utils/msg/NavigationFunction.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/occupancy_grid_utils
@@ -218,11 +218,11 @@ add_custom_target(occupancy_grid_utils_generate_messages_nodejs
 add_dependencies(occupancy_grid_utils_generate_messages occupancy_grid_utils_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/galliumos/kinetic_final/src/occupancy_grid_utils/msg/LocalizedCloud.msg" NAME_WE)
+get_filename_component(_filename "/home/sergio/CSE180/src/occupancy_grid_utils/msg/LocalizedCloud.msg" NAME_WE)
 add_dependencies(occupancy_grid_utils_generate_messages_nodejs _occupancy_grid_utils_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/galliumos/kinetic_final/src/occupancy_grid_utils/msg/OverlayClouds.msg" NAME_WE)
+get_filename_component(_filename "/home/sergio/CSE180/src/occupancy_grid_utils/msg/OverlayClouds.msg" NAME_WE)
 add_dependencies(occupancy_grid_utils_generate_messages_nodejs _occupancy_grid_utils_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/galliumos/kinetic_final/src/occupancy_grid_utils/msg/NavigationFunction.msg" NAME_WE)
+get_filename_component(_filename "/home/sergio/CSE180/src/occupancy_grid_utils/msg/NavigationFunction.msg" NAME_WE)
 add_dependencies(occupancy_grid_utils_generate_messages_nodejs _occupancy_grid_utils_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -235,19 +235,19 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS occupancy_grid_utils_generate_messa
 ### Section generating for lang: genpy
 ### Generating Messages
 _generate_msg_py(occupancy_grid_utils
-  "/home/galliumos/kinetic_final/src/occupancy_grid_utils/msg/LocalizedCloud.msg"
+  "/home/sergio/CSE180/src/occupancy_grid_utils/msg/LocalizedCloud.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/sensor_msgs/cmake/../msg/PointCloud.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/kinetic/share/sensor_msgs/cmake/../msg/ChannelFloat32.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/occupancy_grid_utils
 )
 _generate_msg_py(occupancy_grid_utils
-  "/home/galliumos/kinetic_final/src/occupancy_grid_utils/msg/OverlayClouds.msg"
+  "/home/sergio/CSE180/src/occupancy_grid_utils/msg/OverlayClouds.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/kinetic/share/nav_msgs/cmake/../msg/OccupancyGrid.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/occupancy_grid_utils
 )
 _generate_msg_py(occupancy_grid_utils
-  "/home/galliumos/kinetic_final/src/occupancy_grid_utils/msg/NavigationFunction.msg"
+  "/home/sergio/CSE180/src/occupancy_grid_utils/msg/NavigationFunction.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/nav_msgs/cmake/../msg/MapMetaData.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/occupancy_grid_utils
@@ -267,11 +267,11 @@ add_custom_target(occupancy_grid_utils_generate_messages_py
 add_dependencies(occupancy_grid_utils_generate_messages occupancy_grid_utils_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/galliumos/kinetic_final/src/occupancy_grid_utils/msg/LocalizedCloud.msg" NAME_WE)
+get_filename_component(_filename "/home/sergio/CSE180/src/occupancy_grid_utils/msg/LocalizedCloud.msg" NAME_WE)
 add_dependencies(occupancy_grid_utils_generate_messages_py _occupancy_grid_utils_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/galliumos/kinetic_final/src/occupancy_grid_utils/msg/OverlayClouds.msg" NAME_WE)
+get_filename_component(_filename "/home/sergio/CSE180/src/occupancy_grid_utils/msg/OverlayClouds.msg" NAME_WE)
 add_dependencies(occupancy_grid_utils_generate_messages_py _occupancy_grid_utils_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/galliumos/kinetic_final/src/occupancy_grid_utils/msg/NavigationFunction.msg" NAME_WE)
+get_filename_component(_filename "/home/sergio/CSE180/src/occupancy_grid_utils/msg/NavigationFunction.msg" NAME_WE)
 add_dependencies(occupancy_grid_utils_generate_messages_py _occupancy_grid_utils_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

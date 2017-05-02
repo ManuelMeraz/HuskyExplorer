@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/galliumos/kinetic_final/src/occupancy_grid_utils
+CMAKE_SOURCE_DIR = /home/sergio/CSE180/src/occupancy_grid_utils
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/galliumos/kinetic_final/build/occupancy_grid_utils
+CMAKE_BINARY_DIR = /home/sergio/CSE180/build/occupancy_grid_utils
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,9 +135,9 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/occupancy_grid_utils/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/occupancy_grid_utils/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

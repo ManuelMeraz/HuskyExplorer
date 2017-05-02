@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/grid_construction_node.dir/src/examples/grid_construction_node.cpp.o"
-  "/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/occupancy_grid_utils/grid_construction_node.pdb"
-  "/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/occupancy_grid_utils/grid_construction_node"
+  "/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/occupancy_grid_utils/grid_construction_node.pdb"
+  "/home/sergio/CSE180/devel/.private/occupancy_grid_utils/lib/occupancy_grid_utils/grid_construction_node"
 )
 
 # Per-language clean rules from dependency scanning.

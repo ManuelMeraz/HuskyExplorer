@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/husky_msgs_generate_messages_eus"
-  "/home/galliumos/kinetic_final/devel/.private/husky_msgs/share/roseus/ros/husky_msgs/msg/HuskyStatus.l"
-  "/home/galliumos/kinetic_final/devel/.private/husky_msgs/share/roseus/ros/husky_msgs/manifest.l"
+  "/home/sergio/CSE180/devel/.private/husky_msgs/share/roseus/ros/husky_msgs/msg/HuskyStatus.l"
+  "/home/sergio/CSE180/devel/.private/husky_msgs/share/roseus/ros/husky_msgs/manifest.l"
 )
 
 # Per-language clean rules from dependency scanning.

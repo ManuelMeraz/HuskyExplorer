@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/LocalizedCloud.h
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/LocalizedCloud.h
 string
 -
 vector
@@ -28,7 +28,7 @@ geometry_msgs/Pose.h
 sensor_msgs/PointCloud.h
 -
 
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/NavigationFunction.h
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/NavigationFunction.h
 string
 -
 vector
@@ -46,7 +46,7 @@ ros/message_operations.h
 nav_msgs/MapMetaData.h
 -
 
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/OverlayClouds.h
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/OverlayClouds.h
 string
 -
 vector
@@ -64,7 +64,7 @@ ros/message_operations.h
 nav_msgs/OccupancyGrid.h
 -
 
-/home/galliumos/kinetic_final/src/occupancy_grid_utils/include/occupancy_grid_utils/coordinate_conversions.h
+/home/sergio/CSE180/src/occupancy_grid_utils/include/occupancy_grid_utils/coordinate_conversions.h
 occupancy_grid_utils/exceptions.h
 -
 tf/transform_datatypes.h
@@ -80,7 +80,7 @@ cstdlib
 ostream
 -
 
-/home/galliumos/kinetic_final/src/occupancy_grid_utils/include/occupancy_grid_utils/exceptions.h
+/home/sergio/CSE180/src/occupancy_grid_utils/include/occupancy_grid_utils/exceptions.h
 boost/format.hpp
 -
 stdexcept
@@ -88,25 +88,25 @@ stdexcept
 geometry_msgs/Point.h
 -
 
-/home/galliumos/kinetic_final/src/occupancy_grid_utils/include/occupancy_grid_utils/file.h
+/home/sergio/CSE180/src/occupancy_grid_utils/include/occupancy_grid_utils/file.h
 nav_msgs/OccupancyGrid.h
 -
 geometry_msgs/Pose.h
 -
 
-/home/galliumos/kinetic_final/src/occupancy_grid_utils/include/occupancy_grid_utils/geometry.h
+/home/sergio/CSE180/src/occupancy_grid_utils/include/occupancy_grid_utils/geometry.h
 coordinate_conversions.h
-/home/galliumos/kinetic_final/src/occupancy_grid_utils/include/occupancy_grid_utils/coordinate_conversions.h
+/home/sergio/CSE180/src/occupancy_grid_utils/include/occupancy_grid_utils/coordinate_conversions.h
 set
 -
 boost/multi_array.hpp
 -
 impl/geometry.hpp
-/home/galliumos/kinetic_final/src/occupancy_grid_utils/include/occupancy_grid_utils/impl/geometry.hpp
+/home/sergio/CSE180/src/occupancy_grid_utils/include/occupancy_grid_utils/impl/geometry.hpp
 
-/home/galliumos/kinetic_final/src/occupancy_grid_utils/include/occupancy_grid_utils/impl/geometry.hpp
+/home/sergio/CSE180/src/occupancy_grid_utils/include/occupancy_grid_utils/impl/geometry.hpp
 
-/home/galliumos/kinetic_final/src/occupancy_grid_utils/include/occupancy_grid_utils/impl/ray_trace_iterator.h
+/home/sergio/CSE180/src/occupancy_grid_utils/include/occupancy_grid_utils/impl/ray_trace_iterator.h
 occupancy_grid_utils/coordinate_conversions.h
 -
 ros/assert.h
@@ -114,7 +114,7 @@ ros/assert.h
 boost/iterator/iterator_facade.hpp
 -
 
-/home/galliumos/kinetic_final/src/occupancy_grid_utils/include/occupancy_grid_utils/ray_tracer.h
+/home/sergio/CSE180/src/occupancy_grid_utils/include/occupancy_grid_utils/ray_tracer.h
 occupancy_grid_utils/impl/ray_trace_iterator.h
 -
 occupancy_grid_utils/LocalizedCloud.h
@@ -132,7 +132,7 @@ boost/optional.hpp
 string
 -
 
-/home/galliumos/kinetic_final/src/occupancy_grid_utils/include/occupancy_grid_utils/shortest_path.h
+/home/sergio/CSE180/src/occupancy_grid_utils/include/occupancy_grid_utils/shortest_path.h
 occupancy_grid_utils/coordinate_conversions.h
 -
 occupancy_grid_utils/NavigationFunction.h
@@ -144,9 +144,9 @@ boost/optional.hpp
 set
 -
 
-/home/galliumos/kinetic_final/src/occupancy_grid_utils/src/boost_python_exports.cpp
+/home/sergio/CSE180/src/occupancy_grid_utils/src/boost_python_exports.cpp
 shortest_path_result.h
-/home/galliumos/kinetic_final/src/occupancy_grid_utils/src/shortest_path_result.h
+/home/sergio/CSE180/src/occupancy_grid_utils/src/shortest_path_result.h
 occupancy_grid_utils/coordinate_conversions.h
 -
 occupancy_grid_utils/ray_tracer.h
@@ -162,7 +162,7 @@ boost/python.hpp
 boost/python/suite/indexing/vector_indexing_suite.hpp
 -
 
-/home/galliumos/kinetic_final/src/occupancy_grid_utils/src/shortest_path_result.h
+/home/sergio/CSE180/src/occupancy_grid_utils/src/shortest_path_result.h
 nav_msgs/MapMetaData.h
 -
 boost/optional.hpp

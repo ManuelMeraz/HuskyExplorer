@@ -7,11 +7,10 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/galliumos/kinetic_final/devel/.private/catkin_tools_prebuild:$CMAKE_PREFIX_PATH"
+export CMAKE_PREFIX_PATH="/home/sergio/CSE180/devel/.private/catkin_tools_prebuild:$CMAKE_PREFIX_PATH"
 export LD_LIBRARY_PATH="/opt/ros/kinetic/lib"
-export PATH="/opt/ros/kinetic/bin:/home/galliumos/bin:/home/galliumos/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
 export PKG_CONFIG_PATH="/opt/ros/kinetic/lib/pkgconfig"
-export PWD="/home/galliumos/kinetic_final/build/catkin_tools_prebuild"
+export PWD="/home/sergio/CSE180/build/catkin_tools_prebuild"
 export PYTHONPATH="/opt/ros/kinetic/lib/python2.7/dist-packages"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/galliumos/kinetic_final/devel/.private/catkin_tools_prebuild/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/galliumos/kinetic_final/build/catkin_tools_prebuild:$ROS_PACKAGE_PATH"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/sergio/CSE180/devel/.private/catkin_tools_prebuild/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/sergio/CSE180/build/catkin_tools_prebuild:$ROS_PACKAGE_PATH"

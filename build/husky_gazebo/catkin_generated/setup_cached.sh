@@ -7,10 +7,9 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/galliumos/kinetic_final/devel/.private/husky_gazebo:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/galliumos/kinetic_final/devel/.private/husky_gazebo/lib:$LD_LIBRARY_PATH"
-export PKG_CONFIG_PATH="/home/galliumos/kinetic_final/devel/.private/husky_gazebo/lib/pkgconfig:$PKG_CONFIG_PATH"
-export PWD="/home/galliumos/kinetic_final/build/husky_gazebo"
-export PYTHONPATH="/home/galliumos/kinetic_final/devel/lib/python2.7/dist-packages:$PYTHONPATH"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/galliumos/kinetic_final/devel/.private/husky_gazebo/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/galliumos/kinetic_final/src/husky_gazebo:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/sergio/CSE180/devel/.private/husky_gazebo:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/sergio/CSE180/devel/.private/husky_gazebo/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/sergio/CSE180/devel/.private/husky_gazebo/lib/pkgconfig:$PKG_CONFIG_PATH"
+export PWD="/home/sergio/CSE180/build/husky_gazebo"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/sergio/CSE180/devel/.private/husky_gazebo/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/sergio/CSE180/src/husky_gazebo:$ROS_PACKAGE_PATH"

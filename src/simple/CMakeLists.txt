@@ -158,6 +158,7 @@ add_executable(
     obstacle_detector 
     src/obstacle_detector.cpp
     )
+add_executable(objectdetect src/object_detect.cpp)
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
@@ -181,6 +182,7 @@ target_link_libraries(scan_to_point_cloud
 target_link_libraries(obstacle_detector
     ${catkin_LIBRARIES}
     )
+target_link_libraries(objectdetect ${catkin_LIBRARIES})
 
 #############
 ## Install ##

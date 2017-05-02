@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/galliumos/kinetic_final/src/simple/src/obstacle_detector.cpp
+/home/sergio/CSE180/src/simple/src/obstacle_detector.cpp
 ros/ros.h
 -
 sensor_msgs/PointCloud.h

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/galliumos/kinetic_final/src/simple
+CMAKE_SOURCE_DIR = /home/sergio/CSE180/src/simple
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/galliumos/kinetic_final/build/simple
+CMAKE_BINARY_DIR = /home/sergio/CSE180/build/simple
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,9 +135,9 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/simple/CMakeFiles /home/galliumos/kinetic_final/build/simple/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/simple/CMakeFiles /home/sergio/CSE180/build/simple/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/galliumos/kinetic_final/build/simple/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergio/CSE180/build/simple/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -255,6 +255,19 @@ actionlib_generate_messages_py: cmake_check_build_system
 actionlib_generate_messages_py/fast:
 	$(MAKE) -f CMakeFiles/actionlib_generate_messages_py.dir/build.make CMakeFiles/actionlib_generate_messages_py.dir/build
 .PHONY : actionlib_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named objectdetect
+
+# Build rule for target.
+objectdetect: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 objectdetect
+.PHONY : objectdetect
+
+# fast build rule for target.
+objectdetect/fast:
+	$(MAKE) -f CMakeFiles/objectdetect.dir/build.make CMakeFiles/objectdetect.dir/build
+.PHONY : objectdetect/fast
 
 #=============================================================================
 # Target rules for targets named actionlib_generate_messages_eus
@@ -1077,6 +1090,33 @@ src/map_explorer.cpp.s:
 	$(MAKE) -f CMakeFiles/map_explorer.dir/build.make CMakeFiles/map_explorer.dir/src/map_explorer.cpp.s
 .PHONY : src/map_explorer.cpp.s
 
+src/object_detect.o: src/object_detect.cpp.o
+
+.PHONY : src/object_detect.o
+
+# target to build an object file
+src/object_detect.cpp.o:
+	$(MAKE) -f CMakeFiles/objectdetect.dir/build.make CMakeFiles/objectdetect.dir/src/object_detect.cpp.o
+.PHONY : src/object_detect.cpp.o
+
+src/object_detect.i: src/object_detect.cpp.i
+
+.PHONY : src/object_detect.i
+
+# target to preprocess a source file
+src/object_detect.cpp.i:
+	$(MAKE) -f CMakeFiles/objectdetect.dir/build.make CMakeFiles/objectdetect.dir/src/object_detect.cpp.i
+.PHONY : src/object_detect.cpp.i
+
+src/object_detect.s: src/object_detect.cpp.s
+
+.PHONY : src/object_detect.s
+
+# target to generate assembly for a file
+src/object_detect.cpp.s:
+	$(MAKE) -f CMakeFiles/objectdetect.dir/build.make CMakeFiles/objectdetect.dir/src/object_detect.cpp.s
+.PHONY : src/object_detect.cpp.s
+
 src/obstacle_detector.o: src/obstacle_detector.cpp.o
 
 .PHONY : src/obstacle_detector.o
@@ -1145,6 +1185,7 @@ help:
 	@echo "... tf2_msgs_generate_messages_eus"
 	@echo "... tf2_msgs_generate_messages_cpp"
 	@echo "... actionlib_generate_messages_py"
+	@echo "... objectdetect"
 	@echo "... actionlib_generate_messages_eus"
 	@echo "... tf_generate_messages_py"
 	@echo "... rebuild_cache"
@@ -1216,6 +1257,9 @@ help:
 	@echo "... src/map_explorer.o"
 	@echo "... src/map_explorer.i"
 	@echo "... src/map_explorer.s"
+	@echo "... src/object_detect.o"
+	@echo "... src/object_detect.i"
+	@echo "... src/object_detect.s"
 	@echo "... src/obstacle_detector.o"
 	@echo "... src/obstacle_detector.i"
 	@echo "... src/obstacle_detector.s"

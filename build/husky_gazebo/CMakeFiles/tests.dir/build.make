@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/galliumos/kinetic_final/src/husky_gazebo
+CMAKE_SOURCE_DIR = /home/sergio/CSE180/src/husky_gazebo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/galliumos/kinetic_final/build/husky_gazebo
+CMAKE_BINARY_DIR = /home/sergio/CSE180/build/husky_gazebo
 
 # Utility rule file for tests.
 
@@ -67,6 +67,6 @@ CMakeFiles/tests.dir/clean:
 .PHONY : CMakeFiles/tests.dir/clean
 
 CMakeFiles/tests.dir/depend:
-	cd /home/galliumos/kinetic_final/build/husky_gazebo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/galliumos/kinetic_final/src/husky_gazebo /home/galliumos/kinetic_final/src/husky_gazebo /home/galliumos/kinetic_final/build/husky_gazebo /home/galliumos/kinetic_final/build/husky_gazebo /home/galliumos/kinetic_final/build/husky_gazebo/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sergio/CSE180/build/husky_gazebo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sergio/CSE180/src/husky_gazebo /home/sergio/CSE180/src/husky_gazebo /home/sergio/CSE180/build/husky_gazebo /home/sergio/CSE180/build/husky_gazebo /home/sergio/CSE180/build/husky_gazebo/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tests.dir/depend
 

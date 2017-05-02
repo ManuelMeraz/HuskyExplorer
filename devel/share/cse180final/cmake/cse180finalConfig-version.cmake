@@ -1,1 +1,1 @@
-/home/galliumos/kinetic_final/devel/.private/cse180final/share/cse180final/cmake/cse180finalConfig-version.cmake
+/home/sergio/CSE180/devel/.private/cse180final/share/cse180final/cmake/cse180finalConfig-version.cmake

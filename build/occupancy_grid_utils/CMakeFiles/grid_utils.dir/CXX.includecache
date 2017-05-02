@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/LocalizedCloud.h
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/LocalizedCloud.h
 string
 -
 vector
@@ -28,7 +28,7 @@ geometry_msgs/Pose.h
 sensor_msgs/PointCloud.h
 -
 
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/NavigationFunction.h
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/NavigationFunction.h
 string
 -
 vector
@@ -46,7 +46,7 @@ ros/message_operations.h
 nav_msgs/MapMetaData.h
 -
 
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/OverlayClouds.h
+/home/sergio/CSE180/devel/.private/occupancy_grid_utils/include/occupancy_grid_utils/OverlayClouds.h
 string
 -
 vector
@@ -64,11 +64,11 @@ ros/message_operations.h
 nav_msgs/OccupancyGrid.h
 -
 
-/home/galliumos/kinetic_final/src/occupancy_grid_utils/include/occupancy_grid_utils/combine_grids.h
+/home/sergio/CSE180/src/occupancy_grid_utils/include/occupancy_grid_utils/combine_grids.h
 nav_msgs/OccupancyGrid.h
 -
 
-/home/galliumos/kinetic_final/src/occupancy_grid_utils/include/occupancy_grid_utils/coordinate_conversions.h
+/home/sergio/CSE180/src/occupancy_grid_utils/include/occupancy_grid_utils/coordinate_conversions.h
 occupancy_grid_utils/exceptions.h
 -
 tf/transform_datatypes.h
@@ -84,7 +84,7 @@ cstdlib
 ostream
 -
 
-/home/galliumos/kinetic_final/src/occupancy_grid_utils/include/occupancy_grid_utils/exceptions.h
+/home/sergio/CSE180/src/occupancy_grid_utils/include/occupancy_grid_utils/exceptions.h
 boost/format.hpp
 -
 stdexcept
@@ -92,25 +92,25 @@ stdexcept
 geometry_msgs/Point.h
 -
 
-/home/galliumos/kinetic_final/src/occupancy_grid_utils/include/occupancy_grid_utils/file.h
+/home/sergio/CSE180/src/occupancy_grid_utils/include/occupancy_grid_utils/file.h
 nav_msgs/OccupancyGrid.h
 -
 geometry_msgs/Pose.h
 -
 
-/home/galliumos/kinetic_final/src/occupancy_grid_utils/include/occupancy_grid_utils/geometry.h
+/home/sergio/CSE180/src/occupancy_grid_utils/include/occupancy_grid_utils/geometry.h
 coordinate_conversions.h
-/home/galliumos/kinetic_final/src/occupancy_grid_utils/include/occupancy_grid_utils/coordinate_conversions.h
+/home/sergio/CSE180/src/occupancy_grid_utils/include/occupancy_grid_utils/coordinate_conversions.h
 set
 -
 boost/multi_array.hpp
 -
 impl/geometry.hpp
-/home/galliumos/kinetic_final/src/occupancy_grid_utils/include/occupancy_grid_utils/impl/geometry.hpp
+/home/sergio/CSE180/src/occupancy_grid_utils/include/occupancy_grid_utils/impl/geometry.hpp
 
-/home/galliumos/kinetic_final/src/occupancy_grid_utils/include/occupancy_grid_utils/impl/geometry.hpp
+/home/sergio/CSE180/src/occupancy_grid_utils/include/occupancy_grid_utils/impl/geometry.hpp
 
-/home/galliumos/kinetic_final/src/occupancy_grid_utils/include/occupancy_grid_utils/impl/ray_trace_iterator.h
+/home/sergio/CSE180/src/occupancy_grid_utils/include/occupancy_grid_utils/impl/ray_trace_iterator.h
 occupancy_grid_utils/coordinate_conversions.h
 -
 ros/assert.h
@@ -118,7 +118,7 @@ ros/assert.h
 boost/iterator/iterator_facade.hpp
 -
 
-/home/galliumos/kinetic_final/src/occupancy_grid_utils/include/occupancy_grid_utils/ray_tracer.h
+/home/sergio/CSE180/src/occupancy_grid_utils/include/occupancy_grid_utils/ray_tracer.h
 occupancy_grid_utils/impl/ray_trace_iterator.h
 -
 occupancy_grid_utils/LocalizedCloud.h
@@ -136,7 +136,7 @@ boost/optional.hpp
 string
 -
 
-/home/galliumos/kinetic_final/src/occupancy_grid_utils/include/occupancy_grid_utils/shortest_path.h
+/home/sergio/CSE180/src/occupancy_grid_utils/include/occupancy_grid_utils/shortest_path.h
 occupancy_grid_utils/coordinate_conversions.h
 -
 occupancy_grid_utils/NavigationFunction.h
@@ -148,7 +148,7 @@ boost/optional.hpp
 set
 -
 
-/home/galliumos/kinetic_final/src/occupancy_grid_utils/src/combine_grids.cpp
+/home/sergio/CSE180/src/occupancy_grid_utils/src/combine_grids.cpp
 occupancy_grid_utils/combine_grids.h
 -
 occupancy_grid_utils/coordinate_conversions.h
@@ -166,13 +166,13 @@ boost/ref.hpp
 set
 -
 gcc_version.h
-/home/galliumos/kinetic_final/src/occupancy_grid_utils/src/gcc_version.h
+/home/sergio/CSE180/src/occupancy_grid_utils/src/gcc_version.h
 
-/home/galliumos/kinetic_final/src/occupancy_grid_utils/src/coordinate_conversions.cpp
+/home/sergio/CSE180/src/occupancy_grid_utils/src/coordinate_conversions.cpp
 occupancy_grid_utils/coordinate_conversions.h
 -
 
-/home/galliumos/kinetic_final/src/occupancy_grid_utils/src/file.cpp
+/home/sergio/CSE180/src/occupancy_grid_utils/src/file.cpp
 occupancy_grid_utils/file.h
 -
 tf/transform_datatypes.h
@@ -196,11 +196,11 @@ opencv2/imgproc/imgproc.hpp
 opencv2/highgui/highgui.hpp
 -
 LinearMath/btMatrix3x3.h
-/home/galliumos/kinetic_final/src/occupancy_grid_utils/src/LinearMath/btMatrix3x3.h
+/home/sergio/CSE180/src/occupancy_grid_utils/src/LinearMath/btMatrix3x3.h
 
-/home/galliumos/kinetic_final/src/occupancy_grid_utils/src/gcc_version.h
+/home/sergio/CSE180/src/occupancy_grid_utils/src/gcc_version.h
 
-/home/galliumos/kinetic_final/src/occupancy_grid_utils/src/geometry.cpp
+/home/sergio/CSE180/src/occupancy_grid_utils/src/geometry.cpp
 occupancy_grid_utils/geometry.h
 -
 queue
@@ -210,7 +210,7 @@ set
 boost/foreach.hpp
 -
 
-/home/galliumos/kinetic_final/src/occupancy_grid_utils/src/grid_overlay.cpp
+/home/sergio/CSE180/src/occupancy_grid_utils/src/grid_overlay.cpp
 occupancy_grid_utils/ray_tracer.h
 -
 ros/assert.h
@@ -226,9 +226,9 @@ boost/ref.hpp
 boost/optional.hpp
 -
 gcc_version.h
-/home/galliumos/kinetic_final/src/occupancy_grid_utils/src/gcc_version.h
+/home/sergio/CSE180/src/occupancy_grid_utils/src/gcc_version.h
 
-/home/galliumos/kinetic_final/src/occupancy_grid_utils/src/ray_tracer.cpp
+/home/sergio/CSE180/src/occupancy_grid_utils/src/ray_tracer.cpp
 occupancy_grid_utils/ray_tracer.h
 -
 occupancy_grid_utils/exceptions.h
@@ -248,9 +248,9 @@ algorithm
 ros/assert.h
 -
 
-/home/galliumos/kinetic_final/src/occupancy_grid_utils/src/shortest_path.cpp
+/home/sergio/CSE180/src/occupancy_grid_utils/src/shortest_path.cpp
 shortest_path_result.h
-/home/galliumos/kinetic_final/src/occupancy_grid_utils/src/shortest_path_result.h
+/home/sergio/CSE180/src/occupancy_grid_utils/src/shortest_path_result.h
 occupancy_grid_utils/shortest_path.h
 -
 ros/assert.h
@@ -258,7 +258,7 @@ ros/assert.h
 queue
 -
 
-/home/galliumos/kinetic_final/src/occupancy_grid_utils/src/shortest_path_result.h
+/home/sergio/CSE180/src/occupancy_grid_utils/src/shortest_path_result.h
 nav_msgs/MapMetaData.h
 -
 boost/optional.hpp
