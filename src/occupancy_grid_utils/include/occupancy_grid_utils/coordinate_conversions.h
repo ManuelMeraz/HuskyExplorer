@@ -122,7 +122,7 @@ inline
 index_t cellIndex (const nav_msgs::MapMetaData& info, const Cell& c)
 {
   if (!withinBounds(info, c))
-    throw CellOutOfBoundsException(c.x, c.y);
+    return -1;
   return c.x + c.y*info.width;
 }
 

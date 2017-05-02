@@ -1,0 +1,10 @@
+[01m[K/home/galliumos/kinetic_final/src/simple/src/map_explorer.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/galliumos/kinetic_final/src/simple/src/map_explorer.cpp:90:17:[m[K [01;31m[Kerror: [m[K‘[01m[Ktranformed_to_pose[m[K’ was not declared in this scope
+                 tranformed_to_pose.header.stamp = ros::Time(0);
+[01;32m[K                 ^[m[K
+[01m[K/home/galliumos/kinetic_final/src/simple/src/map_explorer.cpp:103:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kvertix[m[K’ was not declared in this scope
+                 vertix.x = transformed_to_pose.pose.position.x;
+[01;32m[K                 ^[m[K
+make[2]: *** [CMakeFiles/map_explorer.dir/src/map_explorer.cpp.o] Error 1
+make[1]: *** [CMakeFiles/map_explorer.dir/all] Error 2
+make: *** [all] Error 2

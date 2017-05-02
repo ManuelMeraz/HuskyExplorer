@@ -1,0 +1,28 @@
+[01m[K/home/galliumos/kinetic_final/src/simple/src/map_explorer.cpp:35:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kmap_msgs[m[K’ does not name a type
+ void map_update_callback(const map_msgs::OccupancyGridUpdate &msg);
+[01;32m[K                                ^[m[K
+[01m[K/home/galliumos/kinetic_final/src/simple/src/map_explorer.cpp:35:62:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+ void map_update_callback(const map_msgs::OccupancyGridUpdate &msg);
+[01;32m[K                                                              ^[m[K
+[01m[K/home/galliumos/kinetic_final/src/simple/src/map_explorer.cpp:35:62:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+[01m[K/home/galliumos/kinetic_final/src/simple/src/map_explorer.cpp:35:63:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kmsg[m[K’
+ void map_update_callback(const map_msgs::OccupancyGridUpdate &msg);
+[01;32m[K                                                               ^[m[K
+[01m[K/home/galliumos/kinetic_final/src/simple/src/map_explorer.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/galliumos/kinetic_final/src/simple/src/map_explorer.cpp:45:102:[m[K [01;31m[Kerror: [m[K‘[01m[Kmap_update_callback[m[K’ was not declared in this scope
+     ros::Subscriber map_update_sub = nh.subscribe("/move_base/local_costmap/costmap_updates", 1000, &map_update_callback);
+[01;32m[K                                                                                                      ^[m[K
+[01m[K/home/galliumos/kinetic_final/src/simple/src/map_explorer.cpp:[m[K At global scope:
+[01m[K/home/galliumos/kinetic_final/src/simple/src/map_explorer.cpp:164:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kmap_msgs[m[K’ does not name a type
+ void map_update_callback(const map_msgs::OccupancyGridUpdate &msg) {
+[01;32m[K                                ^[m[K
+[01m[K/home/galliumos/kinetic_final/src/simple/src/map_explorer.cpp:164:62:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+ void map_update_callback(const map_msgs::OccupancyGridUpdate &msg) {
+[01;32m[K                                                              ^[m[K
+[01m[K/home/galliumos/kinetic_final/src/simple/src/map_explorer.cpp:164:62:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+[01m[K/home/galliumos/kinetic_final/src/simple/src/map_explorer.cpp:164:63:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kmsg[m[K’
+ void map_update_callback(const map_msgs::OccupancyGridUpdate &msg) {
+[01;32m[K                                                               ^[m[K
+make[2]: *** [CMakeFiles/map_explorer.dir/src/map_explorer.cpp.o] Error 1
+make[1]: *** [CMakeFiles/map_explorer.dir/all] Error 2
+make: *** [all] Error 2

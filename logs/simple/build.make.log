@@ -1,6 +1,6 @@
 [35m[1mScanning dependencies of target map_explorer[0m
-[ 28%] Built target scan_to_point_cloud
-[ 57%] Built target obstacle_detector
+[ 28%] Built target obstacle_detector
+[ 57%] Built target scan_to_point_cloud
 [ 71%] [32mBuilding CXX object CMakeFiles/map_explorer.dir/src/map_explorer.cpp.o[0m
 [ 85%] [32m[1mLinking CXX executable /home/galliumos/kinetic_final/devel/.private/simple/lib/simple/map_explorer[0m
 [100%] Built target map_explorer

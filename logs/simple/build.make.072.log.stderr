@@ -1,0 +1,12 @@
+[01m[K/home/galliumos/kinetic_final/src/simple/src/map_explorer.cpp:[m[K In function ‘[01m[Kvoid map_update_callback(const OccupancyGridUpdate&)[m[K’:
+[01m[K/home/galliumos/kinetic_final/src/simple/src/map_explorer.cpp:170:49:[m[K [01;31m[Kerror: [m[Kinvalid initialization of reference of type ‘[01m[Kconst MapMetaData& {aka const nav_msgs::MapMetaData_<std::allocator<void> >&}[m[K’ from expression of type ‘[01m[Koccupancy_grid_utils::Cell[m[K’
+             map.data[ utils::cellIndex(gridCoord) ] = msg.data[ index++ ]; 
+[01;32m[K                                                 ^[m[K
+In file included from [01m[K/home/galliumos/kinetic_final/src/occupancy_grid_utils/include/occupancy_grid_utils/shortest_path.h:43:0[m[K,
+                 from [01m[K/home/galliumos/kinetic_final/src/simple/src/map_explorer.cpp:13[m[K:
+[01m[K/home/galliumos/kinetic_final/src/occupancy_grid_utils/include/occupancy_grid_utils/coordinate_conversions.h:122:9:[m[K [01;36m[Knote: [m[Kin passing argument 1 of ‘[01m[Koccupancy_grid_utils::index_t occupancy_grid_utils::cellIndex(const MapMetaData&, const occupancy_grid_utils::Cell&)[m[K’
+ index_t cellIndex (const nav_msgs::MapMetaData& info, const Cell& c)
+[01;32m[K         ^[m[K
+make[2]: *** [CMakeFiles/map_explorer.dir/src/map_explorer.cpp.o] Error 1
+make[1]: *** [CMakeFiles/map_explorer.dir/all] Error 2
+make: *** [all] Error 2

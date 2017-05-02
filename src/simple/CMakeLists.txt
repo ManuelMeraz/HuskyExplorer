@@ -16,6 +16,7 @@ find_package(catkin REQUIRED COMPONENTS
     roscpp
     rospy
     sensor_msgs
+    map_msgs
     std_msgs
     tf
     tf2

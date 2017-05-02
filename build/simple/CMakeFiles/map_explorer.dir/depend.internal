@@ -158,6 +158,7 @@ CMakeFiles/map_explorer.dir/src/map_explorer.cpp.o
  /opt/ros/kinetic/include/geometry_msgs/TwistWithCovariance.h
  /opt/ros/kinetic/include/geometry_msgs/Vector3.h
  /opt/ros/kinetic/include/geometry_msgs/Vector3Stamped.h
+ /opt/ros/kinetic/include/map_msgs/OccupancyGridUpdate.h
  /opt/ros/kinetic/include/nav_msgs/MapMetaData.h
  /opt/ros/kinetic/include/nav_msgs/OccupancyGrid.h
  /opt/ros/kinetic/include/nav_msgs/Odometry.h
