@@ -1,0 +1,7 @@
+Linked: (/home/sergio/CSE180/devel/.private/simple/share/simple/cmake/simpleConfig-version.cmake, /home/sergio/CSE180/devel/share/simple/cmake/simpleConfig-version.cmake)
+Linked: (/home/sergio/CSE180/devel/.private/simple/share/simple/cmake/simpleConfig.cmake, /home/sergio/CSE180/devel/share/simple/cmake/simpleConfig.cmake)
+Linked: (/home/sergio/CSE180/devel/.private/simple/lib/pkgconfig/simple.pc, /home/sergio/CSE180/devel/lib/pkgconfig/simple.pc)
+Linked: (/home/sergio/CSE180/devel/.private/simple/lib/simple/objectdetect, /home/sergio/CSE180/devel/lib/simple/objectdetect)
+Linked: (/home/sergio/CSE180/devel/.private/simple/lib/simple/obstacle_detector, /home/sergio/CSE180/devel/lib/simple/obstacle_detector)
+Linked: (/home/sergio/CSE180/devel/.private/simple/lib/simple/map_explorer, /home/sergio/CSE180/devel/lib/simple/map_explorer)
+Linked: (/home/sergio/CSE180/devel/.private/simple/lib/simple/scan_to_point_cloud, /home/sergio/CSE180/devel/lib/simple/scan_to_point_cloud)

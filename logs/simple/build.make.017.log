@@ -1,0 +1,7 @@
+[35m[1mScanning dependencies of target objectdetect[0m
+[ 33%] Built target map_explorer
+[ 55%] Built target scan_to_point_cloud
+[ 77%] Built target obstacle_detector
+[ 88%] [32mBuilding CXX object CMakeFiles/objectdetect.dir/src/object_detect.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/sergio/CSE180/devel/.private/simple/lib/simple/objectdetect[0m
+[100%] Built target objectdetect
