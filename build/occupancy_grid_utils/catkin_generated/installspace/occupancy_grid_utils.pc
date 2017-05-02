@@ -1,8 +1,0 @@
-prefix=/home/sergio/CSE180/install
-
-Name: occupancy_grid_utils
-Description: Description of occupancy_grid_utils
-Version: 0.0.10
-Cflags: -I/home/sergio/CSE180/install/include
-Libs: -L/home/sergio/CSE180/install/lib -lgrid_utils
-Requires: nav_msgs geometry_msgs sensor_msgs laser_geometry roscpp rospy tf tf2_bullet message_runtime

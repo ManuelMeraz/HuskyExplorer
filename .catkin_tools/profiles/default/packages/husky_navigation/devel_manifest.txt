@@ -1,4 +1,0 @@
-husky_navigation
-/home/sergio/CSE180/devel/.private/husky_navigation/share/husky_navigation/cmake/husky_navigationConfig.cmake /home/sergio/CSE180/devel/share/husky_navigation/cmake/husky_navigationConfig.cmake
-/home/sergio/CSE180/devel/.private/husky_navigation/share/husky_navigation/cmake/husky_navigationConfig-version.cmake /home/sergio/CSE180/devel/share/husky_navigation/cmake/husky_navigationConfig-version.cmake
-/home/sergio/CSE180/devel/.private/husky_navigation/lib/pkgconfig/husky_navigation.pc /home/sergio/CSE180/devel/lib/pkgconfig/husky_navigation.pc

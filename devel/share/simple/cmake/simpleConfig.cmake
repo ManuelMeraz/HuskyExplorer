@@ -1,1 +1,0 @@
-/home/sergio/CSE180/devel/.private/simple/share/simple/cmake/simpleConfig.cmake

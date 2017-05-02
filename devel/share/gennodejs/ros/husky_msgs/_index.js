@@ -1,1 +1,0 @@
-/home/sergio/CSE180/devel/.private/husky_msgs/share/gennodejs/ros/husky_msgs/_index.js

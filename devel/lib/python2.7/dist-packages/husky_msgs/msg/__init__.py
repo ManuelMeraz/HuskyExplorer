@@ -1,1 +1,0 @@
-/home/sergio/CSE180/devel/.private/husky_msgs/lib/python2.7/dist-packages/husky_msgs/msg/__init__.py

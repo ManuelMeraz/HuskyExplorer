@@ -1,1 +1,0 @@
-/home/sergio/CSE180/devel/.private/husky_msgs/include/husky_msgs/HuskyStatus.h

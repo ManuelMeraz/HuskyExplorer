@@ -1,1 +1,0 @@
-/home/sergio/CSE180/devel/.private/husky_viz/lib/pkgconfig/husky_viz.pc

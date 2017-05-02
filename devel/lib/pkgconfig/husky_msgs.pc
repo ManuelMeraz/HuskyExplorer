@@ -1,1 +1,0 @@
-/home/sergio/CSE180/devel/.private/husky_msgs/lib/pkgconfig/husky_msgs.pc

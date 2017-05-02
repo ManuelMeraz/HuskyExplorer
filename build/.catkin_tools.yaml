@@ -1,6 +1,0 @@
-devel_space: /home/sergio/CSE180/devel
-install: false
-install_space: /home/sergio/CSE180/install
-profile: default
-source_space: /home/sergio/CSE180/src
-workspace: /home/sergio/CSE180

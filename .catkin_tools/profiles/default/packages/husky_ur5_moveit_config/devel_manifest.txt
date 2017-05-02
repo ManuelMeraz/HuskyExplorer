@@ -1,4 +1,0 @@
-husky_ur5_moveit_config
-/home/sergio/CSE180/devel/.private/husky_ur5_moveit_config/share/husky_ur5_moveit_config/cmake/husky_ur5_moveit_configConfig-version.cmake /home/sergio/CSE180/devel/share/husky_ur5_moveit_config/cmake/husky_ur5_moveit_configConfig-version.cmake
-/home/sergio/CSE180/devel/.private/husky_ur5_moveit_config/share/husky_ur5_moveit_config/cmake/husky_ur5_moveit_configConfig.cmake /home/sergio/CSE180/devel/share/husky_ur5_moveit_config/cmake/husky_ur5_moveit_configConfig.cmake
-/home/sergio/CSE180/devel/.private/husky_ur5_moveit_config/lib/pkgconfig/husky_ur5_moveit_config.pc /home/sergio/CSE180/devel/lib/pkgconfig/husky_ur5_moveit_config.pc
