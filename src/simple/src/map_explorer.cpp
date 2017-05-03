@@ -121,7 +121,7 @@ int main(int argc, char **argv) {
 
 
                     if(hypot(amcl_pose.pose.pose.position.x - vertix.x,
-                                amcl_pose.pose.pose.position.y - vertix.y) > 1.0) {
+                                amcl_pose.pose.pose.position.y - vertix.y) > 0.3) {
 
                         double goal_heading = atan2(vertix.y - amcl_pose.pose.pose.position.y, 
                                 vertix.x - amcl_pose.pose.pose.position.x);
@@ -216,7 +216,7 @@ void scan_callback(const sensor_msgs::LaserScan &msg) {
     double min = DBL_MAX;
     // Scan only the laser ranges in front of the husky
     for(int i = 0; i <= size; i++) {
-        if(msg.ranges[i] > 0.3 && msg.ranges[i] < 0.9 && !isinf(msg.ranges[i])) {
+        if(msg.ranges[i] > 0.3 && msg.ranges[i] < 0.75 && !isinf(msg.ranges[i])) {
 
             if(!avoiding_obstacle) {
                 avoiding_obstacle = true;
