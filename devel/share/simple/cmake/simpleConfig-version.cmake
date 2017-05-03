@@ -1,1 +1,0 @@
-/home/galliumos/kinetic_final/devel/.private/simple/share/simple/cmake/simpleConfig-version.cmake

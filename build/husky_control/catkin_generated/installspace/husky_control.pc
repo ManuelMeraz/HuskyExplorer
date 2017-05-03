@@ -1,8 +1,0 @@
-prefix=/home/galliumos/kinetic_final/install
-
-Name: husky_control
-Description: Description of husky_control
-Version: 0.2.7
-Cflags: 
-Libs: -L/home/galliumos/kinetic_final/install/lib 
-Requires: 

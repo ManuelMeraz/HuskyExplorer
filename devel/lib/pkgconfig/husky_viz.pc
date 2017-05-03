@@ -1,1 +1,0 @@
-/home/galliumos/kinetic_final/devel/.private/husky_viz/lib/pkgconfig/husky_viz.pc

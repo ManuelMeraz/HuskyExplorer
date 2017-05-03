@@ -1,1 +1,0 @@
-/home/galliumos/kinetic_final/devel/.private/husky_control/lib/pkgconfig/husky_control.pc

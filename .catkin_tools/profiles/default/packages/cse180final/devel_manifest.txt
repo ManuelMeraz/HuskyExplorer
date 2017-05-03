@@ -1,4 +1,0 @@
-cse180final
-/home/galliumos/kinetic_final/devel/.private/cse180final/lib/pkgconfig/cse180final.pc /home/galliumos/kinetic_final/devel/lib/pkgconfig/cse180final.pc
-/home/galliumos/kinetic_final/devel/.private/cse180final/share/cse180final/cmake/cse180finalConfig.cmake /home/galliumos/kinetic_final/devel/share/cse180final/cmake/cse180finalConfig.cmake
-/home/galliumos/kinetic_final/devel/.private/cse180final/share/cse180final/cmake/cse180finalConfig-version.cmake /home/galliumos/kinetic_final/devel/share/cse180final/cmake/cse180finalConfig-version.cmake

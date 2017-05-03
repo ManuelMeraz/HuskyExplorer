@@ -1,0 +1,23 @@
+*~
+\#*#
+build
+devel
+**/CMakeLists.txt.user*
+*.swp
+*.swo
+logs
+kml_paths/*
+!kml_paths/.gitkeep
+.catkin_tools/
+.catkin_tools/VERSION
+*.pyc
+nohup.out
+
+#compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so

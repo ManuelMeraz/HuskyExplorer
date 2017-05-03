@@ -1,8 +1,0 @@
-prefix=/home/galliumos/kinetic_final/devel/.private/cse180final
-
-Name: cse180final
-Description: Description of cse180final
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/galliumos/kinetic_final/devel/.private/cse180final/lib 
-Requires: 

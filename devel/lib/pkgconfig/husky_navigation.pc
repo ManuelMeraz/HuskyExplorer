@@ -1,1 +1,0 @@
-/home/galliumos/kinetic_final/devel/.private/husky_navigation/lib/pkgconfig/husky_navigation.pc

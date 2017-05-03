@@ -1,1 +1,0 @@
-/home/galliumos/kinetic_final/devel/.private/husky_msgs/include/husky_msgs/HuskyStatus.h

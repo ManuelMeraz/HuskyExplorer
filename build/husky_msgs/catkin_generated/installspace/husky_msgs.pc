@@ -1,8 +1,0 @@
-prefix=/home/galliumos/kinetic_final/install
-
-Name: husky_msgs
-Description: Description of husky_msgs
-Version: 0.2.7
-Cflags: -I/home/galliumos/kinetic_final/install/include
-Libs: -L/home/galliumos/kinetic_final/install/lib 
-Requires: std_msgs message_runtime

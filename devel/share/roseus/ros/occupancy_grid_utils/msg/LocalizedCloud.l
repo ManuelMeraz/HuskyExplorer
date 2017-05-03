@@ -1,1 +1,0 @@
-/home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/share/roseus/ros/occupancy_grid_utils/msg/LocalizedCloud.l

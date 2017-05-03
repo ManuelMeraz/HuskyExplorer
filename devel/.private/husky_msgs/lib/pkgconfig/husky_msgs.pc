@@ -1,8 +1,0 @@
-prefix=/home/galliumos/kinetic_final/devel/.private/husky_msgs
-
-Name: husky_msgs
-Description: Description of husky_msgs
-Version: 0.2.7
-Cflags: -I/home/galliumos/kinetic_final/devel/.private/husky_msgs/include
-Libs: -L/home/galliumos/kinetic_final/devel/.private/husky_msgs/lib 
-Requires: std_msgs message_runtime

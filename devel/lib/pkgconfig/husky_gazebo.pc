@@ -1,1 +1,0 @@
-/home/galliumos/kinetic_final/devel/.private/husky_gazebo/lib/pkgconfig/husky_gazebo.pc
