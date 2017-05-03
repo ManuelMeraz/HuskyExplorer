@@ -58,7 +58,6 @@ int main(int argc, char **argv) {
 
             if(path_complete && new_pose) {
                 path_complete = false;
-                avoiding_obstacle = false;
 
                 rng = new random_numbers::RandomNumberGenerator();
                 geometry_msgs::Point to;
@@ -73,38 +72,95 @@ int main(int argc, char **argv) {
                 double roll, pitch, current_heading;
                 m.getRPY(roll, pitch, current_heading);
 
-                double random_heading = rng->uniformReal(0, M_PI);
-                to.x = amcl_pose.pose.pose.position.x + 8.5 * cos(current_heading + random_heading);
-                to.y = amcl_pose.pose.pose.position.y + 8.5 * sin(current_heading + random_heading);
-
-
-                while( map.data[utils::cellIndex(map.info,utils::pointCell(map.info,to))] != 0) {
-                    random_heading = rng->uniformReal(0, 2 * M_PI);
-                    to.x = amcl_pose.pose.pose.position.x + 8.5 * cos(current_heading + random_heading);
-                    to.y = amcl_pose.pose.pose.position.y + 8.5 * sin(current_heading + random_heading);
+                double random_heading, goal_heading;
+                    
+                if(avoiding_obstacle) {
+                    random_heading = rng->uniformReal(0, M_PI/4);
+                    if(turn_direction) {
+                        goal_heading = current_heading - M_PI/4 - random_heading;
+                    } else {
+                        goal_heading = current_heading + M_PI/4 + random_heading;
+                    }
+                } else {
+                    random_heading = rng->uniformReal(0, M_PI);
+                    goal_heading = current_heading + random_heading;
                 }
 
-                geometry_msgs::Point from;
-                from.x = amcl_pose.pose.pose.position.x;
-                from.y = amcl_pose.pose.pose.position.y;
 
-                utils::Cell fromCell = utils::pointCell(map.info, from);
-                utils::Cell toCell = utils::pointCell(map.info, to);
+                to.x = amcl_pose.pose.pose.position.x + 8.5 * cos(goal_heading);
+                to.y = amcl_pose.pose.pose.position.y + 8.5 * sin(goal_heading);
 
-                boost::optional<utils::AStarResult> possible_path = 
-                    utils::shortestPathAStar(map, fromCell, toCell);
 
-                if(possible_path.is_initialized()) {
-                    ROS_INFO_STREAM("Path Success!");
-                    path = possible_path.get();
+                int num_attempts = 0;
+                float scale_distance = 0.9;
+                float distance = 8.5; 
+                bool all_paths_failed = false;
+                while( map.data[utils::cellIndex(map.info,utils::pointCell(map.info,to))] != 0) {
+                    num_attempts++;
 
-                    int size = path.first.size();
-                    for(int i = 0; i < size; i++) {
-                        point_path.push_back(utils::cellCenter(map.info, path.first[i]));
+                    if(avoiding_obstacle) {
+                        random_heading = rng->uniformReal(0, M_PI/4);
+                        if(turn_direction) {
+                            goal_heading = current_heading - M_PI/4 - random_heading;
+                        } else {
+                            goal_heading = current_heading + M_PI/4 + random_heading;
+                        }
+                    } else {
+                        random_heading = rng->uniformReal(0, M_PI);
+                        goal_heading = current_heading + random_heading;
                     }
 
+                    to.x = amcl_pose.pose.pose.position.x + distance * cos(goal_heading);
+                    to.y = amcl_pose.pose.pose.position.y + distance * sin(goal_heading);
+
+                    if(num_attempts == 100) {
+                        ROS_INFO_STREAM("Decreasing distance goal...");
+                        ROS_INFO_STREAM("Distance: " << distance);
+                        num_attempts = 0;
+                        distance *= scale_distance;
+                    }
+
+                    if(distance < 3.0) {
+                        ROS_INFO_STREAM("All paths failed!");
+                        all_paths_failed = true;
+                        break;
+                    }
+                }
+                avoiding_obstacle = false;
+
+                if(!all_paths_failed) {
+
+
+                    geometry_msgs::Point from;
+                    from.x = amcl_pose.pose.pose.position.x;
+                    from.y = amcl_pose.pose.pose.position.y;
+
+                    utils::Cell fromCell = utils::pointCell(map.info, from);
+                    utils::Cell toCell = utils::pointCell(map.info, to);
+
+                    boost::optional<utils::AStarResult> possible_path = 
+                        utils::shortestPathAStar(map, fromCell, toCell);
+
+                    if(possible_path.is_initialized()) {
+                        ROS_INFO_STREAM("Path Success!");
+                        path = possible_path.get();
+
+                        int size = path.first.size();
+                        for(int i = 0; i < size; i++) {
+                            point_path.push_back(utils::cellCenter(map.info, path.first[i]));
+                        }
+
+                    } else {
+                        ROS_INFO_STREAM("Path Failed!");
+                        geometry_msgs::Twist drive_command;
+                        drive_command.linear.x = 0.2;
+                        cmd_pub.publish(drive_command);
+                        path_complete = true;
+                        path_index = 0;
+                        point_path.clear();
+                    }
                 } else {
-                    ROS_INFO_STREAM("Path Failed!");
+                    ROS_INFO_STREAM("Moving forward...");
                     geometry_msgs::Twist drive_command;
                     drive_command.linear.x = 0.2;
                     cmd_pub.publish(drive_command);
@@ -213,12 +269,12 @@ void amcl_callback(const geometry_msgs::PoseWithCovarianceStamped &msg) {
 
 void scan_callback(const sensor_msgs::LaserScan &msg) {
     int size = msg.ranges.size();
-    double min = DBL_MAX;
     // Scan only the laser ranges in front of the husky
     for(int i = 0; i <= size; i++) {
         if(msg.ranges[i] > 0.3 && msg.ranges[i] < 0.75 && !isinf(msg.ranges[i])) {
 
             if(!avoiding_obstacle) {
+                ROS_INFO_STREAM("Avoiding obstacle...");
                 avoiding_obstacle = true;
 
                 if(i < size/2) {
@@ -228,7 +284,6 @@ void scan_callback(const sensor_msgs::LaserScan &msg) {
                 }
             }
 
-            ROS_INFO_STREAM("Detected obstacle: " << msg.ranges[i] << "m away");
             obstacle_detected = true;
 
             // Get new path
