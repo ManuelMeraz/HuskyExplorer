@@ -62,15 +62,26 @@ int main(int argc, char **argv) {
 
                 rng = new random_numbers::RandomNumberGenerator();
                 geometry_msgs::Point to;
+                
+                tf::Quaternion q(
+                        amcl_pose.pose.pose.orientation.x,
+                        amcl_pose.pose.pose.orientation.y,
+                        amcl_pose.pose.pose.orientation.z,
+                        amcl_pose.pose.pose.orientation.w);
 
-                double random_heading = rng->uniformReal(0, 2 * M_PI);
-                to.x = amcl_pose.pose.pose.position.x + 8.5 * cos(random_heading);
-                to.y = amcl_pose.pose.pose.position.y + 8.5 * sin(random_heading);
+                tf::Matrix3x3 m(q);
+                double roll, pitch, current_heading;
+                m.getRPY(roll, pitch, current_heading);
+
+                double random_heading = rng->uniformReal(0, M_PI);
+                to.x = amcl_pose.pose.pose.position.x + 8.5 * cos(current_heading + random_heading);
+                to.y = amcl_pose.pose.pose.position.y + 8.5 * sin(current_heading + random_heading);
+
 
                 while( map.data[utils::cellIndex(map.info,utils::pointCell(map.info,to))] != 0) {
                     random_heading = rng->uniformReal(0, 2 * M_PI);
-                    to.x = amcl_pose.pose.pose.position.x + 3.5 * cos(random_heading);
-                    to.y = amcl_pose.pose.pose.position.y + 3.5 * sin(random_heading);
+                    to.x = amcl_pose.pose.pose.position.x + 8.5 * cos(current_heading + random_heading);
+                    to.y = amcl_pose.pose.pose.position.y + 8.5 * sin(current_heading + random_heading);
                 }
 
                 geometry_msgs::Point from;
@@ -110,7 +121,7 @@ int main(int argc, char **argv) {
 
 
                     if(hypot(amcl_pose.pose.pose.position.x - vertix.x,
-                                amcl_pose.pose.pose.position.y - vertix.y) > 1.0) {
+                                amcl_pose.pose.pose.position.y - vertix.y) > 0.3) {
 
                         double goal_heading = atan2(vertix.y - amcl_pose.pose.pose.position.y, 
                                 vertix.x - amcl_pose.pose.pose.position.x);
@@ -205,7 +216,7 @@ void scan_callback(const sensor_msgs::LaserScan &msg) {
     double min = DBL_MAX;
     // Scan only the laser ranges in front of the husky
     for(int i = 0; i <= size; i++) {
-        if(msg.ranges[i] > 0.3 && msg.ranges[i] < 0.9 && !isinf(msg.ranges[i])) {
+        if(msg.ranges[i] > 0.3 && msg.ranges[i] < 0.75 && !isinf(msg.ranges[i])) {
 
             if(!avoiding_obstacle) {
                 avoiding_obstacle = true;
