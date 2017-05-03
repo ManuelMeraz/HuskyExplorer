@@ -28,6 +28,7 @@ bool map_initialized = false;
 bool path_complete = true;
 bool new_pose = false;
 bool obstacle_detected = true;
+bool avoiding_obstacle = false;
 bool turn_direction = true;
 int path_index = 0;
 
@@ -57,13 +58,14 @@ int main(int argc, char **argv) {
 
             if(path_complete && new_pose) {
                 path_complete = false;
+                avoiding_obstacle = false;
 
                 rng = new random_numbers::RandomNumberGenerator();
                 geometry_msgs::Point to;
 
                 double random_heading = rng->uniformReal(0, 2 * M_PI);
-                to.x = amcl_pose.pose.pose.position.x + 4.5 * cos(random_heading);
-                to.y = amcl_pose.pose.pose.position.y + 4.5 * sin(random_heading);
+                to.x = amcl_pose.pose.pose.position.x + 8.5 * cos(random_heading);
+                to.y = amcl_pose.pose.pose.position.y + 8.5 * sin(random_heading);
 
                 while( map.data[utils::cellIndex(map.info,utils::pointCell(map.info,to))] != 0) {
                     random_heading = rng->uniformReal(0, 2 * M_PI);
@@ -96,7 +98,6 @@ int main(int argc, char **argv) {
                     drive_command.linear.x = 0.2;
                     cmd_pub.publish(drive_command);
                     path_complete = true;
-                    turn_direction = !turn_direction;
                     path_index = 0;
                     point_path.clear();
                 }
@@ -204,7 +205,18 @@ void scan_callback(const sensor_msgs::LaserScan &msg) {
     double min = DBL_MAX;
     // Scan only the laser ranges in front of the husky
     for(int i = 0; i <= size; i++) {
-        if(msg.ranges[i] > 0.3 && msg.ranges[i] < 0.5 && !isinf(msg.ranges[i])) {
+        if(msg.ranges[i] > 0.3 && msg.ranges[i] < 0.9 && !isinf(msg.ranges[i])) {
+
+            if(!avoiding_obstacle) {
+                avoiding_obstacle = true;
+
+                if(i < size/2) {
+                    turn_direction = true;
+                } else {
+                    turn_direction = false;
+                }
+            }
+
             ROS_INFO_STREAM("Detected obstacle: " << msg.ranges[i] << "m away");
             obstacle_detected = true;
 
@@ -217,13 +229,13 @@ void scan_callback(const sensor_msgs::LaserScan &msg) {
 
             // Obstacle is on the right side
             if(turn_direction) {
-                //turn left
-                drive_command.angular.z = 0.5;
-
-                // Obstacle is on the left
-            } else{
                 // turn right
                 drive_command.angular.z = -0.5;
+
+            // Obstacle is on the left
+            } else{
+                //turn left
+                drive_command.angular.z = 0.5;
             } 
 
             cmd_pub.publish(drive_command);
