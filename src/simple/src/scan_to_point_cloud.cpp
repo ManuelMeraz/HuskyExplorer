@@ -134,18 +134,29 @@ int main(int argc, char** argv)
 
             if(pole_detected){
                 pole newpole;
+                ROS_INFO_STREAM(lstpc.laser_scan.ranges[i]);
                 ROS_INFO_STREAM(lstpc.point_cloud.points[i]); 
                 //ROS_INFO_STREAM(point_cloud.points[i]);
-                //newpole.position = point_cloud.points[i];
+                newpole.position = lstpc.point_cloud.points[i];
                 poles.push_back(newpole);
             }
 
         }
         if(poles.size() ==0){
-            ROS_INFO_STREAM("No poles detected.");
+            //ROS_INFO_STREAM("No poles detected.");
         }else{
-            ROS_INFO_STREAM("Poles Detected: ");
-            ROS_INFO_STREAM(poles.size());
+            //ROS_INFO_STREAM("Poles Detected: ");
+            //ROS_INFO_STREAM(poles.size());
+            for(int i = 0; i<poles.size(); i++){
+                for(int j = i+1; j<poles.size(); j++){
+                    float pole_d = hypot(poles[i].position.x - poles[j].position.x,poles[i].position.y - poles[j].position.y);
+                    ROS_INFO_STREAM("Potential Pole Distance:");
+                    ROS_INFO_STREAM(pole_d);
+                    if(pole_d < 1.2 && pole_d > .8){
+                        ROS_INFO_STREAM("Pair of poles found!");
+                    }
+                }
+            }
         }
         rate.sleep();
         ros::spinOnce();
