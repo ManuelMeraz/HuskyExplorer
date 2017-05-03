@@ -1,0 +1,6 @@
+CMakeFiles/map_explorer.dir/src/map_explorer.cpp.o: In function `main':
+map_explorer.cpp:(.text+0xa13): undefined reference to `random_numbers::RandomNumberGenerator::RandomNumberGenerator()'
+collect2: error: ld returned 1 exit status
+make[2]: *** [/home/galliumos/kinetic_final/devel/.private/simple/lib/simple/map_explorer] Error 1
+make[1]: *** [CMakeFiles/map_explorer.dir/all] Error 2
+make: *** [all] Error 2

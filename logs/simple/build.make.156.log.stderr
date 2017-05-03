@@ -1,0 +1,10 @@
+[01m[K/home/galliumos/kinetic_final/src/simple/src/map_explorer.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/galliumos/kinetic_final/src/simple/src/map_explorer.cpp:81:89:[m[K [01;31m[Kerror: [m[Kinvalid type argument of unary ‘[01m[K*[m[K’ (have ‘[01m[Kdouble[m[K’)
+                     to.x = amcl_pose.pose.pose.position.x + * cos(current_heading + M_PI);
+[01;32m[K                                                                                         ^[m[K
+[01m[K/home/galliumos/kinetic_final/src/simple/src/map_explorer.cpp:82:89:[m[K [01;31m[Kerror: [m[Kinvalid type argument of unary ‘[01m[K*[m[K’ (have ‘[01m[Kdouble[m[K’)
+                     to.y = amcl_pose.pose.pose.position.y + * sin(current_heading + M_PI);
+[01;32m[K                                                                                         ^[m[K
+make[2]: *** [CMakeFiles/map_explorer.dir/src/map_explorer.cpp.o] Error 1
+make[1]: *** [CMakeFiles/map_explorer.dir/all] Error 2
+make: *** [all] Error 2

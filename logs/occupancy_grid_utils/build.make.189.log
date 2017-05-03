@@ -1,0 +1,27 @@
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target _occupancy_grid_utils_generate_messages_check_deps_OverlayClouds
+[  0%] Built target _occupancy_grid_utils_generate_messages_check_deps_NavigationFunction
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target nav_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target _occupancy_grid_utils_generate_messages_check_deps_LocalizedCloud
+[  0%] Built target nav_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target nav_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target nav_msgs_generate_messages_eus
+[  0%] Built target nav_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[ 10%] Built target occupancy_grid_utils_generate_messages_cpp
+[ 20%] Built target occupancy_grid_utils_generate_messages_lisp
+[ 34%] Built target occupancy_grid_utils_generate_messages_py
+[ 48%] Built target occupancy_grid_utils_generate_messages_eus
+[ 58%] Built target occupancy_grid_utils_generate_messages_nodejs
+[ 58%] Built target occupancy_grid_utils_generate_messages
+[ 86%] Built target grid_utils
+[ 93%] Built target grid_utils_boost_python_exports
+[100%] Built target grid_construction_node

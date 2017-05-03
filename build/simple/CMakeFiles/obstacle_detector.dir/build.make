@@ -90,6 +90,7 @@ obstacle_detector_EXTERNAL_OBJECTS =
 
 /home/galliumos/kinetic_final/devel/.private/simple/lib/simple/obstacle_detector: CMakeFiles/obstacle_detector.dir/src/obstacle_detector.cpp.o
 /home/galliumos/kinetic_final/devel/.private/simple/lib/simple/obstacle_detector: CMakeFiles/obstacle_detector.dir/build.make
+/home/galliumos/kinetic_final/devel/.private/simple/lib/simple/obstacle_detector: /opt/ros/kinetic/lib/librandom_numbers.so
 /home/galliumos/kinetic_final/devel/.private/simple/lib/simple/obstacle_detector: /home/galliumos/kinetic_final/devel/.private/occupancy_grid_utils/lib/libgrid_utils.so
 /home/galliumos/kinetic_final/devel/.private/simple/lib/simple/obstacle_detector: /opt/ros/kinetic/lib/libgridfastslam.so
 /home/galliumos/kinetic_final/devel/.private/simple/lib/simple/obstacle_detector: /opt/ros/kinetic/lib/libscanmatcher.so

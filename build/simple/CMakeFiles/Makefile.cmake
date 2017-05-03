@@ -116,6 +116,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/opt/ros/kinetic/share/nav_msgs/cmake/nav_msgsConfig.cmake"
   "/opt/ros/kinetic/share/openslam_gmapping/cmake/openslam_gmappingConfig-version.cmake"
   "/opt/ros/kinetic/share/openslam_gmapping/cmake/openslam_gmappingConfig.cmake"
+  "/opt/ros/kinetic/share/random_numbers/cmake/random_numbersConfig-version.cmake"
+  "/opt/ros/kinetic/share/random_numbers/cmake/random_numbersConfig.cmake"
   "/opt/ros/kinetic/share/rosconsole/cmake/rosconsole-extras.cmake"
   "/opt/ros/kinetic/share/rosconsole/cmake/rosconsoleConfig-version.cmake"
   "/opt/ros/kinetic/share/rosconsole/cmake/rosconsoleConfig.cmake"

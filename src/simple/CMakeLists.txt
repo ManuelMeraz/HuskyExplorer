@@ -8,6 +8,7 @@ project(simple)
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
+    random_numbers
     occupancy_grid_utils
     geometry_msgs
     message_generation
