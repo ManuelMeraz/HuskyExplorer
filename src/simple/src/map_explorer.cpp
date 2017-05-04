@@ -24,6 +24,8 @@ nav_msgs::OccupancyGrid map;
 
 // These 2 store the results of A* calculations
 utils::AStarResult path;
+
+// Stores coodinates of path in map frame
 std::vector<geometry_msgs::Point> point_path;
 
 // Program waits for map to be published to /map
@@ -57,6 +59,7 @@ int path_index = 0;
 // Calculate goal location for path
 geometry_msgs::Point calculate_goal(bool ,double ,float);
 
+// Get heading of robot as yaw 
 double get_current_heading();
 
 void ekf_callback(const nav_msgs::Odometry &msg);
@@ -66,6 +69,7 @@ void map_update_callback(const map_msgs::OccupancyGridUpdate &msg);
 void scan_callback(const sensor_msgs::LaserScan &msg);
 
 ros::Publisher cmd_pub;
+
 int main(int argc, char **argv) {
     ros::init(argc, argv, "averagefilter");
     ros::NodeHandle nh;

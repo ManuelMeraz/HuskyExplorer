@@ -148,20 +148,12 @@ include_directories(
 add_executable(
     map_explorer 
     src/map_explorer.cpp
-    src/MapExplorer.cpp
     )
 
 add_executable(
     scan_to_point_cloud 
     src/scan_to_point_cloud.cpp
     )
-
-add_executable(
-    obstacle_detector 
-    src/obstacle_detector.cpp
-    )
-add_executable(objectdetect src/object_detect.cpp)
-
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
 ## target back to the shorter version for ease of user use
@@ -180,12 +172,6 @@ target_link_libraries(map_explorer
 target_link_libraries(scan_to_point_cloud
     ${catkin_LIBRARIES}
     )
-
-target_link_libraries(obstacle_detector
-    ${catkin_LIBRARIES}
-    )
-target_link_libraries(objectdetect ${catkin_LIBRARIES})
-
 #############
 ## Install ##
 #############
