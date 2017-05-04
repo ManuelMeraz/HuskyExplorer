@@ -1,0 +1,9 @@
+<launch>
+    <include file="$(find cse180final)/launch/husky_final.launch"/>
+    <include file="$(find cse180final)/launch/husky_localization.launch"/>
+    <node pkg="simple" type="map_explorer" name="map_explorer"/>
+
+    <node pkg="simple" type="scan_to_point_cloud" name="scan_to_point_cloud" 
+        output="screen"/>
+
+</launch>
